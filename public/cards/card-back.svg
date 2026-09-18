@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 460">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#1a1233" />
+      <stop offset="1" stop-color="#2a1d4d" />
+    </linearGradient>
+  </defs>
+  <rect x="4" y="4" width="292" height="452" rx="22" fill="url(#bg)" />
+  <rect x="16" y="16" width="268" height="428" rx="14" fill="none" stroke="#d9b26a" stroke-opacity="0.5" stroke-width="1.5" />
+  <rect x="26" y="26" width="248" height="408" rx="10" fill="none" stroke="#d9b26a" stroke-opacity="0.28" stroke-width="1" />
+  <g stroke="#d9b26a" stroke-opacity="0.85" stroke-width="1.4" fill="none">
+    <circle cx="150" cy="230" r="34" />
+    <circle cx="150" cy="230" r="20" />
+  </g>
+  <g stroke="#d9b26a" stroke-opacity="0.85" stroke-width="2.4" stroke-linecap="round">
+    <line x1="150.00" y1="190.00" x2="150.00" y2="178.00" /><line x1="181.27" y1="205.06" x2="190.66" y2="197.58" /><line x1="189.00" y1="238.90" x2="200.70" y2="241.57" /><line x1="167.36" y1="266.04" x2="172.56" y2="276.85" /><line x1="132.64" y1="266.04" x2="127.44" y2="276.85" /><line x1="111.00" y1="238.90" x2="99.30" y2="241.57" /><line x1="118.73" y1="205.06" x2="109.34" y2="197.58" /><line x1="150.00" y1="190.00" x2="150.00" y2="178.00" />
+  </g>
+</svg>

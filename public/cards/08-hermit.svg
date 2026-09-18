@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 460" style="--accent:#d9b26a">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#1a1233" />
+      <stop offset="1" stop-color="#2a1d4d" />
+    </linearGradient>
+  </defs>
+  <rect x="4" y="4" width="292" height="452" rx="22" fill="url(#bg)" />
+  <rect x="16" y="16" width="268" height="428" rx="14" fill="none" stroke="#d9b26a" stroke-opacity="0.55" stroke-width="1.5" />
+  <text x="150" y="66" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="18" letter-spacing="6" fill="#d9b26a">VIII</text>
+  <g transform="translate(150 210)" stroke="#d9b26a" stroke-width="5.5" stroke-linecap="round" stroke-linejoin="round">
+    <circle cx="0" cy="-24" r="9" fill="none" /><line x1="0.00" y1="-35.00" x2="0.00" y2="-42.00" /><line x1="10.46" y1="-27.40" x2="17.12" y2="-29.56" /><line x1="6.47" y1="-15.10" x2="10.58" y2="-9.44" /><line x1="-6.47" y1="-15.10" x2="-10.58" y2="-9.44" /><line x1="-10.46" y1="-27.40" x2="-17.12" y2="-29.56" /><line x1="-0.00" y1="-35.00" x2="-0.00" y2="-42.00" /><line x1="0" y1="-4" x2="0" y2="46" />
+  </g>
+  <line x1="104" y1="382" x2="196" y2="382" stroke="#d9b26a" stroke-opacity="0.5" stroke-width="1" />
+  <text x="150" y="410" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="14" letter-spacing="2.5" fill="#d9b26a">THE HERMIT</text>
+</svg>

@@ -1,0 +1,25 @@
+.grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 12px 10px;
+  padding-top: 4px;
+  padding-bottom: 12px;
+}
+
+.spacer {
+  flex: 1;
+  min-height: 16px;
+}
+
+.footer {
+  position: sticky;
+  bottom: 0;
+  padding-top: 12px;
+  background: linear-gradient(180deg, transparent, var(--color-bg-to) 40%);
+}
+
+@media (min-width: 420px) {
+  .grid {
+    grid-template-columns: repeat(5, 1fr);
+  }
+}

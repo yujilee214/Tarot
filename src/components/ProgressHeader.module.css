@@ -1,0 +1,68 @@
+.header {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  margin-bottom: 28px;
+}
+
+.topRow {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.stepTrack {
+  display: flex;
+  gap: 6px;
+}
+
+.stepDot {
+  width: 18px;
+  height: 4px;
+  border-radius: 999px;
+  background: var(--color-surface-strong);
+}
+
+.stepDotActive {
+  background: var(--color-gold);
+}
+
+.categoryBadge {
+  font-size: 12px;
+  letter-spacing: 0.4px;
+  color: var(--color-gold-strong);
+  background: rgba(217, 178, 106, 0.12);
+  border: 1px solid var(--color-border);
+  padding: 5px 12px;
+  border-radius: 999px;
+}
+
+.titleRow {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  gap: 12px;
+}
+
+.title {
+  font-size: 22px;
+  line-height: 1.35;
+  color: var(--color-text-primary);
+}
+
+.subtitle {
+  margin-top: 6px;
+  font-size: 13.5px;
+  color: var(--color-text-secondary);
+  line-height: 1.5;
+}
+
+.trailing {
+  flex-shrink: 0;
+  font-size: 15px;
+  font-weight: 600;
+  color: var(--color-gold-strong);
+  background: var(--color-surface-strong);
+  padding: 6px 12px;
+  border-radius: 999px;
+}

@@ -1,0 +1,83 @@
+:root {
+  --color-bg-from: #130d26;
+  --color-bg-to: #201640;
+  --color-surface: rgba(255, 255, 255, 0.045);
+  --color-surface-strong: rgba(255, 255, 255, 0.08);
+  --color-border: rgba(217, 178, 106, 0.28);
+  --color-border-soft: rgba(255, 255, 255, 0.1);
+  --color-text-primary: #f6f2ec;
+  --color-text-secondary: #bdb2da;
+  --color-text-muted: #8d84ab;
+  --color-gold: #d9b26a;
+  --color-gold-strong: #f0d9a8;
+  --radius-lg: 26px;
+  --radius-md: 18px;
+  --radius-sm: 12px;
+  --max-width: 480px;
+  --safe-top: env(safe-area-inset-top, 0px);
+  --safe-bottom: env(safe-area-inset-bottom, 0px);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  min-height: 100dvh;
+}
+
+body {
+  background: linear-gradient(160deg, var(--color-bg-from) 0%, var(--color-bg-to) 55%, #241a44 100%);
+  color: var(--color-text-primary);
+  font-family: var(--font-body), "Apple SD Gothic Neo", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  overflow-x: hidden;
+}
+
+h1,
+h2,
+h3 {
+  font-family: var(--font-display), Georgia, serif;
+  margin: 0;
+  font-weight: 600;
+}
+
+p {
+  margin: 0;
+}
+
+button {
+  font-family: inherit;
+  cursor: pointer;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+a {
+  color: inherit;
+}
+
+.screen {
+  min-height: 100dvh;
+  display: flex;
+  flex-direction: column;
+  max-width: var(--max-width);
+  margin: 0 auto;
+  padding: calc(28px + var(--safe-top)) 20px calc(28px + var(--safe-bottom));
+  position: relative;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+  white-space: nowrap;
+}

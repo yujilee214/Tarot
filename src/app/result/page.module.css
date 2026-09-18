@@ -1,0 +1,56 @@
+.questionBlock {
+  margin-bottom: 24px;
+}
+
+.questionLabel {
+  display: block;
+  font-size: 12px;
+  letter-spacing: 0.4px;
+  color: var(--color-gold-strong);
+  margin-bottom: 8px;
+}
+
+.questionText {
+  font-family: var(--font-display), serif;
+  font-size: 19px;
+  line-height: 1.5;
+  color: var(--color-text-primary);
+}
+
+.cardsList {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-bottom: 28px;
+}
+
+.reading {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  background: var(--color-surface);
+  border: 1px solid var(--color-border-soft);
+  border-radius: var(--radius-lg);
+  padding: 20px 18px;
+}
+
+.readingSection {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.readingHeading {
+  font-size: 14px;
+  color: var(--color-gold-strong);
+}
+
+.readingBody {
+  font-size: 14px;
+  line-height: 1.75;
+  color: var(--color-text-secondary);
+}
+
+.spacer {
+  min-height: 28px;
+}

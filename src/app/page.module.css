@@ -1,0 +1,48 @@
+.hero {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 18px;
+  padding: 40px 0 56px;
+  min-height: 64dvh;
+  justify-content: center;
+}
+
+.wordmark {
+  font-family: var(--font-display), serif;
+  font-size: 13px;
+  letter-spacing: 4px;
+  color: var(--color-gold-strong);
+}
+
+.title {
+  font-size: 28px;
+  line-height: 1.4;
+  color: var(--color-text-primary);
+}
+
+.subtitle {
+  font-size: 14.5px;
+  line-height: 1.7;
+  color: var(--color-text-secondary);
+}
+
+.hero > :global(button) {
+  margin-top: 8px;
+}
+
+.categorySection {
+  padding-bottom: 24px;
+}
+
+.categoryHeading {
+  font-size: 17px;
+  color: var(--color-text-primary);
+  margin-bottom: 14px;
+}
+
+.categoryGrid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 12px;
+}
