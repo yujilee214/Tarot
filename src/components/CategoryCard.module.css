@@ -5,19 +5,19 @@
   gap: 4px;
   text-align: left;
   background: var(--color-surface);
-  border: 1px solid var(--color-border-soft);
+  border: 1px solid var(--color-border);
   border-radius: var(--radius-md);
   padding: 16px 16px 14px;
   color: var(--color-text-primary);
-  transition: transform 0.15s ease, border-color 0.15s ease, background 0.15s ease;
+  transition: border-color 0.15s ease, background 0.15s ease;
 }
 
 .card:hover {
-  border-color: var(--color-border);
+  border-color: var(--color-border-focus);
 }
 
 .card:active {
-  transform: scale(0.97);
+  background: var(--color-surface-strong);
 }
 
 .label {
@@ -26,10 +26,9 @@
 }
 
 .englishLabel {
-  font-family: var(--font-display), serif;
-  font-size: 12px;
+  font-size: 11px;
   letter-spacing: 1.5px;
-  color: var(--color-gold-strong);
+  color: var(--color-text-muted);
   text-transform: uppercase;
 }
 

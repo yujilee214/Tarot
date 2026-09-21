@@ -4,6 +4,7 @@ import { useEffect, useState } from "react";
 import { useRouter } from "next/navigation";
 import ProgressHeader from "@/components/ProgressHeader";
 import PrimaryButton from "@/components/PrimaryButton";
+import QuestionInput from "@/components/QuestionInput";
 import { getCategoryById } from "@/data/categories";
 import { useTarotFlow } from "@/context/TarotFlowContext";
 import styles from "./page.module.css";
@@ -47,27 +48,13 @@ export default function QuestionPage() {
         subtitle="구체적으로 적을수록 카드의 이야기가 더 선명해져요."
       />
 
-      <div className={styles.field}>
-        <textarea
-          className={styles.textarea}
-          placeholder={PLACEHOLDER}
-          value={draft}
-          onChange={(event) => setDraft(event.target.value)}
-          onBlur={() => setTouched(true)}
-          rows={5}
-          maxLength={200}
-        />
-        <div className={styles.helperRow}>
-          <span
-            className={
-              touched && !isValid ? styles.helperError : styles.helper
-            }
-          >
-            질문을 입력해야 다음 단계로 이동할 수 있어요.
-          </span>
-          <span className={styles.count}>{draft.length}/200</span>
-        </div>
-      </div>
+      <QuestionInput
+        value={draft}
+        onChange={setDraft}
+        onBlur={() => setTouched(true)}
+        placeholder={PLACEHOLDER}
+        showError={touched && !isValid}
+      />
 
       <div className={styles.spacer} />
 

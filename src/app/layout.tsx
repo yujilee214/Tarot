@@ -1,5 +1,5 @@
 import type { Metadata, Viewport } from "next";
-import { Noto_Sans_KR, Cormorant_Garamond } from "next/font/google";
+import { Noto_Sans_KR } from "next/font/google";
 import { TarotFlowProvider } from "@/context/TarotFlowContext";
 import "./globals.css";
 
@@ -7,12 +7,6 @@ const notoSansKr = Noto_Sans_KR({
   variable: "--font-body",
   subsets: ["latin"],
   weight: ["300", "400", "500", "700"],
-});
-
-const cormorant = Cormorant_Garamond({
-  variable: "--font-display",
-  subsets: ["latin"],
-  weight: ["500", "600", "700"],
 });
 
 export const metadata: Metadata = {
@@ -25,12 +19,12 @@ export const viewport: Viewport = {
   initialScale: 1,
   maximumScale: 1,
   viewportFit: "cover",
-  themeColor: "#150f2e",
+  themeColor: "#0b0b0d",
 };
 
 export default function RootLayout({ children }: LayoutProps<"/">) {
   return (
-    <html lang="ko" className={`${notoSansKr.variable} ${cormorant.variable}`}>
+    <html lang="ko" className={notoSansKr.variable}>
       <body>
         <TarotFlowProvider>{children}</TarotFlowProvider>
       </body>

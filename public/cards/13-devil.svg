@@ -1,18 +1,12 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 460" style="--accent:#c78a5d">
-  <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#1a1233" />
-      <stop offset="1" stop-color="#2a1d4d" />
-    </linearGradient>
-  </defs>
-  <rect x="4" y="4" width="292" height="452" rx="22" fill="url(#bg)" />
-  <rect x="16" y="16" width="268" height="428" rx="14" fill="none" stroke="#c78a5d" stroke-opacity="0.55" stroke-width="1.5" />
-  <text x="150" y="66" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="18" letter-spacing="6" fill="#c78a5d">XIII</text>
-  <g transform="translate(150 210)" stroke="#c78a5d" stroke-width="5.5" stroke-linecap="round" stroke-linejoin="round">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 460">
+  <rect x="4" y="4" width="292" height="452" rx="22" fill="#19191D" />
+  <rect x="16" y="16" width="268" height="428" rx="14" fill="none" stroke="#FFFFFF" stroke-opacity="0.55" stroke-width="1.5" />
+  <text x="150" y="66" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="18" letter-spacing="6" fill="#FFFFFF">XIII</text>
+  <g transform="translate(150 210)" stroke="#FFFFFF" stroke-width="5.5" stroke-linecap="round" stroke-linejoin="round">
     <path d="M -28,-18 L 28,-18 L 0,30 Z" fill="none" />
        <path d="M -28,-18 C -34,-30 -22,-34 -16,-26" fill="none" />
        <path d="M 28,-18 C 34,-30 22,-34 16,-26" fill="none" />
   </g>
-  <line x1="104" y1="382" x2="196" y2="382" stroke="#c78a5d" stroke-opacity="0.5" stroke-width="1" />
-  <text x="150" y="410" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="14" letter-spacing="2.5" fill="#c78a5d">THE DEVIL</text>
+  <line x1="104" y1="382" x2="196" y2="382" stroke="#FFFFFF" stroke-opacity="0.5" stroke-width="1" />
+  <text x="150" y="410" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="14" letter-spacing="2.5" fill="#FFFFFF">THE DEVIL</text>
 </svg>

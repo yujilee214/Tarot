@@ -1,18 +1,17 @@
 :root {
-  --color-bg-from: #130d26;
-  --color-bg-to: #201640;
-  --color-surface: rgba(255, 255, 255, 0.045);
-  --color-surface-strong: rgba(255, 255, 255, 0.08);
-  --color-border: rgba(217, 178, 106, 0.28);
-  --color-border-soft: rgba(255, 255, 255, 0.1);
-  --color-text-primary: #f6f2ec;
-  --color-text-secondary: #bdb2da;
-  --color-text-muted: #8d84ab;
-  --color-gold: #d9b26a;
-  --color-gold-strong: #f0d9a8;
-  --radius-lg: 26px;
-  --radius-md: 18px;
-  --radius-sm: 12px;
+  --color-bg: #0b0b0d;
+  --color-bg-secondary: #141417;
+  --color-surface: #19191d;
+  --color-surface-strong: #202024;
+  --color-border: #2a2a30;
+  --color-border-focus: #4a4a52;
+  --color-text-primary: #ffffff;
+  --color-text-secondary: #a7a7ad;
+  --color-text-muted: #7a7a80;
+  --color-disabled: #55555c;
+  --radius-lg: 20px;
+  --radius-md: 14px;
+  --radius-sm: 10px;
   --max-width: 480px;
   --safe-top: env(safe-area-inset-top, 0px);
   --safe-bottom: env(safe-area-inset-bottom, 0px);
@@ -30,7 +29,7 @@ body {
 }
 
 body {
-  background: linear-gradient(160deg, var(--color-bg-from) 0%, var(--color-bg-to) 55%, #241a44 100%);
+  background: var(--color-bg);
   color: var(--color-text-primary);
   font-family: var(--font-body), "Apple SD Gothic Neo", sans-serif;
   -webkit-font-smoothing: antialiased;
@@ -40,7 +39,6 @@ body {
 h1,
 h2,
 h3 {
-  font-family: var(--font-display), Georgia, serif;
   margin: 0;
   font-weight: 600;
 }

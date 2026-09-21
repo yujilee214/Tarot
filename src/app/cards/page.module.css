@@ -15,7 +15,7 @@
   position: sticky;
   bottom: 0;
   padding-top: 12px;
-  background: linear-gradient(180deg, transparent, var(--color-bg-to) 40%);
+  background: var(--color-bg);
 }
 
 @media (min-width: 420px) {

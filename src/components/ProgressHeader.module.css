@@ -24,17 +24,17 @@
 }
 
 .stepDotActive {
-  background: var(--color-gold);
+  background: var(--color-text-primary);
 }
 
 .categoryBadge {
   font-size: 12px;
   letter-spacing: 0.4px;
-  color: var(--color-gold-strong);
-  background: rgba(217, 178, 106, 0.12);
+  color: var(--color-text-secondary);
+  background: var(--color-bg-secondary);
   border: 1px solid var(--color-border);
   padding: 5px 12px;
-  border-radius: 999px;
+  border-radius: var(--radius-sm);
 }
 
 .titleRow {
@@ -61,8 +61,8 @@
   flex-shrink: 0;
   font-size: 15px;
   font-weight: 600;
-  color: var(--color-gold-strong);
+  color: var(--color-text-primary);
   background: var(--color-surface-strong);
   padding: 6px 12px;
-  border-radius: 999px;
+  border-radius: var(--radius-sm);
 }

@@ -8,7 +8,7 @@ interface TarotResultCardProps {
 
 export default function TarotResultCard({ card, roleTitle }: TarotResultCardProps) {
   return (
-    <article className={styles.card} style={{ ["--card-accent" as string]: card.accent }}>
+    <article className={styles.card}>
       <img className={styles.image} src={card.image} alt={card.koreanName} />
       <div className={styles.info}>
         <span className={styles.role}>{roleTitle}</span>
