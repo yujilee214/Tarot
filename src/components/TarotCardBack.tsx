@@ -1,9 +1,9 @@
 "use client";
 
-import { CARD_BACK_IMAGE } from "@/data/tarotCards";
 import styles from "./TarotCardBack.module.css";
 
 interface TarotCardBackProps {
+  backImage: string;
   selected?: boolean;
   order?: number;
   disabled?: boolean;
@@ -12,6 +12,7 @@ interface TarotCardBackProps {
 }
 
 export default function TarotCardBack({
+  backImage,
   selected = false,
   order,
   disabled = false,
@@ -35,7 +36,7 @@ export default function TarotCardBack({
       aria-pressed={selected}
       aria-label={label ?? "타로 카드"}
     >
-      <img src={CARD_BACK_IMAGE} alt="" draggable={false} />
+      <img src={backImage} alt="" draggable={false} />
       {selected && order ? (
         <span className={styles.orderBadge}>{order}</span>
       ) : null}

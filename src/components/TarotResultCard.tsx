@@ -1,8 +1,8 @@
-import type { TarotCardData } from "@/data/tarotCards";
+import type { TarotCard } from "@/data/decks";
 import styles from "./TarotResultCard.module.css";
 
 interface TarotResultCardProps {
-  card: TarotCardData;
+  card: TarotCard;
   roleTitle: string;
 }
 

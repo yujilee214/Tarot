@@ -1,6 +1,6 @@
 .scene {
   width: 100%;
-  max-width: 220px;
+  max-width: 260px;
   margin: 0 auto;
   aspect-ratio: 300 / 460;
   perspective: 1200px;

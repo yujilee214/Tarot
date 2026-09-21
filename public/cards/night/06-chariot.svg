@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 460">
+  <defs>
+    <linearGradient id="bg-night-chariot" x1="0" y1="0" x2="0.3" y2="1">
+      <stop offset="0" stop-color="#E9E4F7"/>
+      <stop offset="1" stop-color="#CBDCF2"/>
+    </linearGradient>
+  </defs>
+  <rect x="4" y="4" width="292" height="452" rx="26" fill="url(#bg-night-chariot)"/>
+  <rect x="12" y="12" width="276" height="436" rx="20" fill="none" stroke="#8C8CD9" stroke-width="2" stroke-opacity="0.6" stroke-dasharray="1 7" stroke-linecap="round"/>
+  <g opacity="0.55"><g><g><circle cx="35.2" cy="93.8" r="6.6" fill="#BBD6F2" /><circle cx="44.2" cy="89" r="8.4" fill="#BBD6F2" /><circle cx="55" cy="93.2" r="6.96" fill="#BBD6F2" /><ellipse cx="46" cy="97.4" rx="16.2" ry="6.6" fill="#BBD6F2" /></g></g><g><path d="M252,95 L255.21,103.58 L264.36,103.98 L257.19,109.69 L259.64,118.52 L252,113.46 L244.36,118.52 L246.81,109.69 L239.64,103.98 L248.79,103.58 Z" fill="#FBE28A"/></g><g><path d="M44,358 L48.48,367.52 L58,372 L48.48,376.48 L44,386 L39.52,376.48 L30,372 L39.52,367.52 Z" fill="#FBE28A"/></g><g><g><circle cx="242.5" cy="352.25" r="8.25" fill="#BBD6F2" /><circle cx="253.75" cy="346.25" r="10.5" fill="#BBD6F2" /><circle cx="267.25" cy="351.5" r="8.7" fill="#BBD6F2" /><ellipse cx="256" cy="356.75" rx="20.25" ry="8.25" fill="#BBD6F2" /></g></g><g><path d="M150,72 L155.12,82.88 L166,88 L155.12,93.12 L150,104 L144.88,93.12 L134,88 L144.88,82.88 Z" fill="#FBE28A"/></g></g>
+  <circle cx="42" cy="46" r="18" fill="#8C8CD9" opacity="0.9"/>
+  <text x="42" y="52" text-anchor="middle" font-family="'Noto Sans KR', 'Apple SD Gothic Neo', sans-serif" font-size="14" font-weight="700" fill="#ffffff">VI</text>
+  <g><rect x="120" y="238" width="60" height="30" rx="8" fill="#C9C2EC" /><circle cx="126" cy="276" r="11" fill="#332F5C" /><circle cx="174" cy="276" r="11" fill="#332F5C" /><circle cx="126" cy="276" r="5" fill="#FBE28A" /><circle cx="174" cy="276" r="5" fill="#FBE28A" /><path d="M 172,222 L 172,198 L 190,208 Z" fill="#8C8CD9"/><g><g><circle cx="118.46" cy="230.59" r="16.83" fill="#D9D3F6" /><circle cx="141.41" cy="218.35" r="21.42" fill="#D9D3F6" /><circle cx="168.95" cy="229.06" r="17.75" fill="#D9D3F6" /><ellipse cx="146" cy="239.77" rx="41.31" ry="16.83" fill="#D9D3F6" /></g><path d="M125.6,202.2 L127.78,206.82 L132.4,209 L127.78,211.18 L125.6,215.8 L123.42,211.18 L118.8,209 L123.42,206.82 Z" fill="#FBE28A"/><circle cx="135.8" cy="220.9" r="2.72" fill="#332F5C" /><circle cx="156.2" cy="220.9" r="2.72" fill="#332F5C" /><path d="M 139.2,228.55 Q 146,233.65 152.8,228.55" fill="none" stroke="#332F5C" stroke-width="2.125" stroke-linecap="round"/><circle cx="129.85" cy="229.4" r="3.83" fill="#F6C6D0" opacity="0.85"/><circle cx="162.15" cy="229.4" r="3.83" fill="#F6C6D0" opacity="0.85"/></g></g>
+  <line x1="90" y1="378" x2="210" y2="378" stroke="#8C8CD9" stroke-width="1.5" stroke-opacity="0.7"/>
+  <text x="150" y="408" text-anchor="middle" font-family="'Noto Sans KR', 'Apple SD Gothic Neo', sans-serif" font-size="23" font-weight="700" fill="#332F5C">전차</text>
+  <text x="150" y="428" text-anchor="middle" font-family="'Noto Sans KR', 'Apple SD Gothic Neo', sans-serif" font-size="10.5" letter-spacing="1.5" fill="#332F5C" opacity="0.65">CHARIOT</text>
+</svg>

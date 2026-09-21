@@ -13,6 +13,7 @@ import {
 interface TarotFlowState {
   categoryId: string | null;
   question: string;
+  deckId: string | null;
   selectedCardIds: string[];
 }
 
@@ -20,6 +21,7 @@ interface TarotFlowContextValue extends TarotFlowState {
   isHydrated: boolean;
   setCategoryId: (categoryId: string) => void;
   setQuestion: (question: string) => void;
+  setDeckId: (deckId: string) => void;
   setSelectedCardIds: (ids: string[]) => void;
   reset: () => void;
 }
@@ -29,6 +31,7 @@ const STORAGE_KEY = "tarot-flow-state";
 const initialState: TarotFlowState = {
   categoryId: null,
   question: "",
+  deckId: null,
   selectedCardIds: [],
 };
 
@@ -49,6 +52,7 @@ export function TarotFlowProvider({ children }: { children: ReactNode }) {
         setState({
           categoryId: parsed.categoryId ?? null,
           question: parsed.question ?? "",
+          deckId: parsed.deckId ?? null,
           selectedCardIds: Array.isArray(parsed.selectedCardIds)
             ? parsed.selectedCardIds
             : [],
@@ -74,6 +78,10 @@ export function TarotFlowProvider({ children }: { children: ReactNode }) {
     setState((prev) => ({ ...prev, question }));
   }, []);
 
+  const setDeckId = useCallback((deckId: string) => {
+    setState((prev) => ({ ...prev, deckId }));
+  }, []);
+
   const setSelectedCardIds = useCallback((selectedCardIds: string[]) => {
     setState((prev) => ({ ...prev, selectedCardIds }));
   }, []);
@@ -89,10 +97,19 @@ export function TarotFlowProvider({ children }: { children: ReactNode }) {
       isHydrated,
       setCategoryId,
       setQuestion,
+      setDeckId,
       setSelectedCardIds,
       reset,
     }),
-    [state, isHydrated, setCategoryId, setQuestion, setSelectedCardIds, reset]
+    [
+      state,
+      isHydrated,
+      setCategoryId,
+      setQuestion,
+      setDeckId,
+      setSelectedCardIds,
+      reset,
+    ]
   );
 
   return (

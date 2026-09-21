@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 460">
+  <defs>
+    <linearGradient id="bg-night-hermit" x1="0" y1="0" x2="0.3" y2="1">
+      <stop offset="0" stop-color="#E9E4F7"/>
+      <stop offset="1" stop-color="#CBDCF2"/>
+    </linearGradient>
+  </defs>
+  <rect x="4" y="4" width="292" height="452" rx="26" fill="url(#bg-night-hermit)"/>
+  <rect x="12" y="12" width="276" height="436" rx="20" fill="none" stroke="#8C8CD9" stroke-width="2" stroke-opacity="0.6" stroke-dasharray="1 7" stroke-linecap="round"/>
+  <g opacity="0.55"><g><path d="M46,80 L49.84,88.16 L58,92 L49.84,95.84 L46,104 L42.16,95.84 L34,92 L42.16,88.16 Z" fill="#FBE28A"/></g><g><g><circle cx="240.3" cy="109.95" r="7.15" fill="#BBD6F2" /><circle cx="250.05" cy="104.75" r="9.1" fill="#BBD6F2" /><circle cx="261.75" cy="109.3" r="7.54" fill="#BBD6F2" /><ellipse cx="252" cy="113.85" rx="17.55" ry="7.15" fill="#BBD6F2" /></g></g><g><path d="M44,358 L48.48,367.52 L58,372 L48.48,376.48 L44,386 L39.52,376.48 L30,372 L39.52,367.52 Z" fill="#FBE28A"/></g><g><g><circle cx="242.5" cy="352.25" r="8.25" fill="#BBD6F2" /><circle cx="253.75" cy="346.25" r="10.5" fill="#BBD6F2" /><circle cx="267.25" cy="351.5" r="8.7" fill="#BBD6F2" /><ellipse cx="256" cy="356.75" rx="20.25" ry="8.25" fill="#BBD6F2" /></g></g><g><path d="M150,72 L153.95,82.56 L165.22,83.06 L156.39,90.08 L159.4,100.94 L150,94.72 L140.6,100.94 L143.61,90.08 L134.78,83.06 L146.05,82.56 Z" fill="#FBE28A"/></g></g>
+  <circle cx="42" cy="46" r="18" fill="#8C8CD9" opacity="0.9"/>
+  <text x="42" y="52" text-anchor="middle" font-family="'Noto Sans KR', 'Apple SD Gothic Neo', sans-serif" font-size="14" font-weight="700" fill="#ffffff">VIII</text>
+  <g><g><g><circle cx="117.6" cy="243.4" r="19.8" fill="#D9D3F6" /><circle cx="144.6" cy="229" r="25.2" fill="#D9D3F6" /><circle cx="177" cy="241.6" r="20.88" fill="#D9D3F6" /><ellipse cx="150" cy="254.2" rx="48.6" ry="19.8" fill="#D9D3F6" /></g><path d="M126,210 L128.56,215.44 L134,218 L128.56,220.56 L126,226 L123.44,220.56 L118,218 L123.44,215.44 Z" fill="#FBE28A"/><circle cx="138" cy="232" r="3.2" fill="#332F5C" /><circle cx="162" cy="232" r="3.2" fill="#332F5C" /><path d="M 142,241 Q 150,247 158,241" fill="none" stroke="#332F5C" stroke-width="2.5" stroke-linecap="round"/><circle cx="131" cy="242" r="4.5" fill="#F6C6D0" opacity="0.85"/><circle cx="169" cy="242" r="4.5" fill="#F6C6D0" opacity="0.85"/></g><rect x="178" y="228" width="16" height="20" rx="3" fill="#C9C2EC" /><circle cx="186" cy="236" r="6" fill="#FBE28A" /><line x1="186" y1="228" x2="186" y2="218" stroke="#332F5C" stroke-width="2.5" stroke-linecap="round" /></g>
+  <line x1="90" y1="378" x2="210" y2="378" stroke="#8C8CD9" stroke-width="1.5" stroke-opacity="0.7"/>
+  <text x="150" y="408" text-anchor="middle" font-family="'Noto Sans KR', 'Apple SD Gothic Neo', sans-serif" font-size="23" font-weight="700" fill="#332F5C">은둔자</text>
+  <text x="150" y="428" text-anchor="middle" font-family="'Noto Sans KR', 'Apple SD Gothic Neo', sans-serif" font-size="10.5" letter-spacing="1.5" fill="#332F5C" opacity="0.65">HERMIT</text>
+</svg>

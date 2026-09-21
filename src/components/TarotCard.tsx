@@ -1,15 +1,21 @@
 "use client";
 
-import { CARD_BACK_IMAGE, type TarotCardData } from "@/data/tarotCards";
+import type { TarotCard as TarotCardData } from "@/data/decks";
 import styles from "./TarotCard.module.css";
 
 interface TarotCardProps {
   card: TarotCardData;
+  backImage: string;
   revealed: boolean;
   onReveal: () => void;
 }
 
-export default function TarotCard({ card, revealed, onReveal }: TarotCardProps) {
+export default function TarotCard({
+  card,
+  backImage,
+  revealed,
+  onReveal,
+}: TarotCardProps) {
   return (
     <button
       type="button"
@@ -21,7 +27,7 @@ export default function TarotCard({ card, revealed, onReveal }: TarotCardProps) 
     >
       <div className={`${styles.flipper} ${revealed ? styles.flipped : ""}`}>
         <div className={styles.faceFront}>
-          <img src={CARD_BACK_IMAGE} alt="" draggable={false} />
+          <img src={backImage} alt="" draggable={false} />
           <span className={styles.tapHint}>눌러서 확인하기</span>
         </div>
         <div className={styles.faceBack}>

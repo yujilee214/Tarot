@@ -1,0 +1,23 @@
+.deckScroll {
+  display: flex;
+  gap: 14px;
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+  scroll-padding-left: 4px;
+  padding: 4px 4px 16px;
+  margin: 0 -4px;
+  -webkit-overflow-scrolling: touch;
+}
+
+.deckScroll > * {
+  scroll-snap-align: center;
+}
+
+.deckScroll::-webkit-scrollbar {
+  display: none;
+}
+
+.spacer {
+  flex: 1;
+  min-height: 16px;
+}

@@ -35,14 +35,14 @@ export default function QuestionPage() {
     setTouched(true);
     if (!isValid) return;
     setQuestion(trimmed);
-    router.push("/cards");
+    router.push("/deck");
   };
 
   return (
     <main className="screen">
       <ProgressHeader
         step={1}
-        totalSteps={3}
+        totalSteps={4}
         categoryLabel={category?.label}
         title="지금 가장 궁금한 질문은 무엇인가요?"
         subtitle="구체적으로 적을수록 카드의 이야기가 더 선명해져요."

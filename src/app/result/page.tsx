@@ -4,7 +4,7 @@ import { useEffect, useMemo } from "react";
 import { useRouter } from "next/navigation";
 import PrimaryButton from "@/components/PrimaryButton";
 import TarotResultCard from "@/components/TarotResultCard";
-import { getTarotCardById, type TarotCardData } from "@/data/tarotCards";
+import { getDeckById, getCardInDeck, type TarotCard } from "@/data/decks";
 import { cardRoles } from "@/data/cardRoles";
 import { buildReading } from "@/lib/reading";
 import { useTarotFlow } from "@/context/TarotFlowContext";
@@ -12,22 +12,26 @@ import styles from "./page.module.css";
 
 export default function ResultPage() {
   const router = useRouter();
-  const { isHydrated, question, selectedCardIds, reset } = useTarotFlow();
+  const { isHydrated, question, deckId, selectedCardIds, reset } =
+    useTarotFlow();
+  const deck = getDeckById(deckId);
 
   const isValidSelection = selectedCardIds.length === 3;
 
   useEffect(() => {
-    if (isHydrated && (!question || !isValidSelection)) {
+    if (isHydrated && (!question || !deck || !isValidSelection)) {
       router.replace("/");
     }
-  }, [isHydrated, question, isValidSelection, router]);
+  }, [isHydrated, question, deck, isValidSelection, router]);
 
   const cards = useMemo(
     () =>
-      selectedCardIds
-        .map((id) => getTarotCardById(id))
-        .filter((card): card is TarotCardData => Boolean(card)),
-    [selectedCardIds]
+      deck
+        ? selectedCardIds
+            .map((id) => getCardInDeck(deck, id))
+            .filter((card): card is TarotCard => Boolean(card))
+        : [],
+    [deck, selectedCardIds]
   );
 
   const reading = useMemo(() => {
@@ -35,7 +39,14 @@ export default function ResultPage() {
     return buildReading(question, [cards[0], cards[1], cards[2]]);
   }, [cards, question]);
 
-  if (!isHydrated || !question || !isValidSelection || cards.length !== 3 || !reading) {
+  if (
+    !isHydrated ||
+    !question ||
+    !deck ||
+    !isValidSelection ||
+    cards.length !== 3 ||
+    !reading
+  ) {
     return null;
   }
 

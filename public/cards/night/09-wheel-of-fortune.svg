@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 460">
+  <defs>
+    <linearGradient id="bg-night-wheel-of-fortune" x1="0" y1="0" x2="0.3" y2="1">
+      <stop offset="0" stop-color="#E9E4F7"/>
+      <stop offset="1" stop-color="#CBDCF2"/>
+    </linearGradient>
+  </defs>
+  <rect x="4" y="4" width="292" height="452" rx="26" fill="url(#bg-night-wheel-of-fortune)"/>
+  <rect x="12" y="12" width="276" height="436" rx="20" fill="none" stroke="#8C8CD9" stroke-width="2" stroke-opacity="0.6" stroke-dasharray="1 7" stroke-linecap="round"/>
+  <g opacity="0.55"><g><g><circle cx="32.5" cy="94.25" r="8.25" fill="#BBD6F2" /><circle cx="43.75" cy="88.25" r="10.5" fill="#BBD6F2" /><circle cx="57.25" cy="93.5" r="8.7" fill="#BBD6F2" /><ellipse cx="46" cy="98.75" rx="20.25" ry="8.25" fill="#BBD6F2" /></g></g><g><path d="M252,92 L257.12,102.88 L268,108 L257.12,113.12 L252,124 L246.88,113.12 L236,108 L246.88,102.88 Z" fill="#FBE28A"/></g><g><g><circle cx="28.7" cy="374.55" r="9.35" fill="#BBD6F2" /><circle cx="41.45" cy="367.75" r="11.9" fill="#BBD6F2" /><circle cx="56.75" cy="373.7" r="9.86" fill="#BBD6F2" /><ellipse cx="44" cy="379.65" rx="22.95" ry="9.35" fill="#BBD6F2" /></g></g><g><path d="M256,338 L258.96,345.92 L267.41,346.29 L260.79,351.56 L263.05,359.71 L256,355.04 L248.95,359.71 L251.21,351.56 L244.59,346.29 L253.04,345.92 Z" fill="#FBE28A"/></g><g><path d="M150,75 L154.16,83.84 L163,88 L154.16,92.16 L150,101 L145.84,92.16 L137,88 L145.84,83.84 Z" fill="#FBE28A"/></g></g>
+  <circle cx="42" cy="46" r="18" fill="#8C8CD9" opacity="0.9"/>
+  <text x="42" y="52" text-anchor="middle" font-family="'Noto Sans KR', 'Apple SD Gothic Neo', sans-serif" font-size="14" font-weight="700" fill="#ffffff">IX</text>
+  <g><circle cx="150" cy="232" r="40" fill="none" stroke="#8C8CD9" stroke-width="6"/><line x1="110" y1="232" x2="190" y2="232" stroke="#8C8CD9" stroke-width="4" stroke-linecap="round" /><line x1="150" y1="192" x2="150" y2="272" stroke="#8C8CD9" stroke-width="4" stroke-linecap="round" /><line x1="122" y1="204" x2="178" y2="260" stroke="#8C8CD9" stroke-width="4" stroke-linecap="round" /><line x1="122" y1="260" x2="178" y2="204" stroke="#8C8CD9" stroke-width="4" stroke-linecap="round" /><circle cx="150" cy="232" r="10" fill="#FBE28A" /><path d="M102,206 L103.92,210.08 L108,212 L103.92,213.92 L102,218 L100.08,213.92 L96,212 L100.08,210.08 Z" fill="#FBE28A"/><path d="M200,240 L201.92,244.08 L206,246 L201.92,247.92 L200,252 L198.08,247.92 L194,246 L198.08,244.08 Z" fill="#FBE28A"/></g>
+  <line x1="90" y1="378" x2="210" y2="378" stroke="#8C8CD9" stroke-width="1.5" stroke-opacity="0.7"/>
+  <text x="150" y="408" text-anchor="middle" font-family="'Noto Sans KR', 'Apple SD Gothic Neo', sans-serif" font-size="23" font-weight="700" fill="#332F5C">운명의 수레바퀴</text>
+  <text x="150" y="428" text-anchor="middle" font-family="'Noto Sans KR', 'Apple SD Gothic Neo', sans-serif" font-size="10.5" letter-spacing="1.5" fill="#332F5C" opacity="0.65">WHEEL OF FORTUNE</text>
+</svg>

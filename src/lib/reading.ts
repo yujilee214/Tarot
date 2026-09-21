@@ -1,4 +1,4 @@
-import type { TarotCardData } from "@/data/tarotCards";
+import type { TarotCard } from "@/data/decks";
 
 export interface ReadingSection {
   heading: string;
@@ -7,7 +7,7 @@ export interface ReadingSection {
 
 export function buildReading(
   question: string,
-  cards: [TarotCardData, TarotCardData, TarotCardData]
+  cards: [TarotCard, TarotCard, TarotCard]
 ): ReadingSection[] {
   const [situation, flow, advice] = cards;
 

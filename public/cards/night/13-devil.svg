@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 460">
+  <defs>
+    <linearGradient id="bg-night-devil" x1="0" y1="0" x2="0.3" y2="1">
+      <stop offset="0" stop-color="#E9E4F7"/>
+      <stop offset="1" stop-color="#CBDCF2"/>
+    </linearGradient>
+  </defs>
+  <rect x="4" y="4" width="292" height="452" rx="26" fill="url(#bg-night-devil)"/>
+  <rect x="12" y="12" width="276" height="436" rx="20" fill="none" stroke="#8C8CD9" stroke-width="2" stroke-opacity="0.6" stroke-dasharray="1 7" stroke-linecap="round"/>
+  <g opacity="0.55"><g><path d="M46,77 L50.8,87.2 L61,92 L50.8,96.8 L46,107 L41.2,96.8 L31,92 L41.2,87.2 Z" fill="#FBE28A"/></g><g><g><circle cx="237.6" cy="110.4" r="8.8" fill="#BBD6F2" /><circle cx="249.6" cy="104" r="11.2" fill="#BBD6F2" /><circle cx="264" cy="109.6" r="9.28" fill="#BBD6F2" /><ellipse cx="252" cy="115.2" rx="21.6" ry="8.8" fill="#BBD6F2" /></g></g><g><path d="M44,355 L49.44,366.56 L61,372 L49.44,377.44 L44,389 L38.56,377.44 L27,372 L38.56,366.56 Z" fill="#FBE28A"/></g><g><g><circle cx="245.2" cy="351.8" r="6.6" fill="#BBD6F2" /><circle cx="254.2" cy="347" r="8.4" fill="#BBD6F2" /><circle cx="265" cy="351.2" r="6.96" fill="#BBD6F2" /><ellipse cx="256" cy="355.4" rx="16.2" ry="6.6" fill="#BBD6F2" /></g></g><g><path d="M150,75 L153.21,83.58 L162.36,83.98 L155.19,89.69 L157.64,98.52 L150,93.46 L142.36,98.52 L144.81,89.69 L137.64,83.98 L146.79,83.58 Z" fill="#FBE28A"/></g></g>
+  <circle cx="42" cy="46" r="18" fill="#8C8CD9" opacity="0.9"/>
+  <text x="42" y="52" text-anchor="middle" font-family="'Noto Sans KR', 'Apple SD Gothic Neo', sans-serif" font-size="14" font-weight="700" fill="#ffffff">XIII</text>
+  <g><g><g><circle cx="117.6" cy="237.4" r="19.8" fill="#D9D3F6" /><circle cx="144.6" cy="223" r="25.2" fill="#D9D3F6" /><circle cx="177" cy="235.6" r="20.88" fill="#D9D3F6" /><ellipse cx="150" cy="248.2" rx="48.6" ry="19.8" fill="#D9D3F6" /></g><path d="M126,204 L128.56,209.44 L134,212 L128.56,214.56 L126,220 L123.44,214.56 L118,212 L123.44,209.44 Z" fill="#FBE28A"/><circle cx="138" cy="226" r="3.2" fill="#332F5C" /><circle cx="162" cy="226" r="3.2" fill="#332F5C" /><path d="M 142,235 Q 150,241 158,235" fill="none" stroke="#332F5C" stroke-width="2.5" stroke-linecap="round"/><circle cx="131" cy="236" r="4.5" fill="#F6C6D0" opacity="0.85"/><circle cx="169" cy="236" r="4.5" fill="#F6C6D0" opacity="0.85"/></g><path d="M 138,192 L 144,202 L 134,202 Z" fill="#8C8CD9"/><path d="M 162,192 L 156,202 L 166,202 Z" fill="#8C8CD9"/><circle cx="136" cy="272" r="7" fill="none" stroke="#332F5C" stroke-width="3"/><circle cx="164" cy="272" r="7" fill="none" stroke="#332F5C" stroke-width="3"/></g>
+  <line x1="90" y1="378" x2="210" y2="378" stroke="#8C8CD9" stroke-width="1.5" stroke-opacity="0.7"/>
+  <text x="150" y="408" text-anchor="middle" font-family="'Noto Sans KR', 'Apple SD Gothic Neo', sans-serif" font-size="23" font-weight="700" fill="#332F5C">악마</text>
+  <text x="150" y="428" text-anchor="middle" font-family="'Noto Sans KR', 'Apple SD Gothic Neo', sans-serif" font-size="10.5" letter-spacing="1.5" fill="#332F5C" opacity="0.65">DEVIL</text>
+</svg>
