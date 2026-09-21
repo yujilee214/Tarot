@@ -1,0 +1,29 @@
+.arrow {
+  display: none;
+  align-items: center;
+  justify-content: center;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  border: 1px solid var(--color-border);
+  background: var(--color-surface);
+  color: var(--color-text-primary);
+  font-size: 18px;
+  flex-shrink: 0;
+  transition: border-color 0.15s ease, opacity 0.15s ease;
+}
+
+.arrow:hover:not(:disabled) {
+  border-color: var(--color-border-focus);
+}
+
+.arrow:disabled {
+  opacity: 0.3;
+  cursor: not-allowed;
+}
+
+@media (min-width: 640px) {
+  .arrow {
+    display: flex;
+  }
+}

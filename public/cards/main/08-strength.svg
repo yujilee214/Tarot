@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 460">
+  <defs>
+    <linearGradient id="bg-08-strength" x1="0" y1="0" x2="0.3" y2="1">
+      <stop offset="0" stop-color="#FFF6EC"/>
+      <stop offset="1" stop-color="#F1E1F4"/>
+    </linearGradient>
+  </defs>
+  <rect x="4" y="4" width="292" height="452" rx="26" fill="url(#bg-08-strength)"/>
+  <rect x="12" y="12" width="276" height="436" rx="20" fill="none" stroke="#8FBF6E" stroke-width="2" stroke-opacity="0.55" stroke-dasharray="1 7" stroke-linecap="round"/>
+  <g opacity="0.4"><path d="M42,81.6 L45.33,88.67 L52.4,92 L45.33,95.33 L42,102.4 L38.67,95.33 L31.6,92 L38.67,88.67 Z" fill="#8FBF6E"/><path d="M 256,94.95 C 262.5,100.48 262.5,111.53 256,117.05 C 249.5,111.53 249.5,100.48 256,94.95 Z" fill="#addd8c" transform="rotate(1 256 106)"/><path d="M 40,377.85 C 29.86,370.44 36.1,363.03 40,369.27 C 43.9,363.03 50.14,370.44 40,377.85 Z" fill="#8FBF6E"/><path d="M258,341.6 L261.33,348.67 L268.4,352 L261.33,355.33 L258,362.4 L254.67,355.33 L247.6,352 L254.67,348.67 Z" fill="#8FBF6E"/></g>
+  <circle cx="42" cy="46" r="18" fill="#8FBF6E" opacity="0.92"/>
+  <text x="42" y="52" text-anchor="middle" font-family="'Noto Sans KR', 'Apple SD Gothic Neo', sans-serif" font-size="14" font-weight="700" fill="#ffffff">VIII</text>
+  <g><ellipse cx="176" cy="246" rx="20" ry="16" fill="#8FBF6E" /><path d="M 160,234 L 154,222 L 166,226 Z" fill="#8FBF6E"/><circle cx="170" cy="240" r="2.4" fill="#4A3F4D" /><circle cx="182" cy="240" r="2.4" fill="#4A3F4D" /><g><ellipse cx="115" cy="192.3" rx="7.13" ry="16.15" fill="#d5ffb4" transform="rotate(-16 115 192.3)" /><ellipse cx="153" cy="192.3" rx="7.13" ry="16.15" fill="#d5ffb4" transform="rotate(16 153 192.3)" /><ellipse cx="134" cy="234.1" rx="34.2" ry="30.4" fill="#d5ffb4" /><ellipse cx="119.75" cy="262.6" rx="8.55" ry="5.7" fill="#d5ffb4" /><ellipse cx="148.25" cy="262.6" rx="8.55" ry="5.7" fill="#d5ffb4" /><circle cx="122.6" cy="228.4" r="3.04" fill="#4A3F4D" /><circle cx="145.4" cy="228.4" r="3.04" fill="#4A3F4D" /><path d="M 126.4,236.95 Q 134,242.65 141.6,236.95" fill="none" stroke="#4A3F4D" stroke-width="2.375" stroke-linecap="round"/><circle cx="115.95" cy="237.9" r="4.27" fill="#8FBF6E" opacity="0.85"/><circle cx="152.05" cy="237.9" r="4.27" fill="#8FBF6E" opacity="0.85"/></g></g>
+  <line x1="80" y1="378" x2="220" y2="378" stroke="#8FBF6E" stroke-width="1.5" stroke-opacity="0.7"/>
+  <text x="150" y="406" text-anchor="middle" font-family="'Noto Sans KR', 'Apple SD Gothic Neo', sans-serif" font-size="22" font-weight="700" fill="#4A3F4D">힘</text>
+  <text x="150" y="428" text-anchor="middle" font-family="'Noto Sans KR', 'Apple SD Gothic Neo', sans-serif" font-size="10" letter-spacing="1" fill="#4A3F4D" opacity="0.65">STRENGTH</text>
+</svg>

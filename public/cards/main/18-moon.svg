@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 460">
+  <defs>
+    <linearGradient id="bg-18-moon" x1="0" y1="0" x2="0.3" y2="1">
+      <stop offset="0" stop-color="#FFF6EC"/>
+      <stop offset="1" stop-color="#F1E1F4"/>
+    </linearGradient>
+  </defs>
+  <rect x="4" y="4" width="292" height="452" rx="26" fill="url(#bg-18-moon)"/>
+  <rect x="12" y="12" width="276" height="436" rx="20" fill="none" stroke="#F1A0BE" stroke-width="2" stroke-opacity="0.55" stroke-dasharray="1 7" stroke-linecap="round"/>
+  <g opacity="0.4"><path d="M 42,97.85 C 31.86,90.44 38.1,83.03 42,89.27 C 45.9,83.03 52.14,90.44 42,97.85 Z" fill="#F1A0BE"/><path d="M256,95.6 L259.33,102.67 L266.4,106 L259.33,109.33 L256,116.4 L252.67,109.33 L245.6,106 L252.67,102.67 Z" fill="#F1A0BE"/><path d="M40,361.6 L43.33,368.67 L50.4,372 L43.33,375.33 L40,382.4 L36.67,375.33 L29.6,372 L36.67,368.67 Z" fill="#F1A0BE"/><path d="M 258,340.95 C 264.5,346.48 264.5,357.53 258,363.05 C 251.5,357.53 251.5,346.48 258,340.95 Z" fill="#ffbedc" transform="rotate(-15 258 352)"/></g>
+  <circle cx="42" cy="46" r="18" fill="#F1A0BE" opacity="0.92"/>
+  <text x="42" y="52" text-anchor="middle" font-family="'Noto Sans KR', 'Apple SD Gothic Neo', sans-serif" font-size="14" font-weight="700" fill="#ffffff">XVIII</text>
+  <g><path d="M 126,172 A 24,24 0 1,0 174,172 A 12,23.52 0 1,1 126,172 Z" fill="#FBE28A" transform="rotate(200 150 172)"/><circle cx="120" cy="170" r="2" fill="#4A3F4D" /><circle cx="174" cy="182" r="2" fill="#4A3F4D" /><g><ellipse cx="131" cy="202.3" rx="7.13" ry="16.15" fill="#ffe6ff" transform="rotate(-16 131 202.3)" /><ellipse cx="169" cy="202.3" rx="7.13" ry="16.15" fill="#ffe6ff" transform="rotate(16 169 202.3)" /><ellipse cx="150" cy="244.1" rx="34.2" ry="30.4" fill="#ffe6ff" /><ellipse cx="135.75" cy="272.6" rx="8.55" ry="5.7" fill="#ffe6ff" /><ellipse cx="164.25" cy="272.6" rx="8.55" ry="5.7" fill="#ffe6ff" /><path d="M 133.85,240.3 Q 138.6,236.03 143.35,240.3" fill="none" stroke="#4A3F4D" stroke-width="2.375" stroke-linecap="round"/><path d="M 156.65,240.3 Q 161.4,236.03 166.15,240.3" fill="none" stroke="#4A3F4D" stroke-width="2.375" stroke-linecap="round"/><path d="M 142.4,246.95 Q 150,252.65 157.6,246.95" fill="none" stroke="#4A3F4D" stroke-width="2.375" stroke-linecap="round"/><circle cx="131.95" cy="247.9" r="4.27" fill="#F1A0BE" opacity="0.85"/><circle cx="168.05" cy="247.9" r="4.27" fill="#F1A0BE" opacity="0.85"/></g><circle cx="120" cy="276" r="2.4" fill="#4A3F4D" /><circle cx="140" cy="280" r="2.4" fill="#4A3F4D" /><circle cx="160" cy="280" r="2.4" fill="#4A3F4D" /><circle cx="180" cy="276" r="2.4" fill="#4A3F4D" /></g>
+  <line x1="80" y1="378" x2="220" y2="378" stroke="#F1A0BE" stroke-width="1.5" stroke-opacity="0.7"/>
+  <text x="150" y="406" text-anchor="middle" font-family="'Noto Sans KR', 'Apple SD Gothic Neo', sans-serif" font-size="22" font-weight="700" fill="#4A3F4D">달</text>
+  <text x="150" y="428" text-anchor="middle" font-family="'Noto Sans KR', 'Apple SD Gothic Neo', sans-serif" font-size="10" letter-spacing="1" fill="#4A3F4D" opacity="0.65">THE MOON</text>
+</svg>

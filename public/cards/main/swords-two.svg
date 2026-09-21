@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 460">
+  <defs>
+    <linearGradient id="bg-swords-two" x1="0" y1="0" x2="0.3" y2="1">
+      <stop offset="0" stop-color="#ECEEFC"/>
+      <stop offset="1" stop-color="#D8E1F5"/>
+    </linearGradient>
+  </defs>
+  <rect x="4" y="4" width="292" height="452" rx="26" fill="url(#bg-swords-two)"/>
+  <rect x="12" y="12" width="276" height="436" rx="20" fill="none" stroke="#8C93D9" stroke-width="2" stroke-opacity="0.55" stroke-dasharray="1 7" stroke-linecap="round"/>
+  <g opacity="0.4"><path d="M 42,81.8 C 48,86.9 48,97.1 42,102.2 C 36,97.1 36,86.9 42,81.8 Z" fill="#aab1f7" transform="rotate(-17 42 92)"/><path d="M 256,111.4 C 246.64,104.56 252.4,97.72 256,103.48 C 259.6,97.72 265.36,104.56 256,111.4 Z" fill="#8C93D9"/><path d="M40,362.4 L43.07,368.93 L49.6,372 L43.07,375.07 L40,381.6 L36.93,375.07 L30.4,372 L36.93,368.93 Z" fill="#8C93D9"/><path d="M258,342.4 L261.07,348.93 L267.6,352 L261.07,355.07 L258,361.6 L254.93,355.07 L248.4,352 L254.93,348.93 Z" fill="#8C93D9"/></g>
+  <circle cx="42" cy="46" r="18" fill="#8C93D9" opacity="0.92"/>
+  <text x="42" y="52" text-anchor="middle" font-family="'Noto Sans KR', 'Apple SD Gothic Neo', sans-serif" font-size="14" font-weight="700" fill="#ffffff">2</text>
+  <g><g><path d="M 117,121.3 L 120.4,145.1 L 113.6,145.1 Z" fill="#8C93D9"/><rect x="109.35" y="144.25" width="15.3" height="2.98" rx="1.27" fill="#8C93D9" /><rect x="115.13" y="146.8" width="3.74" height="8.5" rx="1.27" fill="#8C93D9" /></g><g><path d="M 183,121.3 L 186.4,145.1 L 179.6,145.1 Z" fill="#8C93D9"/><rect x="175.35" y="144.25" width="15.3" height="2.98" rx="1.27" fill="#8C93D9" /><rect x="181.13" y="146.8" width="3.74" height="8.5" rx="1.27" fill="#8C93D9" /></g><g><ellipse cx="133.6" cy="232.28" rx="6.15" ry="13.94" fill="#d2d9ff" transform="rotate(-16 133.6 232.28)" /><ellipse cx="166.4" cy="232.28" rx="6.15" ry="13.94" fill="#d2d9ff" transform="rotate(16 166.4 232.28)" /><ellipse cx="150" cy="268.36" rx="29.52" ry="26.24" fill="#d2d9ff" /><ellipse cx="137.7" cy="292.96" rx="7.38" ry="4.92" fill="#d2d9ff" /><ellipse cx="162.3" cy="292.96" rx="7.38" ry="4.92" fill="#d2d9ff" /><circle cx="140.16" cy="263.44" r="2.62" fill="#4A3F4D" /><circle cx="159.84" cy="263.44" r="2.62" fill="#4A3F4D" /><path d="M 143.44,270.82 Q 150,275.74 156.56,270.82" fill="none" stroke="#4A3F4D" stroke-width="2.05" stroke-linecap="round"/><circle cx="134.42" cy="271.64" r="3.69" fill="#8C93D9" opacity="0.85"/><circle cx="165.58" cy="271.64" r="3.69" fill="#8C93D9" opacity="0.85"/></g></g>
+  <line x1="80" y1="378" x2="220" y2="378" stroke="#8C93D9" stroke-width="1.5" stroke-opacity="0.7"/>
+  <text x="150" y="406" text-anchor="middle" font-family="'Noto Sans KR', 'Apple SD Gothic Neo', sans-serif" font-size="22" font-weight="700" fill="#4A3F4D">소드의 2</text>
+  <text x="150" y="428" text-anchor="middle" font-family="'Noto Sans KR', 'Apple SD Gothic Neo', sans-serif" font-size="10" letter-spacing="1" fill="#4A3F4D" opacity="0.65">TWO OF SWORDS</text>
+</svg>

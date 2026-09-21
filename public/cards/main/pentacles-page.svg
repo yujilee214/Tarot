@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 460">
+  <defs>
+    <linearGradient id="bg-pentacles-page" x1="0" y1="0" x2="0.3" y2="1">
+      <stop offset="0" stop-color="#F1FAEC"/>
+      <stop offset="1" stop-color="#DFF0C8"/>
+    </linearGradient>
+  </defs>
+  <rect x="4" y="4" width="292" height="452" rx="26" fill="url(#bg-pentacles-page)"/>
+  <rect x="12" y="12" width="276" height="436" rx="20" fill="none" stroke="#8FBF6E" stroke-width="2" stroke-opacity="0.55" stroke-dasharray="1 7" stroke-linecap="round"/>
+  <g opacity="0.4"><path d="M 42,96.05 C 34.98,90.92 39.3,85.79 42,90.11 C 44.7,85.79 49.02,90.92 42,96.05 Z" fill="#8FBF6E"/><path d="M256,98.8 L258.3,103.7 L263.2,106 L258.3,108.3 L256,113.2 L253.7,108.3 L248.8,106 L253.7,103.7 Z" fill="#8FBF6E"/><path d="M40,364.8 L42.3,369.7 L47.2,372 L42.3,374.3 L40,379.2 L37.7,374.3 L32.8,372 L37.7,369.7 Z" fill="#8FBF6E"/><path d="M 258,344.35 C 262.5,348.18 262.5,355.83 258,359.65 C 253.5,355.83 253.5,348.18 258,344.35 Z" fill="#addd8c" transform="rotate(1 258 352)"/></g>
+  <circle cx="42" cy="46" r="18" fill="#8FBF6E" opacity="0.92"/>
+  <text x="42" y="52" text-anchor="middle" font-family="'Noto Sans KR', 'Apple SD Gothic Neo', sans-serif" font-size="14" font-weight="700" fill="#ffffff">P</text>
+  <g><g><ellipse cx="130" cy="192" rx="7.5" ry="17" fill="#d5ffb4" transform="rotate(-16 130 192)" /><ellipse cx="170" cy="192" rx="7.5" ry="17" fill="#d5ffb4" transform="rotate(16 170 192)" /><ellipse cx="150" cy="236" rx="36" ry="32" fill="#d5ffb4" /><ellipse cx="135" cy="266" rx="9" ry="6" fill="#d5ffb4" /><ellipse cx="165" cy="266" rx="9" ry="6" fill="#d5ffb4" /><circle cx="138" cy="230" r="3.2" fill="#4A3F4D" /><circle cx="162" cy="230" r="3.2" fill="#4A3F4D" /><ellipse cx="150" cy="244" rx="4" ry="5" fill="#4A3F4D" /><circle cx="131" cy="240" r="4.5" fill="#8FBF6E" opacity="0.85"/><circle cx="169" cy="240" r="4.5" fill="#8FBF6E" opacity="0.85"/></g><rect x="174" y="242" width="14" height="12" rx="2" fill="#8FBF6E" /><g><circle cx="122" cy="226" r="9.6" fill="none" stroke="#8FBF6E" stroke-width="2.4000000000000004"/><path d="M122,221.2 L123.22,224.32 L126.57,224.52 L123.98,226.64 L124.82,229.88 L122,228.08 L119.18,229.88 L120.02,226.64 L117.43,224.52 L120.78,224.32 Z" fill="#8FBF6E"/></g><path d="M180,207 L181.6,210.4 L185,212 L181.6,213.6 L180,217 L178.4,213.6 L175,212 L178.4,210.4 Z" fill="#8FBF6E"/></g>
+  <line x1="80" y1="378" x2="220" y2="378" stroke="#8FBF6E" stroke-width="1.5" stroke-opacity="0.7"/>
+  <text x="150" y="406" text-anchor="middle" font-family="'Noto Sans KR', 'Apple SD Gothic Neo', sans-serif" font-size="22" font-weight="700" fill="#4A3F4D">펜타클의 페이지</text>
+  <text x="150" y="428" text-anchor="middle" font-family="'Noto Sans KR', 'Apple SD Gothic Neo', sans-serif" font-size="10" letter-spacing="1" fill="#4A3F4D" opacity="0.65">PAGE OF PENTACLES</text>
+</svg>

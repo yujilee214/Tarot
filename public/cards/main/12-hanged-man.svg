@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 460">
+  <defs>
+    <linearGradient id="bg-12-hanged-man" x1="0" y1="0" x2="0.3" y2="1">
+      <stop offset="0" stop-color="#FFF6EC"/>
+      <stop offset="1" stop-color="#F1E1F4"/>
+    </linearGradient>
+  </defs>
+  <rect x="4" y="4" width="292" height="452" rx="26" fill="url(#bg-12-hanged-man)"/>
+  <rect x="12" y="12" width="276" height="436" rx="20" fill="none" stroke="#F1A0BE" stroke-width="2" stroke-opacity="0.55" stroke-dasharray="1 7" stroke-linecap="round"/>
+  <g opacity="0.4"><path d="M42,84 L44.56,89.44 L50,92 L44.56,94.56 L42,100 L39.44,94.56 L34,92 L39.44,89.44 Z" fill="#F1A0BE"/><path d="M 256,97.5 C 261,101.75 261,110.25 256,114.5 C 251,110.25 251,101.75 256,97.5 Z" fill="#ffbedc" transform="rotate(-7 256 106)"/><path d="M 40,376.5 C 32.2,370.8 37,365.1 40,369.9 C 43,365.1 47.8,370.8 40,376.5 Z" fill="#F1A0BE"/><path d="M258,344 L260.56,349.44 L266,352 L260.56,354.56 L258,360 L255.44,354.56 L250,352 L255.44,349.44 Z" fill="#F1A0BE"/></g>
+  <circle cx="42" cy="46" r="18" fill="#F1A0BE" opacity="0.92"/>
+  <text x="42" y="52" text-anchor="middle" font-family="'Noto Sans KR', 'Apple SD Gothic Neo', sans-serif" font-size="14" font-weight="700" fill="#ffffff">XII</text>
+  <g><line x1="116" y1="188" x2="184" y2="188" stroke="#B79A6B" stroke-width="5" stroke-linecap="round" /><line x1="156" y1="188" x2="156" y2="212" stroke="#F1A0BE" stroke-width="3" stroke-linecap="round" /><g transform="rotate(180 156 244)"><g><ellipse cx="138" cy="202.6" rx="6.75" ry="15.3" fill="#ffe6ff" transform="rotate(-16 138 202.6)" /><ellipse cx="174" cy="202.6" rx="6.75" ry="15.3" fill="#ffe6ff" transform="rotate(16 174 202.6)" /><ellipse cx="156" cy="242.2" rx="32.4" ry="28.8" fill="#ffe6ff" /><ellipse cx="142.5" cy="269.2" rx="8.1" ry="5.4" fill="#ffe6ff" /><ellipse cx="169.5" cy="269.2" rx="8.1" ry="5.4" fill="#ffe6ff" /><path d="M 140.7,238.6 Q 145.2,234.55 149.7,238.6" fill="none" stroke="#4A3F4D" stroke-width="2.25" stroke-linecap="round"/><path d="M 162.3,238.6 Q 166.8,234.55 171.3,238.6" fill="none" stroke="#4A3F4D" stroke-width="2.25" stroke-linecap="round"/><path d="M 148.8,244.9 Q 156,250.3 163.2,244.9" fill="none" stroke="#4A3F4D" stroke-width="2.25" stroke-linecap="round"/><circle cx="138.9" cy="245.8" r="4.05" fill="#F1A0BE" opacity="0.85"/><circle cx="173.1" cy="245.8" r="4.05" fill="#F1A0BE" opacity="0.85"/></g></g><path d="M124,223 L125.6,226.4 L129,228 L125.6,229.6 L124,233 L122.4,229.6 L119,228 L122.4,226.4 Z" fill="#FBE28A"/><path d="M136,248 L137.28,250.72 L140,252 L137.28,253.28 L136,256 L134.72,253.28 L132,252 L134.72,250.72 Z" fill="#FBE28A"/></g>
+  <line x1="80" y1="378" x2="220" y2="378" stroke="#F1A0BE" stroke-width="1.5" stroke-opacity="0.7"/>
+  <text x="150" y="406" text-anchor="middle" font-family="'Noto Sans KR', 'Apple SD Gothic Neo', sans-serif" font-size="22" font-weight="700" fill="#4A3F4D">매달린 사람</text>
+  <text x="150" y="428" text-anchor="middle" font-family="'Noto Sans KR', 'Apple SD Gothic Neo', sans-serif" font-size="10" letter-spacing="1" fill="#4A3F4D" opacity="0.65">THE HANGED MAN</text>
+</svg>

@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 460">
+  <defs>
+    <linearGradient id="bg-15-devil" x1="0" y1="0" x2="0.3" y2="1">
+      <stop offset="0" stop-color="#FFF6EC"/>
+      <stop offset="1" stop-color="#F1E1F4"/>
+    </linearGradient>
+  </defs>
+  <rect x="4" y="4" width="292" height="452" rx="26" fill="url(#bg-15-devil)"/>
+  <rect x="12" y="12" width="276" height="436" rx="20" fill="none" stroke="#F0A868" stroke-width="2" stroke-opacity="0.55" stroke-dasharray="1 7" stroke-linecap="round"/>
+  <g opacity="0.4"><path d="M42,84.8 L44.3,89.7 L49.2,92 L44.3,94.3 L42,99.2 L39.7,94.3 L34.8,92 L39.7,89.7 Z" fill="#F0A868"/><path d="M256,98.8 L258.3,103.7 L263.2,106 L258.3,108.3 L256,113.2 L253.7,108.3 L248.8,106 L253.7,103.7 Z" fill="#F0A868"/><path d="M 40,364.35 C 44.5,368.18 44.5,375.83 40,379.65 C 35.5,375.83 35.5,368.18 40,364.35 Z" fill="#ffc686" transform="rotate(19 40 372)"/><path d="M 258,356.05 C 250.98,350.92 255.3,345.79 258,350.11 C 260.7,345.79 265.02,350.92 258,356.05 Z" fill="#F0A868"/></g>
+  <circle cx="42" cy="46" r="18" fill="#F0A868" opacity="0.92"/>
+  <text x="42" y="52" text-anchor="middle" font-family="'Noto Sans KR', 'Apple SD Gothic Neo', sans-serif" font-size="14" font-weight="700" fill="#ffffff">XV</text>
+  <g><g><ellipse cx="130" cy="186" rx="7.5" ry="17" fill="#ffeeae" transform="rotate(-16 130 186)" /><ellipse cx="170" cy="186" rx="7.5" ry="17" fill="#ffeeae" transform="rotate(16 170 186)" /><ellipse cx="150" cy="230" rx="36" ry="32" fill="#ffeeae" /><ellipse cx="135" cy="260" rx="9" ry="6" fill="#ffeeae" /><ellipse cx="165" cy="260" rx="9" ry="6" fill="#ffeeae" /><circle cx="138" cy="224" r="3.2" fill="#4A3F4D" /><circle cx="162" cy="224" r="3.2" fill="#4A3F4D" /><path d="M 142,233 Q 150,239 158,233" fill="none" stroke="#4A3F4D" stroke-width="2.5" stroke-linecap="round"/><circle cx="131" cy="234" r="4.5" fill="#F0A868" opacity="0.85"/><circle cx="169" cy="234" r="4.5" fill="#F0A868" opacity="0.85"/></g><path d="M 138,192 L 144,202 L 134,202 Z" fill="#F0A868"/><path d="M 162,192 L 156,202 L 166,202 Z" fill="#F0A868"/><circle cx="136" cy="272" r="7" fill="none" stroke="#4A3F4D" stroke-width="3"/><circle cx="164" cy="272" r="7" fill="none" stroke="#4A3F4D" stroke-width="3"/></g>
+  <line x1="80" y1="378" x2="220" y2="378" stroke="#F0A868" stroke-width="1.5" stroke-opacity="0.7"/>
+  <text x="150" y="406" text-anchor="middle" font-family="'Noto Sans KR', 'Apple SD Gothic Neo', sans-serif" font-size="22" font-weight="700" fill="#4A3F4D">악마</text>
+  <text x="150" y="428" text-anchor="middle" font-family="'Noto Sans KR', 'Apple SD Gothic Neo', sans-serif" font-size="10" letter-spacing="1" fill="#4A3F4D" opacity="0.65">THE DEVIL</text>
+</svg>

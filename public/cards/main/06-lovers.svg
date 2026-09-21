@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 460">
+  <defs>
+    <linearGradient id="bg-06-lovers" x1="0" y1="0" x2="0.3" y2="1">
+      <stop offset="0" stop-color="#FFF6EC"/>
+      <stop offset="1" stop-color="#F1E1F4"/>
+    </linearGradient>
+  </defs>
+  <rect x="4" y="4" width="292" height="452" rx="26" fill="url(#bg-06-lovers)"/>
+  <rect x="12" y="12" width="276" height="436" rx="20" fill="none" stroke="#F1A0BE" stroke-width="2" stroke-opacity="0.55" stroke-dasharray="1 7" stroke-linecap="round"/>
+  <g opacity="0.4"><path d="M 42,97.4 C 32.64,90.56 38.4,83.72 42,89.48 C 45.6,83.72 51.36,90.56 42,97.4 Z" fill="#F1A0BE"/><path d="M256,96.4 L259.07,102.93 L265.6,106 L259.07,109.07 L256,115.6 L252.93,109.07 L246.4,106 L252.93,102.93 Z" fill="#F1A0BE"/><path d="M40,362.4 L43.07,368.93 L49.6,372 L43.07,375.07 L40,381.6 L36.93,375.07 L30.4,372 L36.93,368.93 Z" fill="#F1A0BE"/><path d="M 258,341.8 C 264,346.9 264,357.1 258,362.2 C 252,357.1 252,346.9 258,341.8 Z" fill="#ffbedc" transform="rotate(9 258 352)"/></g>
+  <circle cx="42" cy="46" r="18" fill="#F1A0BE" opacity="0.92"/>
+  <text x="42" y="52" text-anchor="middle" font-family="'Noto Sans KR', 'Apple SD Gothic Neo', sans-serif" font-size="14" font-weight="700" fill="#ffffff">VI</text>
+  <g><g><ellipse cx="100.4" cy="202.12" rx="5.85" ry="13.26" fill="#ffe6ff" transform="rotate(-16 100.4 202.12)" /><ellipse cx="131.6" cy="202.12" rx="5.85" ry="13.26" fill="#ffe6ff" transform="rotate(16 131.6 202.12)" /><ellipse cx="116" cy="236.44" rx="28.08" ry="24.96" fill="#ffe6ff" /><ellipse cx="104.3" cy="259.84" rx="7.02" ry="4.68" fill="#ffe6ff" /><ellipse cx="127.7" cy="259.84" rx="7.02" ry="4.68" fill="#ffe6ff" /><circle cx="106.64" cy="231.76" r="2.5" fill="#4A3F4D" /><circle cx="125.36" cy="231.76" r="2.5" fill="#4A3F4D" /><path d="M 109.76,238.78 Q 116,243.46 122.24,238.78" fill="none" stroke="#4A3F4D" stroke-width="1.9500000000000002" stroke-linecap="round"/><circle cx="101.18" cy="239.56" r="3.51" fill="#F1A0BE" opacity="0.85"/><circle cx="130.82" cy="239.56" r="3.51" fill="#F1A0BE" opacity="0.85"/></g><g><ellipse cx="168.4" cy="202.12" rx="5.85" ry="13.26" fill="#ffe6ff" transform="rotate(-16 168.4 202.12)" /><ellipse cx="199.6" cy="202.12" rx="5.85" ry="13.26" fill="#ffe6ff" transform="rotate(16 199.6 202.12)" /><ellipse cx="184" cy="236.44" rx="28.08" ry="24.96" fill="#ffe6ff" /><ellipse cx="172.3" cy="259.84" rx="7.02" ry="4.68" fill="#ffe6ff" /><ellipse cx="195.7" cy="259.84" rx="7.02" ry="4.68" fill="#ffe6ff" /><circle cx="174.64" cy="231.76" r="2.5" fill="#4A3F4D" /><circle cx="193.36" cy="231.76" r="2.5" fill="#4A3F4D" /><path d="M 177.76,238.78 Q 184,243.46 190.24,238.78" fill="none" stroke="#4A3F4D" stroke-width="1.9500000000000002" stroke-linecap="round"/><circle cx="169.18" cy="239.56" r="3.51" fill="#F1A0BE" opacity="0.85"/><circle cx="198.82" cy="239.56" r="3.51" fill="#F1A0BE" opacity="0.85"/></g><path d="M 150,214.25 C 135.7,203.8 144.5,193.35 150,202.15 C 155.5,193.35 164.3,203.8 150,214.25 Z" fill="#F1A0BE"/></g>
+  <line x1="80" y1="378" x2="220" y2="378" stroke="#F1A0BE" stroke-width="1.5" stroke-opacity="0.7"/>
+  <text x="150" y="406" text-anchor="middle" font-family="'Noto Sans KR', 'Apple SD Gothic Neo', sans-serif" font-size="22" font-weight="700" fill="#4A3F4D">연인</text>
+  <text x="150" y="428" text-anchor="middle" font-family="'Noto Sans KR', 'Apple SD Gothic Neo', sans-serif" font-size="10" letter-spacing="1" fill="#4A3F4D" opacity="0.65">THE LOVERS</text>
+</svg>

@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 460">
+  <defs>
+    <linearGradient id="bg-07-chariot" x1="0" y1="0" x2="0.3" y2="1">
+      <stop offset="0" stop-color="#FFF6EC"/>
+      <stop offset="1" stop-color="#F1E1F4"/>
+    </linearGradient>
+  </defs>
+  <rect x="4" y="4" width="292" height="452" rx="26" fill="url(#bg-07-chariot)"/>
+  <rect x="12" y="12" width="276" height="436" rx="20" fill="none" stroke="#8C8CD9" stroke-width="2" stroke-opacity="0.55" stroke-dasharray="1 7" stroke-linecap="round"/>
+  <g opacity="0.4"><path d="M42,84 L44.56,89.44 L50,92 L44.56,94.56 L42,100 L39.44,94.56 L34,92 L39.44,89.44 Z" fill="#8C8CD9"/><path d="M256,98 L258.56,103.44 L264,106 L258.56,108.56 L256,114 L253.44,108.56 L248,106 L253.44,103.44 Z" fill="#8C8CD9"/><path d="M 40,363.5 C 45,367.75 45,376.25 40,380.5 C 35,376.25 35,367.75 40,363.5 Z" fill="#aaaaf7" transform="rotate(-25 40 372)"/><path d="M 258,356.5 C 250.2,350.8 255,345.1 258,349.9 C 261,345.1 265.8,350.8 258,356.5 Z" fill="#8C8CD9"/></g>
+  <circle cx="42" cy="46" r="18" fill="#8C8CD9" opacity="0.92"/>
+  <text x="42" y="52" text-anchor="middle" font-family="'Noto Sans KR', 'Apple SD Gothic Neo', sans-serif" font-size="14" font-weight="700" fill="#ffffff">VII</text>
+  <g><rect x="120" y="238" width="60" height="30" rx="8" fill="#b4b4ff" /><circle cx="126" cy="276" r="11" fill="#4A3F4D" /><circle cx="174" cy="276" r="11" fill="#4A3F4D" /><circle cx="126" cy="276" r="5" fill="#FBE28A" /><circle cx="174" cy="276" r="5" fill="#FBE28A" /><path d="M 172,222 L 172,198 L 190,208 Z" fill="#8C8CD9"/><g><ellipse cx="129" cy="186.9" rx="6.38" ry="14.45" fill="#d2d2ff" transform="rotate(-16 129 186.9)" /><ellipse cx="163" cy="186.9" rx="6.38" ry="14.45" fill="#d2d2ff" transform="rotate(16 163 186.9)" /><ellipse cx="146" cy="224.3" rx="30.6" ry="27.2" fill="#d2d2ff" /><ellipse cx="133.25" cy="249.8" rx="7.65" ry="5.1" fill="#d2d2ff" /><ellipse cx="158.75" cy="249.8" rx="7.65" ry="5.1" fill="#d2d2ff" /><circle cx="135.8" cy="219.2" r="2.72" fill="#4A3F4D" /><circle cx="156.2" cy="219.2" r="2.72" fill="#4A3F4D" /><path d="M 139.2,226.85 Q 146,231.95 152.8,226.85" fill="none" stroke="#4A3F4D" stroke-width="2.125" stroke-linecap="round"/><circle cx="129.85" cy="227.7" r="3.83" fill="#8C8CD9" opacity="0.85"/><circle cx="162.15" cy="227.7" r="3.83" fill="#8C8CD9" opacity="0.85"/></g></g>
+  <line x1="80" y1="378" x2="220" y2="378" stroke="#8C8CD9" stroke-width="1.5" stroke-opacity="0.7"/>
+  <text x="150" y="406" text-anchor="middle" font-family="'Noto Sans KR', 'Apple SD Gothic Neo', sans-serif" font-size="22" font-weight="700" fill="#4A3F4D">전차</text>
+  <text x="150" y="428" text-anchor="middle" font-family="'Noto Sans KR', 'Apple SD Gothic Neo', sans-serif" font-size="10" letter-spacing="1" fill="#4A3F4D" opacity="0.65">THE CHARIOT</text>
+</svg>

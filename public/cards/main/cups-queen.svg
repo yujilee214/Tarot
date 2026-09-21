@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 460">
+  <defs>
+    <linearGradient id="bg-cups-queen" x1="0" y1="0" x2="0.3" y2="1">
+      <stop offset="0" stop-color="#EAF6FB"/>
+      <stop offset="1" stop-color="#CFEFEA"/>
+    </linearGradient>
+  </defs>
+  <rect x="4" y="4" width="292" height="452" rx="26" fill="url(#bg-cups-queen)"/>
+  <rect x="12" y="12" width="276" height="436" rx="20" fill="none" stroke="#7FC4D9" stroke-width="2" stroke-opacity="0.55" stroke-dasharray="1 7" stroke-linecap="round"/>
+  <g opacity="0.4"><path d="M42,84 L44.56,89.44 L50,92 L44.56,94.56 L42,100 L39.44,94.56 L34,92 L39.44,89.44 Z" fill="#7FC4D9"/><path d="M 256,97.5 C 261,101.75 261,110.25 256,114.5 C 251,110.25 251,101.75 256,97.5 Z" fill="#9de2f7" transform="rotate(-7 256 106)"/><path d="M 40,376.5 C 32.2,370.8 37,365.1 40,369.9 C 43,365.1 47.8,370.8 40,376.5 Z" fill="#7FC4D9"/><path d="M258,344 L260.56,349.44 L266,352 L260.56,354.56 L258,360 L255.44,354.56 L250,352 L255.44,349.44 Z" fill="#7FC4D9"/></g>
+  <circle cx="42" cy="46" r="18" fill="#7FC4D9" opacity="0.92"/>
+  <text x="42" y="52" text-anchor="middle" font-family="'Noto Sans KR', 'Apple SD Gothic Neo', sans-serif" font-size="14" font-weight="700" fill="#ffffff">Q</text>
+  <g><path d="M 138,184 L 144,170 L 150,180 L 156,170 L 162,184 Z" fill="#7FC4D9"/><circle cx="150" cy="180" r="2.4" fill="#FFF7E0" /><g><ellipse cx="130" cy="190" rx="7.5" ry="17" fill="#c5ffff" transform="rotate(-16 130 190)" /><ellipse cx="170" cy="190" rx="7.5" ry="17" fill="#c5ffff" transform="rotate(16 170 190)" /><ellipse cx="150" cy="234" rx="36" ry="32" fill="#c5ffff" /><ellipse cx="135" cy="264" rx="9" ry="6" fill="#c5ffff" /><ellipse cx="165" cy="264" rx="9" ry="6" fill="#c5ffff" /><circle cx="138" cy="228" r="3.2" fill="#4A3F4D" /><circle cx="162" cy="228" r="3.2" fill="#4A3F4D" /><path d="M 142,237 Q 150,243 158,237" fill="none" stroke="#4A3F4D" stroke-width="2.5" stroke-linecap="round"/><circle cx="131" cy="238" r="4.5" fill="#7FC4D9" opacity="0.85"/><circle cx="169" cy="238" r="4.5" fill="#7FC4D9" opacity="0.85"/></g><g><path d="M 167.75,244.5 C 167.75,258 184.25,258 184.25,244.5 Z" fill="#7FC4D9"/><rect x="174.13" y="258" width="3.75" height="6" rx="0.75" fill="#7FC4D9" /><ellipse cx="176" cy="264.75" rx="6.75" ry="1.95" fill="#7FC4D9" /></g></g>
+  <line x1="80" y1="378" x2="220" y2="378" stroke="#7FC4D9" stroke-width="1.5" stroke-opacity="0.7"/>
+  <text x="150" y="406" text-anchor="middle" font-family="'Noto Sans KR', 'Apple SD Gothic Neo', sans-serif" font-size="22" font-weight="700" fill="#4A3F4D">컵의 퀸</text>
+  <text x="150" y="428" text-anchor="middle" font-family="'Noto Sans KR', 'Apple SD Gothic Neo', sans-serif" font-size="10" letter-spacing="1" fill="#4A3F4D" opacity="0.65">QUEEN OF CUPS</text>
+</svg>

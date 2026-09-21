@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 460">
+  <defs>
+    <linearGradient id="bg-10-wheel-of-fortune" x1="0" y1="0" x2="0.3" y2="1">
+      <stop offset="0" stop-color="#FFF6EC"/>
+      <stop offset="1" stop-color="#F1E1F4"/>
+    </linearGradient>
+  </defs>
+  <rect x="4" y="4" width="292" height="452" rx="26" fill="url(#bg-10-wheel-of-fortune)"/>
+  <rect x="12" y="12" width="276" height="436" rx="20" fill="none" stroke="#7FC4D9" stroke-width="2" stroke-opacity="0.55" stroke-dasharray="1 7" stroke-linecap="round"/>
+  <g opacity="0.4"><path d="M 42,96.05 C 34.98,90.92 39.3,85.79 42,90.11 C 44.7,85.79 49.02,90.92 42,96.05 Z" fill="#7FC4D9"/><path d="M256,98.8 L258.3,103.7 L263.2,106 L258.3,108.3 L256,113.2 L253.7,108.3 L248.8,106 L253.7,103.7 Z" fill="#7FC4D9"/><path d="M40,364.8 L42.3,369.7 L47.2,372 L42.3,374.3 L40,379.2 L37.7,374.3 L32.8,372 L37.7,369.7 Z" fill="#7FC4D9"/><path d="M 258,344.35 C 262.5,348.18 262.5,355.83 258,359.65 C 253.5,355.83 253.5,348.18 258,344.35 Z" fill="#9de2f7" transform="rotate(1 258 352)"/></g>
+  <circle cx="42" cy="46" r="18" fill="#7FC4D9" opacity="0.92"/>
+  <text x="42" y="52" text-anchor="middle" font-family="'Noto Sans KR', 'Apple SD Gothic Neo', sans-serif" font-size="14" font-weight="700" fill="#ffffff">X</text>
+  <g><circle cx="150" cy="232" r="40" fill="none" stroke="#7FC4D9" stroke-width="6"/><line x1="110" y1="232" x2="190" y2="232" stroke="#7FC4D9" stroke-width="4" stroke-linecap="round" /><line x1="150" y1="192" x2="150" y2="272" stroke="#7FC4D9" stroke-width="4" stroke-linecap="round" /><line x1="122" y1="204" x2="178" y2="260" stroke="#7FC4D9" stroke-width="4" stroke-linecap="round" /><line x1="122" y1="260" x2="178" y2="204" stroke="#7FC4D9" stroke-width="4" stroke-linecap="round" /><circle cx="150" cy="232" r="10" fill="#FBE28A" /><path d="M102,206 L103.92,210.08 L108,212 L103.92,213.92 L102,218 L100.08,213.92 L96,212 L100.08,210.08 Z" fill="#FBE28A"/><path d="M200,240 L201.92,244.08 L206,246 L201.92,247.92 L200,252 L198.08,247.92 L194,246 L198.08,244.08 Z" fill="#FBE28A"/></g>
+  <line x1="80" y1="378" x2="220" y2="378" stroke="#7FC4D9" stroke-width="1.5" stroke-opacity="0.7"/>
+  <text x="150" y="406" text-anchor="middle" font-family="'Noto Sans KR', 'Apple SD Gothic Neo', sans-serif" font-size="22" font-weight="700" fill="#4A3F4D">운명의 수레바퀴</text>
+  <text x="150" y="428" text-anchor="middle" font-family="'Noto Sans KR', 'Apple SD Gothic Neo', sans-serif" font-size="10" letter-spacing="1" fill="#4A3F4D" opacity="0.65">WHEEL OF FORTUNE</text>
+</svg>

@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 460">
+  <defs>
+    <linearGradient id="bg-17-star" x1="0" y1="0" x2="0.3" y2="1">
+      <stop offset="0" stop-color="#FFF6EC"/>
+      <stop offset="1" stop-color="#F1E1F4"/>
+    </linearGradient>
+  </defs>
+  <rect x="4" y="4" width="292" height="452" rx="26" fill="url(#bg-17-star)"/>
+  <rect x="12" y="12" width="276" height="436" rx="20" fill="none" stroke="#C9A6EA" stroke-width="2" stroke-opacity="0.55" stroke-dasharray="1 7" stroke-linecap="round"/>
+  <g opacity="0.4"><path d="M 42,83.5 C 47,87.75 47,96.25 42,100.5 C 37,96.25 37,87.75 42,83.5 Z" fill="#e7c4ff" transform="rotate(11 42 92)"/><path d="M 256,110.5 C 248.2,104.8 253,99.1 256,103.9 C 259,99.1 263.8,104.8 256,110.5 Z" fill="#C9A6EA"/><path d="M40,364 L42.56,369.44 L48,372 L42.56,374.56 L40,380 L37.44,374.56 L32,372 L37.44,369.44 Z" fill="#C9A6EA"/><path d="M258,344 L260.56,349.44 L266,352 L260.56,354.56 L258,360 L255.44,354.56 L250,352 L255.44,349.44 Z" fill="#C9A6EA"/></g>
+  <circle cx="42" cy="46" r="18" fill="#C9A6EA" opacity="0.92"/>
+  <text x="42" y="52" text-anchor="middle" font-family="'Noto Sans KR', 'Apple SD Gothic Neo', sans-serif" font-size="14" font-weight="700" fill="#ffffff">XVII</text>
+  <g><path d="M150,150 L154.11,160.34 L165.22,161.06 L156.66,168.16 L159.4,178.94 L150,173 L140.6,178.94 L143.34,168.16 L134.78,161.06 L145.89,160.34 Z" fill="#FBE28A"/><ellipse cx="150" cy="272" rx="40" ry="12" fill="#f1ceff" opacity="0.7"/><g><ellipse cx="127" cy="192.3" rx="7.13" ry="16.15" fill="#ffecff" transform="rotate(-16 127 192.3)" /><ellipse cx="165" cy="192.3" rx="7.13" ry="16.15" fill="#ffecff" transform="rotate(16 165 192.3)" /><ellipse cx="146" cy="234.1" rx="34.2" ry="30.4" fill="#ffecff" /><ellipse cx="131.75" cy="262.6" rx="8.55" ry="5.7" fill="#ffecff" /><ellipse cx="160.25" cy="262.6" rx="8.55" ry="5.7" fill="#ffecff" /><circle cx="134.6" cy="228.4" r="3.04" fill="#4A3F4D" /><circle cx="157.4" cy="228.4" r="3.04" fill="#4A3F4D" /><path d="M 138.4,236.95 Q 146,242.65 153.6,236.95" fill="none" stroke="#4A3F4D" stroke-width="2.375" stroke-linecap="round"/><circle cx="127.95" cy="237.9" r="4.27" fill="#C9A6EA" opacity="0.85"/><circle cx="164.05" cy="237.9" r="4.27" fill="#C9A6EA" opacity="0.85"/></g><ellipse cx="120" cy="248" rx="8" ry="6" fill="#f1ceff" /><ellipse cx="180" cy="248" rx="8" ry="6" fill="#f1ceff" /></g>
+  <line x1="80" y1="378" x2="220" y2="378" stroke="#C9A6EA" stroke-width="1.5" stroke-opacity="0.7"/>
+  <text x="150" y="406" text-anchor="middle" font-family="'Noto Sans KR', 'Apple SD Gothic Neo', sans-serif" font-size="22" font-weight="700" fill="#4A3F4D">별</text>
+  <text x="150" y="428" text-anchor="middle" font-family="'Noto Sans KR', 'Apple SD Gothic Neo', sans-serif" font-size="10" letter-spacing="1" fill="#4A3F4D" opacity="0.65">THE STAR</text>
+</svg>

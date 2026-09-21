@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 460">
+  <defs>
+    <linearGradient id="bg-swords-knight" x1="0" y1="0" x2="0.3" y2="1">
+      <stop offset="0" stop-color="#ECEEFC"/>
+      <stop offset="1" stop-color="#D8E1F5"/>
+    </linearGradient>
+  </defs>
+  <rect x="4" y="4" width="292" height="452" rx="26" fill="url(#bg-swords-knight)"/>
+  <rect x="12" y="12" width="276" height="436" rx="20" fill="none" stroke="#8C93D9" stroke-width="2" stroke-opacity="0.55" stroke-dasharray="1 7" stroke-linecap="round"/>
+  <g opacity="0.4"><path d="M42,82.4 L45.07,88.93 L51.6,92 L45.07,95.07 L42,101.6 L38.93,95.07 L32.4,92 L38.93,88.93 Z" fill="#8C93D9"/><path d="M256,96.4 L259.07,102.93 L265.6,106 L259.07,109.07 L256,115.6 L252.93,109.07 L246.4,106 L252.93,102.93 Z" fill="#8C93D9"/><path d="M 40,361.8 C 46,366.9 46,377.1 40,382.2 C 34,377.1 34,366.9 40,361.8 Z" fill="#aab1f7" transform="rotate(27 40 372)"/><path d="M 258,357.4 C 248.64,350.56 254.4,343.72 258,349.48 C 261.6,343.72 267.36,350.56 258,357.4 Z" fill="#8C93D9"/></g>
+  <circle cx="42" cy="46" r="18" fill="#8C93D9" opacity="0.92"/>
+  <text x="42" y="52" text-anchor="middle" font-family="'Noto Sans KR', 'Apple SD Gothic Neo', sans-serif" font-size="14" font-weight="700" fill="#ffffff">N</text>
+  <g><ellipse cx="150" cy="266" rx="34" ry="9" fill="#aab1f7" /><g><ellipse cx="129.6" cy="185.08" rx="7.65" ry="17.34" fill="#d2d9ff" transform="rotate(-16 129.6 185.08)" /><ellipse cx="170.4" cy="185.08" rx="7.65" ry="17.34" fill="#d2d9ff" transform="rotate(16 170.4 185.08)" /><ellipse cx="150" cy="229.96" rx="36.72" ry="32.64" fill="#d2d9ff" /><ellipse cx="134.7" cy="260.56" rx="9.18" ry="6.12" fill="#d2d9ff" /><ellipse cx="165.3" cy="260.56" rx="9.18" ry="6.12" fill="#d2d9ff" /><circle cx="137.76" cy="223.84" r="3.26" fill="#4A3F4D" /><circle cx="162.24" cy="223.84" r="3.26" fill="#4A3F4D" /><path d="M 141.84,233.02 Q 150,239.14 158.16,233.02" fill="none" stroke="#4A3F4D" stroke-width="2.55" stroke-linecap="round"/><circle cx="130.62" cy="234.04" r="4.59" fill="#8C93D9" opacity="0.85"/><circle cx="169.38" cy="234.04" r="4.59" fill="#8C93D9" opacity="0.85"/></g><g><path d="M 180,188.2 L 183.6,213.4 L 176.4,213.4 Z" fill="#8C93D9"/><rect x="171.9" y="212.5" width="16.2" height="3.15" rx="1.35" fill="#8C93D9" /><rect x="178.02" y="215.2" width="3.96" height="9" rx="1.35" fill="#8C93D9" /></g><line x1="120" y1="238" x2="110" y2="228" stroke="#8C93D9" stroke-width="3" stroke-linecap="round" /></g>
+  <line x1="80" y1="378" x2="220" y2="378" stroke="#8C93D9" stroke-width="1.5" stroke-opacity="0.7"/>
+  <text x="150" y="406" text-anchor="middle" font-family="'Noto Sans KR', 'Apple SD Gothic Neo', sans-serif" font-size="22" font-weight="700" fill="#4A3F4D">소드의 기사</text>
+  <text x="150" y="428" text-anchor="middle" font-family="'Noto Sans KR', 'Apple SD Gothic Neo', sans-serif" font-size="10" letter-spacing="1" fill="#4A3F4D" opacity="0.65">KNIGHT OF SWORDS</text>
+</svg>

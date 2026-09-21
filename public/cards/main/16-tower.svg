@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 460">
+  <defs>
+    <linearGradient id="bg-16-tower" x1="0" y1="0" x2="0.3" y2="1">
+      <stop offset="0" stop-color="#FFF6EC"/>
+      <stop offset="1" stop-color="#F1E1F4"/>
+    </linearGradient>
+  </defs>
+  <rect x="4" y="4" width="292" height="452" rx="26" fill="url(#bg-16-tower)"/>
+  <rect x="12" y="12" width="276" height="436" rx="20" fill="none" stroke="#7FC4D9" stroke-width="2" stroke-opacity="0.55" stroke-dasharray="1 7" stroke-linecap="round"/>
+  <g opacity="0.4"><path d="M42,82.4 L45.07,88.93 L51.6,92 L45.07,95.07 L42,101.6 L38.93,95.07 L32.4,92 L38.93,88.93 Z" fill="#7FC4D9"/><path d="M 256,95.8 C 262,100.9 262,111.1 256,116.2 C 250,111.1 250,100.9 256,95.8 Z" fill="#9de2f7" transform="rotate(-15 256 106)"/><path d="M 40,377.4 C 30.64,370.56 36.4,363.72 40,369.48 C 43.6,363.72 49.36,370.56 40,377.4 Z" fill="#7FC4D9"/><path d="M258,342.4 L261.07,348.93 L267.6,352 L261.07,355.07 L258,361.6 L254.93,355.07 L248.4,352 L254.93,348.93 Z" fill="#7FC4D9"/></g>
+  <circle cx="42" cy="46" r="18" fill="#7FC4D9" opacity="0.92"/>
+  <text x="42" y="52" text-anchor="middle" font-family="'Noto Sans KR', 'Apple SD Gothic Neo', sans-serif" font-size="14" font-weight="700" fill="#ffffff">XVI</text>
+  <g><rect x="130" y="238" width="40" height="30" rx="4" fill="#a7ecff" /><rect x="136" y="210" width="28" height="30" rx="4" fill="#7FC4D9" /><line x1="144" y1="214" x2="154" y2="236" stroke="#4A3F4D" stroke-width="2" stroke-linecap="round" /><path d="M180,196 L181.92,200.08 L186,202 L181.92,203.92 L180,208 L178.08,203.92 L174,202 L178.08,200.08 Z" fill="#FBE28A"/><path d="M116,217 L117.6,220.4 L121,222 L117.6,223.6 L116,227 L114.4,223.6 L111,222 L114.4,220.4 Z" fill="#FBE28A"/><g><ellipse cx="134" cy="239.8" rx="5.25" ry="11.9" fill="#c5ffff" transform="rotate(-16 134 239.8)" /><ellipse cx="162" cy="239.8" rx="5.25" ry="11.9" fill="#c5ffff" transform="rotate(16 162 239.8)" /><ellipse cx="148" cy="270.6" rx="25.2" ry="22.4" fill="#c5ffff" /><ellipse cx="137.5" cy="291.6" rx="6.3" ry="4.2" fill="#c5ffff" /><ellipse cx="158.5" cy="291.6" rx="6.3" ry="4.2" fill="#c5ffff" /><circle cx="139.6" cy="266.4" r="2.24" fill="#4A3F4D" /><circle cx="156.4" cy="266.4" r="2.24" fill="#4A3F4D" /><ellipse cx="148" cy="276.2" rx="2.8" ry="3.5" fill="#4A3F4D" /><circle cx="134.7" cy="273.4" r="3.15" fill="#7FC4D9" opacity="0.85"/><circle cx="161.3" cy="273.4" r="3.15" fill="#7FC4D9" opacity="0.85"/></g></g>
+  <line x1="80" y1="378" x2="220" y2="378" stroke="#7FC4D9" stroke-width="1.5" stroke-opacity="0.7"/>
+  <text x="150" y="406" text-anchor="middle" font-family="'Noto Sans KR', 'Apple SD Gothic Neo', sans-serif" font-size="22" font-weight="700" fill="#4A3F4D">탑</text>
+  <text x="150" y="428" text-anchor="middle" font-family="'Noto Sans KR', 'Apple SD Gothic Neo', sans-serif" font-size="10" letter-spacing="1" fill="#4A3F4D" opacity="0.65">THE TOWER</text>
+</svg>

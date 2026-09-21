@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 460">
+  <defs>
+    <linearGradient id="bg-20-judgement" x1="0" y1="0" x2="0.3" y2="1">
+      <stop offset="0" stop-color="#FFF6EC"/>
+      <stop offset="1" stop-color="#F1E1F4"/>
+    </linearGradient>
+  </defs>
+  <rect x="4" y="4" width="292" height="452" rx="26" fill="url(#bg-20-judgement)"/>
+  <rect x="12" y="12" width="276" height="436" rx="20" fill="none" stroke="#8FBF6E" stroke-width="2" stroke-opacity="0.55" stroke-dasharray="1 7" stroke-linecap="round"/>
+  <g opacity="0.4"><path d="M42,84.8 L44.3,89.7 L49.2,92 L44.3,94.3 L42,99.2 L39.7,94.3 L34.8,92 L39.7,89.7 Z" fill="#8FBF6E"/><path d="M 256,98.35 C 260.5,102.18 260.5,109.83 256,113.65 C 251.5,109.83 251.5,102.18 256,98.35 Z" fill="#addd8c" transform="rotate(-23 256 106)"/><path d="M 40,376.05 C 32.98,370.92 37.3,365.79 40,370.11 C 42.7,365.79 47.02,370.92 40,376.05 Z" fill="#8FBF6E"/><path d="M258,344.8 L260.3,349.7 L265.2,352 L260.3,354.3 L258,359.2 L255.7,354.3 L250.8,352 L255.7,349.7 Z" fill="#8FBF6E"/></g>
+  <circle cx="42" cy="46" r="18" fill="#8FBF6E" opacity="0.92"/>
+  <text x="42" y="52" text-anchor="middle" font-family="'Noto Sans KR', 'Apple SD Gothic Neo', sans-serif" font-size="14" font-weight="700" fill="#ffffff">XX</text>
+  <g><path d="M 140,212 L 164,202 L 164,224 Z" fill="#b7e796"/><circle cx="166" cy="213" r="6" fill="#b7e796" /><path d="M180,195 L182.24,199.76 L187,202 L182.24,204.24 L180,209 L177.76,204.24 L173,202 L177.76,199.76 Z" fill="#FBE28A"/><path d="M186,213 L187.6,216.4 L191,218 L187.6,219.6 L186,223 L184.4,219.6 L181,218 L184.4,216.4 Z" fill="#FBE28A"/><g><ellipse cx="120" cy="196" rx="7.5" ry="17" fill="#d5ffb4" transform="rotate(-16 120 196)" /><ellipse cx="160" cy="196" rx="7.5" ry="17" fill="#d5ffb4" transform="rotate(16 160 196)" /><ellipse cx="140" cy="240" rx="36" ry="32" fill="#d5ffb4" /><ellipse cx="125" cy="270" rx="9" ry="6" fill="#d5ffb4" /><ellipse cx="155" cy="270" rx="9" ry="6" fill="#d5ffb4" /><circle cx="128" cy="234" r="3.2" fill="#4A3F4D" /><circle cx="152" cy="234" r="3.2" fill="#4A3F4D" /><path d="M 132,243 Q 140,249 148,243" fill="none" stroke="#4A3F4D" stroke-width="2.5" stroke-linecap="round"/><circle cx="121" cy="244" r="4.5" fill="#8FBF6E" opacity="0.85"/><circle cx="159" cy="244" r="4.5" fill="#8FBF6E" opacity="0.85"/></g></g>
+  <line x1="80" y1="378" x2="220" y2="378" stroke="#8FBF6E" stroke-width="1.5" stroke-opacity="0.7"/>
+  <text x="150" y="406" text-anchor="middle" font-family="'Noto Sans KR', 'Apple SD Gothic Neo', sans-serif" font-size="22" font-weight="700" fill="#4A3F4D">심판</text>
+  <text x="150" y="428" text-anchor="middle" font-family="'Noto Sans KR', 'Apple SD Gothic Neo', sans-serif" font-size="10" letter-spacing="1" fill="#4A3F4D" opacity="0.65">JUDGEMENT</text>
+</svg>

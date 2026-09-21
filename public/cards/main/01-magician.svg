@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 460">
+  <defs>
+    <linearGradient id="bg-01-magician" x1="0" y1="0" x2="0.3" y2="1">
+      <stop offset="0" stop-color="#FFF6EC"/>
+      <stop offset="1" stop-color="#F1E1F4"/>
+    </linearGradient>
+  </defs>
+  <rect x="4" y="4" width="292" height="452" rx="26" fill="url(#bg-01-magician)"/>
+  <rect x="12" y="12" width="276" height="436" rx="20" fill="none" stroke="#8C8CD9" stroke-width="2" stroke-opacity="0.55" stroke-dasharray="1 7" stroke-linecap="round"/>
+  <g opacity="0.4"><path d="M 42,81.8 C 48,86.9 48,97.1 42,102.2 C 36,97.1 36,86.9 42,81.8 Z" fill="#aaaaf7" transform="rotate(-17 42 92)"/><path d="M 256,111.4 C 246.64,104.56 252.4,97.72 256,103.48 C 259.6,97.72 265.36,104.56 256,111.4 Z" fill="#8C8CD9"/><path d="M40,362.4 L43.07,368.93 L49.6,372 L43.07,375.07 L40,381.6 L36.93,375.07 L30.4,372 L36.93,368.93 Z" fill="#8C8CD9"/><path d="M258,342.4 L261.07,348.93 L267.6,352 L261.07,355.07 L258,361.6 L254.93,355.07 L248.4,352 L254.93,348.93 Z" fill="#8C8CD9"/></g>
+  <circle cx="42" cy="46" r="18" fill="#8C8CD9" opacity="0.92"/>
+  <text x="42" y="52" text-anchor="middle" font-family="'Noto Sans KR', 'Apple SD Gothic Neo', sans-serif" font-size="14" font-weight="700" fill="#ffffff">I</text>
+  <g><line x1="180" y1="222" x2="204" y2="178" stroke="#4A3F4D" stroke-width="4" stroke-linecap="round" /><path d="M206,165 L208.35,170.76 L214.56,171.22 L209.8,175.24 L211.29,181.28 L206,178 L200.71,181.28 L202.2,175.24 L197.44,171.22 L203.65,170.76 Z" fill="#FBE28A"/><g><ellipse cx="124" cy="190" rx="7.5" ry="17" fill="#d2d2ff" transform="rotate(-16 124 190)" /><ellipse cx="164" cy="190" rx="7.5" ry="17" fill="#d2d2ff" transform="rotate(16 164 190)" /><ellipse cx="144" cy="234" rx="36" ry="32" fill="#d2d2ff" /><ellipse cx="129" cy="264" rx="9" ry="6" fill="#d2d2ff" /><ellipse cx="159" cy="264" rx="9" ry="6" fill="#d2d2ff" /><circle cx="132" cy="228" r="3.2" fill="#4A3F4D" /><circle cx="156" cy="228" r="3.2" fill="#4A3F4D" /><path d="M 136,237 Q 144,243 152,237" fill="none" stroke="#4A3F4D" stroke-width="2.5" stroke-linecap="round"/><circle cx="125" cy="238" r="4.5" fill="#8C8CD9" opacity="0.85"/><circle cx="163" cy="238" r="4.5" fill="#8C8CD9" opacity="0.85"/></g><path d="M110,196 L111.92,200.08 L116,202 L111.92,203.92 L110,208 L108.08,203.92 L104,202 L108.08,200.08 Z" fill="#8C8CD9"/></g>
+  <line x1="80" y1="378" x2="220" y2="378" stroke="#8C8CD9" stroke-width="1.5" stroke-opacity="0.7"/>
+  <text x="150" y="406" text-anchor="middle" font-family="'Noto Sans KR', 'Apple SD Gothic Neo', sans-serif" font-size="22" font-weight="700" fill="#4A3F4D">마법사</text>
+  <text x="150" y="428" text-anchor="middle" font-family="'Noto Sans KR', 'Apple SD Gothic Neo', sans-serif" font-size="10" letter-spacing="1" fill="#4A3F4D" opacity="0.65">THE MAGICIAN</text>
+</svg>

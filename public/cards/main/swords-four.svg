@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 460">
+  <defs>
+    <linearGradient id="bg-swords-four" x1="0" y1="0" x2="0.3" y2="1">
+      <stop offset="0" stop-color="#ECEEFC"/>
+      <stop offset="1" stop-color="#D8E1F5"/>
+    </linearGradient>
+  </defs>
+  <rect x="4" y="4" width="292" height="452" rx="26" fill="url(#bg-swords-four)"/>
+  <rect x="12" y="12" width="276" height="436" rx="20" fill="none" stroke="#8C93D9" stroke-width="2" stroke-opacity="0.55" stroke-dasharray="1 7" stroke-linecap="round"/>
+  <g opacity="0.4"><path d="M42,81.6 L45.33,88.67 L52.4,92 L45.33,95.33 L42,102.4 L38.67,95.33 L31.6,92 L38.67,88.67 Z" fill="#8C93D9"/><path d="M256,95.6 L259.33,102.67 L266.4,106 L259.33,109.33 L256,116.4 L252.67,109.33 L245.6,106 L252.67,102.67 Z" fill="#8C93D9"/><path d="M 40,360.95 C 46.5,366.48 46.5,377.53 40,383.05 C 33.5,377.53 33.5,366.48 40,360.95 Z" fill="#aab1f7" transform="rotate(-17 40 372)"/><path d="M 258,357.85 C 247.86,350.44 254.1,343.03 258,349.27 C 261.9,343.03 268.14,350.44 258,357.85 Z" fill="#8C93D9"/></g>
+  <circle cx="42" cy="46" r="18" fill="#8C93D9" opacity="0.92"/>
+  <text x="42" y="52" text-anchor="middle" font-family="'Noto Sans KR', 'Apple SD Gothic Neo', sans-serif" font-size="14" font-weight="700" fill="#ffffff">4</text>
+  <g><g><path d="M 106,102.3 L 109.4,126.1 L 102.6,126.1 Z" fill="#8C93D9"/><rect x="98.35" y="125.25" width="15.3" height="2.98" rx="1.27" fill="#8C93D9" /><rect x="104.13" y="127.8" width="3.74" height="8.5" rx="1.27" fill="#8C93D9" /></g><g><path d="M 150,102.3 L 153.4,126.1 L 146.6,126.1 Z" fill="#8C93D9"/><rect x="142.35" y="125.25" width="15.3" height="2.98" rx="1.27" fill="#8C93D9" /><rect x="148.13" y="127.8" width="3.74" height="8.5" rx="1.27" fill="#8C93D9" /></g><g><path d="M 194,102.3 L 197.4,126.1 L 190.6,126.1 Z" fill="#8C93D9"/><rect x="186.35" y="125.25" width="15.3" height="2.98" rx="1.27" fill="#8C93D9" /><rect x="192.13" y="127.8" width="3.74" height="8.5" rx="1.27" fill="#8C93D9" /></g><g><path d="M 150,140.3 L 153.4,164.1 L 146.6,164.1 Z" fill="#8C93D9"/><rect x="142.35" y="163.25" width="15.3" height="2.98" rx="1.27" fill="#8C93D9" /><rect x="148.13" y="165.8" width="3.74" height="8.5" rx="1.27" fill="#8C93D9" /></g><g><ellipse cx="133.6" cy="232.28" rx="6.15" ry="13.94" fill="#d2d9ff" transform="rotate(-16 133.6 232.28)" /><ellipse cx="166.4" cy="232.28" rx="6.15" ry="13.94" fill="#d2d9ff" transform="rotate(16 166.4 232.28)" /><ellipse cx="150" cy="268.36" rx="29.52" ry="26.24" fill="#d2d9ff" /><ellipse cx="137.7" cy="292.96" rx="7.38" ry="4.92" fill="#d2d9ff" /><ellipse cx="162.3" cy="292.96" rx="7.38" ry="4.92" fill="#d2d9ff" /><circle cx="140.16" cy="263.44" r="2.62" fill="#4A3F4D" /><circle cx="159.84" cy="263.44" r="2.62" fill="#4A3F4D" /><path d="M 143.44,270.82 Q 150,275.74 156.56,270.82" fill="none" stroke="#4A3F4D" stroke-width="2.05" stroke-linecap="round"/><circle cx="134.42" cy="271.64" r="3.69" fill="#8C93D9" opacity="0.85"/><circle cx="165.58" cy="271.64" r="3.69" fill="#8C93D9" opacity="0.85"/></g></g>
+  <line x1="80" y1="378" x2="220" y2="378" stroke="#8C93D9" stroke-width="1.5" stroke-opacity="0.7"/>
+  <text x="150" y="406" text-anchor="middle" font-family="'Noto Sans KR', 'Apple SD Gothic Neo', sans-serif" font-size="22" font-weight="700" fill="#4A3F4D">소드의 4</text>
+  <text x="150" y="428" text-anchor="middle" font-family="'Noto Sans KR', 'Apple SD Gothic Neo', sans-serif" font-size="10" letter-spacing="1" fill="#4A3F4D" opacity="0.65">FOUR OF SWORDS</text>
+</svg>

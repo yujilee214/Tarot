@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 460">
+  <defs>
+    <linearGradient id="bg-02-high-priestess" x1="0" y1="0" x2="0.3" y2="1">
+      <stop offset="0" stop-color="#FFF6EC"/>
+      <stop offset="1" stop-color="#F1E1F4"/>
+    </linearGradient>
+  </defs>
+  <rect x="4" y="4" width="292" height="452" rx="26" fill="url(#bg-02-high-priestess)"/>
+  <rect x="12" y="12" width="276" height="436" rx="20" fill="none" stroke="#8FBF6E" stroke-width="2" stroke-opacity="0.55" stroke-dasharray="1 7" stroke-linecap="round"/>
+  <g opacity="0.4"><path d="M 42,96.5 C 34.2,90.8 39,85.1 42,89.9 C 45,85.1 49.8,90.8 42,96.5 Z" fill="#8FBF6E"/><path d="M256,98 L258.56,103.44 L264,106 L258.56,108.56 L256,114 L253.44,108.56 L248,106 L253.44,103.44 Z" fill="#8FBF6E"/><path d="M40,364 L42.56,369.44 L48,372 L42.56,374.56 L40,380 L37.44,374.56 L32,372 L37.44,369.44 Z" fill="#8FBF6E"/><path d="M 258,343.5 C 263,347.75 263,356.25 258,360.5 C 253,356.25 253,347.75 258,343.5 Z" fill="#addd8c" transform="rotate(17 258 352)"/></g>
+  <circle cx="42" cy="46" r="18" fill="#8FBF6E" opacity="0.92"/>
+  <text x="42" y="52" text-anchor="middle" font-family="'Noto Sans KR', 'Apple SD Gothic Neo', sans-serif" font-size="14" font-weight="700" fill="#ffffff">II</text>
+  <g><path d="M 128,154 A 22,22 0 1,0 172,154 A 12.1,21.56 0 1,1 128,154 Z" fill="#b7e796" transform="rotate(200 150 154)"/><g><ellipse cx="130" cy="194" rx="7.5" ry="17" fill="#d5ffb4" transform="rotate(-16 130 194)" /><ellipse cx="170" cy="194" rx="7.5" ry="17" fill="#d5ffb4" transform="rotate(16 170 194)" /><ellipse cx="150" cy="238" rx="36" ry="32" fill="#d5ffb4" /><ellipse cx="135" cy="268" rx="9" ry="6" fill="#d5ffb4" /><ellipse cx="165" cy="268" rx="9" ry="6" fill="#d5ffb4" /><circle cx="138" cy="232" r="3.2" fill="#4A3F4D" /><circle cx="162" cy="232" r="3.2" fill="#4A3F4D" /><path d="M 142,241 Q 150,247 158,241" fill="none" stroke="#4A3F4D" stroke-width="2.5" stroke-linecap="round"/><circle cx="131" cy="242" r="4.5" fill="#8FBF6E" opacity="0.85"/><circle cx="169" cy="242" r="4.5" fill="#8FBF6E" opacity="0.85"/></g><rect x="128" y="274" width="44" height="10" rx="3" fill="#8FBF6E" /><line x1="150" y1="274" x2="150" y2="284" stroke="#4A3F4D" stroke-width="2" stroke-linecap="round" /></g>
+  <line x1="80" y1="378" x2="220" y2="378" stroke="#8FBF6E" stroke-width="1.5" stroke-opacity="0.7"/>
+  <text x="150" y="406" text-anchor="middle" font-family="'Noto Sans KR', 'Apple SD Gothic Neo', sans-serif" font-size="22" font-weight="700" fill="#4A3F4D">여사제</text>
+  <text x="150" y="428" text-anchor="middle" font-family="'Noto Sans KR', 'Apple SD Gothic Neo', sans-serif" font-size="10" letter-spacing="1" fill="#4A3F4D" opacity="0.65">THE HIGH PRIESTESS</text>
+</svg>

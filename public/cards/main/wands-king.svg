@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 460">
+  <defs>
+    <linearGradient id="bg-wands-king" x1="0" y1="0" x2="0.3" y2="1">
+      <stop offset="0" stop-color="#FFF3E4"/>
+      <stop offset="1" stop-color="#FFDFC2"/>
+    </linearGradient>
+  </defs>
+  <rect x="4" y="4" width="292" height="452" rx="26" fill="url(#bg-wands-king)"/>
+  <rect x="12" y="12" width="276" height="436" rx="20" fill="none" stroke="#F0A868" stroke-width="2" stroke-opacity="0.55" stroke-dasharray="1 7" stroke-linecap="round"/>
+  <g opacity="0.4"><path d="M 42,80.95 C 48.5,86.48 48.5,97.53 42,103.05 C 35.5,97.53 35.5,86.48 42,80.95 Z" fill="#ffc686" transform="rotate(19 42 92)"/><path d="M 256,111.85 C 245.86,104.44 252.1,97.03 256,103.27 C 259.9,97.03 266.14,104.44 256,111.85 Z" fill="#F0A868"/><path d="M40,361.6 L43.33,368.67 L50.4,372 L43.33,375.33 L40,382.4 L36.67,375.33 L29.6,372 L36.67,368.67 Z" fill="#F0A868"/><path d="M258,341.6 L261.33,348.67 L268.4,352 L261.33,355.33 L258,362.4 L254.67,355.33 L247.6,352 L254.67,348.67 Z" fill="#F0A868"/></g>
+  <circle cx="42" cy="46" r="18" fill="#F0A868" opacity="0.92"/>
+  <text x="42" y="52" text-anchor="middle" font-family="'Noto Sans KR', 'Apple SD Gothic Neo', sans-serif" font-size="14" font-weight="700" fill="#ffffff">K</text>
+  <g><rect x="126" y="262" width="48" height="14" rx="4" fill="#ffbc7c" /><g><ellipse cx="130" cy="186" rx="7.5" ry="17" fill="#ffeeae" transform="rotate(-16 130 186)" /><ellipse cx="170" cy="186" rx="7.5" ry="17" fill="#ffeeae" transform="rotate(16 170 186)" /><ellipse cx="150" cy="230" rx="36" ry="32" fill="#ffeeae" /><ellipse cx="135" cy="260" rx="9" ry="6" fill="#ffeeae" /><ellipse cx="165" cy="260" rx="9" ry="6" fill="#ffeeae" /><circle cx="138" cy="224" r="3.2" fill="#4A3F4D" /><circle cx="162" cy="224" r="3.2" fill="#4A3F4D" /><path d="M 142,233 Q 150,239 158,233" fill="none" stroke="#4A3F4D" stroke-width="2.5" stroke-linecap="round"/><circle cx="131" cy="234" r="4.5" fill="#F0A868" opacity="0.85"/><circle cx="169" cy="234" r="4.5" fill="#F0A868" opacity="0.85"/></g><path d="M 134,188 L 141,172 L 150,184 L 159,172 L 166,188 Z" fill="#F0A868"/><circle cx="141" cy="172" r="2.6" fill="#FFF7E0" /><circle cx="159" cy="172" r="2.6" fill="#FFF7E0" /><circle cx="150" cy="184" r="2.6" fill="#FFF7E0" /><g><line x1="178" y1="257.6" x2="178" y2="230.4" stroke="#B08A55" stroke-width="3.4" stroke-linecap="round" /><path d="M 174.6,227.43 C 177.15,229.76 177.15,234.44 174.6,236.78 C 172.05,234.44 172.05,229.76 174.6,227.43 Z" fill="#F0A868" transform="rotate(-30 174.6 232.1)"/><path d="M 181.4,227.43 C 183.95,229.76 183.95,234.44 181.4,236.78 C 178.85,234.44 178.85,229.76 181.4,227.43 Z" fill="#F0A868" transform="rotate(30 181.4 232.1)"/><path d="M178,221.48 L179.22,224.08 L181.83,225.3 L179.22,226.52 L178,229.13 L176.78,226.52 L174.18,225.3 L176.78,224.08 Z" fill="#F0A868"/></g></g>
+  <line x1="80" y1="378" x2="220" y2="378" stroke="#F0A868" stroke-width="1.5" stroke-opacity="0.7"/>
+  <text x="150" y="406" text-anchor="middle" font-family="'Noto Sans KR', 'Apple SD Gothic Neo', sans-serif" font-size="22" font-weight="700" fill="#4A3F4D">완드의 킹</text>
+  <text x="150" y="428" text-anchor="middle" font-family="'Noto Sans KR', 'Apple SD Gothic Neo', sans-serif" font-size="10" letter-spacing="1" fill="#4A3F4D" opacity="0.65">KING OF WANDS</text>
+</svg>

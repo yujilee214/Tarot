@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 460">
+  <defs>
+    <linearGradient id="bg-pentacles-two" x1="0" y1="0" x2="0.3" y2="1">
+      <stop offset="0" stop-color="#F1FAEC"/>
+      <stop offset="1" stop-color="#DFF0C8"/>
+    </linearGradient>
+  </defs>
+  <rect x="4" y="4" width="292" height="452" rx="26" fill="url(#bg-pentacles-two)"/>
+  <rect x="12" y="12" width="276" height="436" rx="20" fill="none" stroke="#8FBF6E" stroke-width="2" stroke-opacity="0.55" stroke-dasharray="1 7" stroke-linecap="round"/>
+  <g opacity="0.4"><path d="M 42,81.8 C 48,86.9 48,97.1 42,102.2 C 36,97.1 36,86.9 42,81.8 Z" fill="#addd8c" transform="rotate(-17 42 92)"/><path d="M 256,111.4 C 246.64,104.56 252.4,97.72 256,103.48 C 259.6,97.72 265.36,104.56 256,111.4 Z" fill="#8FBF6E"/><path d="M40,362.4 L43.07,368.93 L49.6,372 L43.07,375.07 L40,381.6 L36.93,375.07 L30.4,372 L36.93,368.93 Z" fill="#8FBF6E"/><path d="M258,342.4 L261.07,348.93 L267.6,352 L261.07,355.07 L258,361.6 L254.93,355.07 L248.4,352 L254.93,348.93 Z" fill="#8FBF6E"/></g>
+  <circle cx="42" cy="46" r="18" fill="#8FBF6E" opacity="0.92"/>
+  <text x="42" y="52" text-anchor="middle" font-family="'Noto Sans KR', 'Apple SD Gothic Neo', sans-serif" font-size="14" font-weight="700" fill="#ffffff">2</text>
+  <g><g><circle cx="117" cy="140" r="10.2" fill="none" stroke="#8FBF6E" stroke-width="2.55"/><path d="M117,134.9 L118.3,138.21 L121.85,138.42 L119.1,140.68 L120,144.13 L117,142.21 L114,144.13 L114.9,140.68 L112.15,138.42 L115.7,138.21 Z" fill="#8FBF6E"/></g><g><circle cx="183" cy="140" r="10.2" fill="none" stroke="#8FBF6E" stroke-width="2.55"/><path d="M183,134.9 L184.3,138.21 L187.85,138.42 L185.1,140.68 L186,144.13 L183,142.21 L180,144.13 L180.9,140.68 L178.15,138.42 L181.7,138.21 Z" fill="#8FBF6E"/></g><g><ellipse cx="133.6" cy="232.28" rx="6.15" ry="13.94" fill="#d5ffb4" transform="rotate(-16 133.6 232.28)" /><ellipse cx="166.4" cy="232.28" rx="6.15" ry="13.94" fill="#d5ffb4" transform="rotate(16 166.4 232.28)" /><ellipse cx="150" cy="268.36" rx="29.52" ry="26.24" fill="#d5ffb4" /><ellipse cx="137.7" cy="292.96" rx="7.38" ry="4.92" fill="#d5ffb4" /><ellipse cx="162.3" cy="292.96" rx="7.38" ry="4.92" fill="#d5ffb4" /><circle cx="140.16" cy="263.44" r="2.62" fill="#4A3F4D" /><circle cx="159.84" cy="263.44" r="2.62" fill="#4A3F4D" /><path d="M 143.44,270.82 Q 150,275.74 156.56,270.82" fill="none" stroke="#4A3F4D" stroke-width="2.05" stroke-linecap="round"/><circle cx="134.42" cy="271.64" r="3.69" fill="#8FBF6E" opacity="0.85"/><circle cx="165.58" cy="271.64" r="3.69" fill="#8FBF6E" opacity="0.85"/></g></g>
+  <line x1="80" y1="378" x2="220" y2="378" stroke="#8FBF6E" stroke-width="1.5" stroke-opacity="0.7"/>
+  <text x="150" y="406" text-anchor="middle" font-family="'Noto Sans KR', 'Apple SD Gothic Neo', sans-serif" font-size="22" font-weight="700" fill="#4A3F4D">펜타클의 2</text>
+  <text x="150" y="428" text-anchor="middle" font-family="'Noto Sans KR', 'Apple SD Gothic Neo', sans-serif" font-size="10" letter-spacing="1" fill="#4A3F4D" opacity="0.65">TWO OF PENTACLES</text>
+</svg>

@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 460">
+  <defs>
+    <linearGradient id="bg-14-temperance" x1="0" y1="0" x2="0.3" y2="1">
+      <stop offset="0" stop-color="#FFF6EC"/>
+      <stop offset="1" stop-color="#F1E1F4"/>
+    </linearGradient>
+  </defs>
+  <rect x="4" y="4" width="292" height="452" rx="26" fill="url(#bg-14-temperance)"/>
+  <rect x="12" y="12" width="276" height="436" rx="20" fill="none" stroke="#8FBF6E" stroke-width="2" stroke-opacity="0.55" stroke-dasharray="1 7" stroke-linecap="round"/>
+  <g opacity="0.4"><path d="M 42,96.95 C 33.42,90.68 38.7,84.41 42,89.69 C 45.3,84.41 50.58,90.68 42,96.95 Z" fill="#8FBF6E"/><path d="M256,97.2 L258.82,103.18 L264.8,106 L258.82,108.82 L256,114.8 L253.18,108.82 L247.2,106 L253.18,103.18 Z" fill="#8FBF6E"/><path d="M40,363.2 L42.82,369.18 L48.8,372 L42.82,374.82 L40,380.8 L37.18,374.82 L31.2,372 L37.18,369.18 Z" fill="#8FBF6E"/><path d="M 258,342.65 C 263.5,347.33 263.5,356.68 258,361.35 C 252.5,356.68 252.5,347.33 258,342.65 Z" fill="#addd8c" transform="rotate(-7 258 352)"/></g>
+  <circle cx="42" cy="46" r="18" fill="#8FBF6E" opacity="0.92"/>
+  <text x="42" y="52" text-anchor="middle" font-family="'Noto Sans KR', 'Apple SD Gothic Neo', sans-serif" font-size="14" font-weight="700" fill="#ffffff">XIV</text>
+  <g><g><ellipse cx="130" cy="186" rx="7.5" ry="17" fill="#d5ffb4" transform="rotate(-16 130 186)" /><ellipse cx="170" cy="186" rx="7.5" ry="17" fill="#d5ffb4" transform="rotate(16 170 186)" /><ellipse cx="150" cy="230" rx="36" ry="32" fill="#d5ffb4" /><ellipse cx="135" cy="260" rx="9" ry="6" fill="#d5ffb4" /><ellipse cx="165" cy="260" rx="9" ry="6" fill="#d5ffb4" /><circle cx="138" cy="224" r="3.2" fill="#4A3F4D" /><circle cx="162" cy="224" r="3.2" fill="#4A3F4D" /><path d="M 142,233 Q 150,239 158,233" fill="none" stroke="#4A3F4D" stroke-width="2.5" stroke-linecap="round"/><circle cx="131" cy="234" r="4.5" fill="#8FBF6E" opacity="0.85"/><circle cx="169" cy="234" r="4.5" fill="#8FBF6E" opacity="0.85"/></g><ellipse cx="116" cy="262" rx="10" ry="7" fill="#b7e796" /><ellipse cx="184" cy="262" rx="10" ry="7" fill="#b7e796" /><path d="M 124,254 Q 137,244 150,254 Q 163,264 176,254" fill="none" stroke="#8FBF6E" stroke-width="3" stroke-linecap="round"/></g>
+  <line x1="80" y1="378" x2="220" y2="378" stroke="#8FBF6E" stroke-width="1.5" stroke-opacity="0.7"/>
+  <text x="150" y="406" text-anchor="middle" font-family="'Noto Sans KR', 'Apple SD Gothic Neo', sans-serif" font-size="22" font-weight="700" fill="#4A3F4D">절제</text>
+  <text x="150" y="428" text-anchor="middle" font-family="'Noto Sans KR', 'Apple SD Gothic Neo', sans-serif" font-size="10" letter-spacing="1" fill="#4A3F4D" opacity="0.65">TEMPERANCE</text>
+</svg>

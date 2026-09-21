@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 460">
+  <defs>
+    <linearGradient id="bg-00-fool" x1="0" y1="0" x2="0.3" y2="1">
+      <stop offset="0" stop-color="#FFF6EC"/>
+      <stop offset="1" stop-color="#F1E1F4"/>
+    </linearGradient>
+  </defs>
+  <rect x="4" y="4" width="292" height="452" rx="26" fill="url(#bg-00-fool)"/>
+  <rect x="12" y="12" width="276" height="436" rx="20" fill="none" stroke="#F1A0BE" stroke-width="2" stroke-opacity="0.55" stroke-dasharray="1 7" stroke-linecap="round"/>
+  <g opacity="0.4"><path d="M42,84.8 L44.3,89.7 L49.2,92 L44.3,94.3 L42,99.2 L39.7,94.3 L34.8,92 L39.7,89.7 Z" fill="#F1A0BE"/><path d="M 256,98.35 C 260.5,102.18 260.5,109.83 256,113.65 C 251.5,109.83 251.5,102.18 256,98.35 Z" fill="#ffbedc" transform="rotate(17 256 106)"/><path d="M 40,376.05 C 32.98,370.92 37.3,365.79 40,370.11 C 42.7,365.79 47.02,370.92 40,376.05 Z" fill="#F1A0BE"/><path d="M258,344.8 L260.3,349.7 L265.2,352 L260.3,354.3 L258,359.2 L255.7,354.3 L250.8,352 L255.7,349.7 Z" fill="#F1A0BE"/></g>
+  <circle cx="42" cy="46" r="18" fill="#F1A0BE" opacity="0.92"/>
+  <text x="42" y="52" text-anchor="middle" font-family="'Noto Sans KR', 'Apple SD Gothic Neo', sans-serif" font-size="14" font-weight="700" fill="#ffffff">0</text>
+  <g><path d="M104,154 L106.56,159.44 L112,162 L106.56,164.56 L104,170 L101.44,164.56 L96,162 L101.44,159.44 Z" fill="#FBE28A"/><path d="M200,166 L201.92,170.08 L206,172 L201.92,173.92 L200,178 L198.08,173.92 L194,172 L198.08,170.08 Z" fill="#FBE28A" transform="rotate(20 200 172)"/><g><ellipse cx="129" cy="183.7" rx="7.88" ry="17.85" fill="#ffe6ff" transform="rotate(-16 129 183.7)" /><ellipse cx="171" cy="183.7" rx="7.88" ry="17.85" fill="#ffe6ff" transform="rotate(16 171 183.7)" /><ellipse cx="150" cy="229.9" rx="37.8" ry="33.6" fill="#ffe6ff" /><ellipse cx="134.25" cy="261.4" rx="9.45" ry="6.3" fill="#ffe6ff" /><ellipse cx="165.75" cy="261.4" rx="9.45" ry="6.3" fill="#ffe6ff" /><circle cx="137.4" cy="223.6" r="3.36" fill="#4A3F4D" /><circle cx="162.6" cy="223.6" r="3.36" fill="#4A3F4D" /><ellipse cx="150" cy="238.3" rx="4.2" ry="5.25" fill="#4A3F4D" /><circle cx="130.05" cy="234.1" r="4.73" fill="#F1A0BE" opacity="0.85"/><circle cx="169.95" cy="234.1" r="4.73" fill="#F1A0BE" opacity="0.85"/></g><ellipse cx="190" cy="270" rx="12" ry="9" fill="#ffc8e6" /><line x1="190" y1="262" x2="190" y2="250" stroke="#B79A6B" stroke-width="3" stroke-linecap="round" /></g>
+  <line x1="80" y1="378" x2="220" y2="378" stroke="#F1A0BE" stroke-width="1.5" stroke-opacity="0.7"/>
+  <text x="150" y="406" text-anchor="middle" font-family="'Noto Sans KR', 'Apple SD Gothic Neo', sans-serif" font-size="22" font-weight="700" fill="#4A3F4D">바보</text>
+  <text x="150" y="428" text-anchor="middle" font-family="'Noto Sans KR', 'Apple SD Gothic Neo', sans-serif" font-size="10" letter-spacing="1" fill="#4A3F4D" opacity="0.65">THE FOOL</text>
+</svg>

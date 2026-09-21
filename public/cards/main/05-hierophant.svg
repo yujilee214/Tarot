@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 460">
+  <defs>
+    <linearGradient id="bg-05-hierophant" x1="0" y1="0" x2="0.3" y2="1">
+      <stop offset="0" stop-color="#FFF6EC"/>
+      <stop offset="1" stop-color="#F1E1F4"/>
+    </linearGradient>
+  </defs>
+  <rect x="4" y="4" width="292" height="452" rx="26" fill="url(#bg-05-hierophant)"/>
+  <rect x="12" y="12" width="276" height="436" rx="20" fill="none" stroke="#C9A6EA" stroke-width="2" stroke-opacity="0.55" stroke-dasharray="1 7" stroke-linecap="round"/>
+  <g opacity="0.4"><path d="M 42,84.35 C 46.5,88.18 46.5,95.83 42,99.65 C 37.5,95.83 37.5,88.18 42,84.35 Z" fill="#e7c4ff" transform="rotate(-25 42 92)"/><path d="M 256,110.05 C 248.98,104.92 253.3,99.79 256,104.11 C 258.7,99.79 263.02,104.92 256,110.05 Z" fill="#C9A6EA"/><path d="M40,364.8 L42.3,369.7 L47.2,372 L42.3,374.3 L40,379.2 L37.7,374.3 L32.8,372 L37.7,369.7 Z" fill="#C9A6EA"/><path d="M258,344.8 L260.3,349.7 L265.2,352 L260.3,354.3 L258,359.2 L255.7,354.3 L250.8,352 L255.7,349.7 Z" fill="#C9A6EA"/></g>
+  <circle cx="42" cy="46" r="18" fill="#C9A6EA" opacity="0.92"/>
+  <text x="42" y="52" text-anchor="middle" font-family="'Noto Sans KR', 'Apple SD Gothic Neo', sans-serif" font-size="14" font-weight="700" fill="#ffffff">V</text>
+  <g><path d="M 136,192 L 150,166 L 164,192 Z" fill="#f1ceff"/><circle cx="150" cy="182" r="3" fill="#FBE28A" /><g><ellipse cx="130" cy="192" rx="7.5" ry="17" fill="#ffecff" transform="rotate(-16 130 192)" /><ellipse cx="170" cy="192" rx="7.5" ry="17" fill="#ffecff" transform="rotate(16 170 192)" /><ellipse cx="150" cy="236" rx="36" ry="32" fill="#ffecff" /><ellipse cx="135" cy="266" rx="9" ry="6" fill="#ffecff" /><ellipse cx="165" cy="266" rx="9" ry="6" fill="#ffecff" /><circle cx="138" cy="230" r="3.2" fill="#4A3F4D" /><circle cx="162" cy="230" r="3.2" fill="#4A3F4D" /><path d="M 142,239 Q 150,245 158,239" fill="none" stroke="#4A3F4D" stroke-width="2.5" stroke-linecap="round"/><circle cx="131" cy="240" r="4.5" fill="#C9A6EA" opacity="0.85"/><circle cx="169" cy="240" r="4.5" fill="#C9A6EA" opacity="0.85"/></g><rect x="176" y="236" width="16" height="14" rx="2" fill="#C9A6EA" /><line x1="184" y1="236" x2="184" y2="250" stroke="#4A3F4D" stroke-width="1.5" stroke-linecap="round" /><path d="M118,217 L119.6,220.4 L123,222 L119.6,223.6 L118,227 L116.4,223.6 L113,222 L116.4,220.4 Z" fill="#FBE28A"/></g>
+  <line x1="80" y1="378" x2="220" y2="378" stroke="#C9A6EA" stroke-width="1.5" stroke-opacity="0.7"/>
+  <text x="150" y="406" text-anchor="middle" font-family="'Noto Sans KR', 'Apple SD Gothic Neo', sans-serif" font-size="22" font-weight="700" fill="#4A3F4D">교황</text>
+  <text x="150" y="428" text-anchor="middle" font-family="'Noto Sans KR', 'Apple SD Gothic Neo', sans-serif" font-size="10" letter-spacing="1" fill="#4A3F4D" opacity="0.65">THE HIEROPHANT</text>
+</svg>

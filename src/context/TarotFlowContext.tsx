@@ -9,53 +9,64 @@ import {
   useState,
   type ReactNode,
 } from "react";
+import type { TarotSpread, TarotSpreadPosition } from "@/data/spreads";
+import type { Orientation } from "@/data/cardTypes";
 
-interface TarotFlowState {
-  categoryId: string | null;
-  question: string;
-  deckId: string | null;
-  selectedCardIds: string[];
+export interface SelectedCard {
+  order: number;
+  cardId: string;
+  position: TarotSpreadPosition;
+  orientation: Orientation;
 }
 
-interface TarotFlowContextValue extends TarotFlowState {
+interface TarotSessionState {
+  questionCategory: string | null;
+  question: string;
+  spread: TarotSpread | null;
+  selectedCards: SelectedCard[];
+  /** 0 = spread not started yet; 1..cardCount = which pick is in progress/next. */
+  currentStep: number;
+}
+
+interface TarotSessionContextValue extends TarotSessionState {
   isHydrated: boolean;
-  setCategoryId: (categoryId: string) => void;
+  setQuestionCategory: (id: string) => void;
   setQuestion: (question: string) => void;
-  setDeckId: (deckId: string) => void;
-  setSelectedCardIds: (ids: string[]) => void;
+  startSpread: (spread: TarotSpread) => void;
+  pickCard: (cardId: string) => void;
   reset: () => void;
 }
 
-const STORAGE_KEY = "tarot-flow-state";
+const STORAGE_KEY = "tarot-session";
 
-const initialState: TarotFlowState = {
-  categoryId: null,
+const initialState: TarotSessionState = {
+  questionCategory: null,
   question: "",
-  deckId: null,
-  selectedCardIds: [],
+  spread: null,
+  selectedCards: [],
+  currentStep: 0,
 };
 
-const TarotFlowContext = createContext<TarotFlowContextValue | null>(null);
+const TarotSessionContext = createContext<TarotSessionContextValue | null>(null);
 
 export function TarotFlowProvider({ children }: { children: ReactNode }) {
-  const [state, setState] = useState<TarotFlowState>(initialState);
+  const [state, setState] = useState<TarotSessionState>(initialState);
   const [isHydrated, setIsHydrated] = useState(false);
 
   useEffect(() => {
     try {
       const raw = window.sessionStorage.getItem(STORAGE_KEY);
       if (raw) {
-        const parsed = JSON.parse(raw) as Partial<TarotFlowState>;
+        const parsed = JSON.parse(raw) as Partial<TarotSessionState>;
         // Deliberate one-time sync from sessionStorage after mount, so the
         // server-rendered (storage-less) markup matches the client on hydration.
         // eslint-disable-next-line react-hooks/set-state-in-effect
         setState({
-          categoryId: parsed.categoryId ?? null,
+          questionCategory: parsed.questionCategory ?? null,
           question: parsed.question ?? "",
-          deckId: parsed.deckId ?? null,
-          selectedCardIds: Array.isArray(parsed.selectedCardIds)
-            ? parsed.selectedCardIds
-            : [],
+          spread: parsed.spread ?? null,
+          selectedCards: Array.isArray(parsed.selectedCards) ? parsed.selectedCards : [],
+          currentStep: typeof parsed.currentStep === "number" ? parsed.currentStep : 0,
         });
       }
     } catch {
@@ -70,20 +81,35 @@ export function TarotFlowProvider({ children }: { children: ReactNode }) {
     window.sessionStorage.setItem(STORAGE_KEY, JSON.stringify(state));
   }, [state, isHydrated]);
 
-  const setCategoryId = useCallback((categoryId: string) => {
-    setState((prev) => ({ ...prev, categoryId }));
+  const setQuestionCategory = useCallback((questionCategory: string) => {
+    setState((prev) => ({ ...prev, questionCategory }));
   }, []);
 
   const setQuestion = useCallback((question: string) => {
     setState((prev) => ({ ...prev, question }));
   }, []);
 
-  const setDeckId = useCallback((deckId: string) => {
-    setState((prev) => ({ ...prev, deckId }));
+  const startSpread = useCallback((spread: TarotSpread) => {
+    setState((prev) => ({ ...prev, spread, selectedCards: [], currentStep: 1 }));
   }, []);
 
-  const setSelectedCardIds = useCallback((selectedCardIds: string[]) => {
-    setState((prev) => ({ ...prev, selectedCardIds }));
+  const pickCard = useCallback((cardId: string) => {
+    setState((prev) => {
+      if (!prev.spread) return prev;
+      if (prev.selectedCards.length >= prev.spread.cardCount) return prev;
+      if (prev.selectedCards.some((c) => c.cardId === cardId)) return prev;
+      const order = prev.selectedCards.length + 1;
+      const position = prev.spread.positions[order - 1];
+      const nextSelected: SelectedCard[] = [
+        ...prev.selectedCards,
+        { order, cardId, position, orientation: "upright" },
+      ];
+      return {
+        ...prev,
+        selectedCards: nextSelected,
+        currentStep: Math.min(nextSelected.length + 1, prev.spread.cardCount),
+      };
+    });
   }, []);
 
   const reset = useCallback(() => {
@@ -91,36 +117,26 @@ export function TarotFlowProvider({ children }: { children: ReactNode }) {
     window.sessionStorage.removeItem(STORAGE_KEY);
   }, []);
 
-  const value = useMemo<TarotFlowContextValue>(
+  const value = useMemo<TarotSessionContextValue>(
     () => ({
       ...state,
       isHydrated,
-      setCategoryId,
+      setQuestionCategory,
       setQuestion,
-      setDeckId,
-      setSelectedCardIds,
+      startSpread,
+      pickCard,
       reset,
     }),
-    [
-      state,
-      isHydrated,
-      setCategoryId,
-      setQuestion,
-      setDeckId,
-      setSelectedCardIds,
-      reset,
-    ]
+    [state, isHydrated, setQuestionCategory, setQuestion, startSpread, pickCard, reset]
   );
 
   return (
-    <TarotFlowContext.Provider value={value}>
-      {children}
-    </TarotFlowContext.Provider>
+    <TarotSessionContext.Provider value={value}>{children}</TarotSessionContext.Provider>
   );
 }
 
-export function useTarotFlow(): TarotFlowContextValue {
-  const context = useContext(TarotFlowContext);
+export function useTarotFlow(): TarotSessionContextValue {
+  const context = useContext(TarotSessionContext);
   if (!context) {
     throw new Error("useTarotFlow must be used within a TarotFlowProvider");
   }

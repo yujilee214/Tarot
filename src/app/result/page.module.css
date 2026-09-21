@@ -17,11 +17,25 @@
   color: var(--color-text-primary);
 }
 
+.previewRow {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 24px;
+}
+
+.previewRow img {
+  width: 25%;
+  max-width: 96px;
+  border-radius: 10px;
+  box-shadow: 0 8px 18px -12px rgba(0, 0, 0, 0.8);
+}
+
 .cardsList {
   display: flex;
   flex-direction: column;
   gap: 10px;
-  margin-bottom: 28px;
+  margin: 24px 0 28px;
 }
 
 .reading {

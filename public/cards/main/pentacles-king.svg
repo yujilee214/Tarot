@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 460">
+  <defs>
+    <linearGradient id="bg-pentacles-king" x1="0" y1="0" x2="0.3" y2="1">
+      <stop offset="0" stop-color="#F1FAEC"/>
+      <stop offset="1" stop-color="#DFF0C8"/>
+    </linearGradient>
+  </defs>
+  <rect x="4" y="4" width="292" height="452" rx="26" fill="url(#bg-pentacles-king)"/>
+  <rect x="12" y="12" width="276" height="436" rx="20" fill="none" stroke="#8FBF6E" stroke-width="2" stroke-opacity="0.55" stroke-dasharray="1 7" stroke-linecap="round"/>
+  <g opacity="0.4"><path d="M 42,80.95 C 48.5,86.48 48.5,97.53 42,103.05 C 35.5,97.53 35.5,86.48 42,80.95 Z" fill="#addd8c" transform="rotate(19 42 92)"/><path d="M 256,111.85 C 245.86,104.44 252.1,97.03 256,103.27 C 259.9,97.03 266.14,104.44 256,111.85 Z" fill="#8FBF6E"/><path d="M40,361.6 L43.33,368.67 L50.4,372 L43.33,375.33 L40,382.4 L36.67,375.33 L29.6,372 L36.67,368.67 Z" fill="#8FBF6E"/><path d="M258,341.6 L261.33,348.67 L268.4,352 L261.33,355.33 L258,362.4 L254.67,355.33 L247.6,352 L254.67,348.67 Z" fill="#8FBF6E"/></g>
+  <circle cx="42" cy="46" r="18" fill="#8FBF6E" opacity="0.92"/>
+  <text x="42" y="52" text-anchor="middle" font-family="'Noto Sans KR', 'Apple SD Gothic Neo', sans-serif" font-size="14" font-weight="700" fill="#ffffff">K</text>
+  <g><rect x="126" y="262" width="48" height="14" rx="4" fill="#a3d382" /><g><ellipse cx="130" cy="186" rx="7.5" ry="17" fill="#d5ffb4" transform="rotate(-16 130 186)" /><ellipse cx="170" cy="186" rx="7.5" ry="17" fill="#d5ffb4" transform="rotate(16 170 186)" /><ellipse cx="150" cy="230" rx="36" ry="32" fill="#d5ffb4" /><ellipse cx="135" cy="260" rx="9" ry="6" fill="#d5ffb4" /><ellipse cx="165" cy="260" rx="9" ry="6" fill="#d5ffb4" /><circle cx="138" cy="224" r="3.2" fill="#4A3F4D" /><circle cx="162" cy="224" r="3.2" fill="#4A3F4D" /><path d="M 142,233 Q 150,239 158,233" fill="none" stroke="#4A3F4D" stroke-width="2.5" stroke-linecap="round"/><circle cx="131" cy="234" r="4.5" fill="#8FBF6E" opacity="0.85"/><circle cx="169" cy="234" r="4.5" fill="#8FBF6E" opacity="0.85"/></g><path d="M 134,188 L 141,172 L 150,184 L 159,172 L 166,188 Z" fill="#8FBF6E"/><circle cx="141" cy="172" r="2.6" fill="#FFF7E0" /><circle cx="159" cy="172" r="2.6" fill="#FFF7E0" /><circle cx="150" cy="184" r="2.6" fill="#FFF7E0" /><g><circle cx="178" cy="244" r="10.2" fill="none" stroke="#8FBF6E" stroke-width="2.55"/><path d="M178,238.9 L179.3,242.21 L182.85,242.42 L180.1,244.68 L181,248.13 L178,246.21 L175,248.13 L175.9,244.68 L173.15,242.42 L176.7,242.21 Z" fill="#8FBF6E"/></g></g>
+  <line x1="80" y1="378" x2="220" y2="378" stroke="#8FBF6E" stroke-width="1.5" stroke-opacity="0.7"/>
+  <text x="150" y="406" text-anchor="middle" font-family="'Noto Sans KR', 'Apple SD Gothic Neo', sans-serif" font-size="22" font-weight="700" fill="#4A3F4D">펜타클의 킹</text>
+  <text x="150" y="428" text-anchor="middle" font-family="'Noto Sans KR', 'Apple SD Gothic Neo', sans-serif" font-size="10" letter-spacing="1" fill="#4A3F4D" opacity="0.65">KING OF PENTACLES</text>
+</svg>

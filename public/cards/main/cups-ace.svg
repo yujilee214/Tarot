@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 460">
+  <defs>
+    <linearGradient id="bg-cups-ace" x1="0" y1="0" x2="0.3" y2="1">
+      <stop offset="0" stop-color="#EAF6FB"/>
+      <stop offset="1" stop-color="#CFEFEA"/>
+    </linearGradient>
+  </defs>
+  <rect x="4" y="4" width="292" height="452" rx="26" fill="url(#bg-cups-ace)"/>
+  <rect x="12" y="12" width="276" height="436" rx="20" fill="none" stroke="#7FC4D9" stroke-width="2" stroke-opacity="0.55" stroke-dasharray="1 7" stroke-linecap="round"/>
+  <g opacity="0.4"><path d="M42,84.8 L44.3,89.7 L49.2,92 L44.3,94.3 L42,99.2 L39.7,94.3 L34.8,92 L39.7,89.7 Z" fill="#7FC4D9"/><path d="M 256,98.35 C 260.5,102.18 260.5,109.83 256,113.65 C 251.5,109.83 251.5,102.18 256,98.35 Z" fill="#9de2f7" transform="rotate(17 256 106)"/><path d="M 40,376.05 C 32.98,370.92 37.3,365.79 40,370.11 C 42.7,365.79 47.02,370.92 40,376.05 Z" fill="#7FC4D9"/><path d="M258,344.8 L260.3,349.7 L265.2,352 L260.3,354.3 L258,359.2 L255.7,354.3 L250.8,352 L255.7,349.7 Z" fill="#7FC4D9"/></g>
+  <circle cx="42" cy="46" r="18" fill="#7FC4D9" opacity="0.92"/>
+  <text x="42" y="52" text-anchor="middle" font-family="'Noto Sans KR', 'Apple SD Gothic Neo', sans-serif" font-size="14" font-weight="700" fill="#ffffff">A</text>
+  <g><g><path d="M 140.65,131.5 C 140.65,146.8 159.35,146.8 159.35,131.5 Z" fill="#7FC4D9"/><rect x="147.88" y="146.8" width="4.25" height="6.8" rx="0.85" fill="#7FC4D9" /><ellipse cx="150" cy="154.45" rx="7.65" ry="2.21" fill="#7FC4D9" /></g><g><ellipse cx="133.6" cy="232.28" rx="6.15" ry="13.94" fill="#c5ffff" transform="rotate(-16 133.6 232.28)" /><ellipse cx="166.4" cy="232.28" rx="6.15" ry="13.94" fill="#c5ffff" transform="rotate(16 166.4 232.28)" /><ellipse cx="150" cy="268.36" rx="29.52" ry="26.24" fill="#c5ffff" /><ellipse cx="137.7" cy="292.96" rx="7.38" ry="4.92" fill="#c5ffff" /><ellipse cx="162.3" cy="292.96" rx="7.38" ry="4.92" fill="#c5ffff" /><circle cx="140.16" cy="263.44" r="2.62" fill="#4A3F4D" /><circle cx="159.84" cy="263.44" r="2.62" fill="#4A3F4D" /><path d="M 143.44,270.82 Q 150,275.74 156.56,270.82" fill="none" stroke="#4A3F4D" stroke-width="2.05" stroke-linecap="round"/><circle cx="134.42" cy="271.64" r="3.69" fill="#7FC4D9" opacity="0.85"/><circle cx="165.58" cy="271.64" r="3.69" fill="#7FC4D9" opacity="0.85"/></g></g>
+  <line x1="80" y1="378" x2="220" y2="378" stroke="#7FC4D9" stroke-width="1.5" stroke-opacity="0.7"/>
+  <text x="150" y="406" text-anchor="middle" font-family="'Noto Sans KR', 'Apple SD Gothic Neo', sans-serif" font-size="22" font-weight="700" fill="#4A3F4D">컵의 에이스</text>
+  <text x="150" y="428" text-anchor="middle" font-family="'Noto Sans KR', 'Apple SD Gothic Neo', sans-serif" font-size="10" letter-spacing="1" fill="#4A3F4D" opacity="0.65">ACE OF CUPS</text>
+</svg>

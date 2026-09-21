@@ -6,28 +6,29 @@ import ProgressHeader from "@/components/ProgressHeader";
 import PrimaryButton from "@/components/PrimaryButton";
 import QuestionInput from "@/components/QuestionInput";
 import { getCategoryById } from "@/data/categories";
+import { selectSpread } from "@/data/spreads";
 import { useTarotFlow } from "@/context/TarotFlowContext";
 import styles from "./page.module.css";
 
-const PLACEHOLDER = "요즘 연락하는 사람과 앞으로 어떻게 될까요?";
+const PLACEHOLDER = "요즘 연락하고 있는 사람과 앞으로 어떻게 될까요?";
 
 export default function QuestionPage() {
   const router = useRouter();
-  const { isHydrated, categoryId, question, setQuestion } = useTarotFlow();
+  const { isHydrated, questionCategory, question, setQuestion, startSpread } = useTarotFlow();
   const [draft, setDraft] = useState(question);
   const [touched, setTouched] = useState(false);
 
   useEffect(() => {
-    if (isHydrated && !categoryId) {
+    if (isHydrated && !questionCategory) {
       router.replace("/");
     }
-  }, [isHydrated, categoryId, router]);
+  }, [isHydrated, questionCategory, router]);
 
-  if (!isHydrated || !categoryId) {
+  if (!isHydrated || !questionCategory) {
     return null;
   }
 
-  const category = getCategoryById(categoryId);
+  const category = getCategoryById(questionCategory);
   const trimmed = draft.trim();
   const isValid = trimmed.length > 0;
 
@@ -35,17 +36,19 @@ export default function QuestionPage() {
     setTouched(true);
     if (!isValid) return;
     setQuestion(trimmed);
-    router.push("/deck");
+    const spread = selectSpread(questionCategory, trimmed);
+    startSpread(spread);
+    router.push("/cards");
   };
 
   return (
     <main className="screen">
       <ProgressHeader
-        step={1}
+        step={2}
         totalSteps={4}
         categoryLabel={category?.label}
-        title="지금 가장 궁금한 질문은 무엇인가요?"
-        subtitle="구체적으로 적을수록 카드의 이야기가 더 선명해져요."
+        title="조금 더 자세히 알려주세요."
+        subtitle="궁금한 내용을 자유롭게 적어주세요."
       />
 
       <QuestionInput

@@ -1,12 +1,13 @@
-import type { TarotCard } from "@/data/decks";
+import type { TarotCard } from "@/data/cardCatalog";
 import styles from "./TarotResultCard.module.css";
 
 interface TarotResultCardProps {
   card: TarotCard;
   roleTitle: string;
+  body: string;
 }
 
-export default function TarotResultCard({ card, roleTitle }: TarotResultCardProps) {
+export default function TarotResultCard({ card, roleTitle, body }: TarotResultCardProps) {
   return (
     <article className={styles.card}>
       <img className={styles.image} src={card.image} alt={card.koreanName} />
@@ -23,7 +24,7 @@ export default function TarotResultCard({ card, roleTitle }: TarotResultCardProp
             </span>
           ))}
         </div>
-        <p className={styles.interpretation}>{card.interpretation}</p>
+        <p className={styles.interpretation}>{body}</p>
       </div>
     </article>
   );
