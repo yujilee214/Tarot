@@ -2,41 +2,44 @@
 
 import type { TarotSpreadPosition } from "@/data/spreads";
 import type { SelectedCard } from "@/context/TarotFlowContext";
-import { CARD_BACK_IMAGE } from "@/data/cardCatalog";
+import type { TarotCard } from "@/data/cardCatalog";
 import styles from "./SelectedCardSlots.module.css";
 
 interface SelectedCardSlotsProps {
   positions: TarotSpreadPosition[];
   selectedCards: SelectedCard[];
-  onRemove: (cardId: string) => void;
+  getCard: (id: string) => TarotCard | undefined;
 }
 
+/**
+ * Read-only "already drawn" summary (product spec: no cancel/undo once a
+ * card is drawn — each pick is immediately revealed and final), so unlike
+ * the picking deck this only ever displays, never handles clicks.
+ */
 export default function SelectedCardSlots({
   positions,
   selectedCards,
-  onRemove,
+  getCard,
 }: SelectedCardSlotsProps) {
   return (
     <div className={styles.row}>
       {positions.map((position, index) => {
         const selected = selectedCards[index];
+        const card = selected ? getCard(selected.cardId) : undefined;
         return (
           <div key={position.order} className={styles.slot}>
-            {selected ? (
-              <button
-                type="button"
-                className={`${styles.slotCard} ${styles.slotFilled}`}
-                onClick={() => onRemove(selected.cardId)}
-                aria-label={`${position.title} 카드 선택 취소`}
-              >
-                <img src={CARD_BACK_IMAGE} alt="" draggable={false} />
-              </button>
+            <span className={styles.slotLabel}>
+              {position.order}. {position.title}
+            </span>
+            {card ? (
+              <div className={styles.slotCard}>
+                <img src={card.image} alt={card.koreanName} draggable={false} />
+              </div>
             ) : (
               <div className={styles.slotCard}>
-                <span className={styles.slotNumber}>{position.order}</span>
+                <span className={styles.slotEmpty}>아직 선택 전</span>
               </div>
             )}
-            <span className={styles.slotLabel}>{position.title}</span>
           </div>
         );
       })}

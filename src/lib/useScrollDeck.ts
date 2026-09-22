@@ -1,24 +1,26 @@
 "use client";
 
-import { useCallback, useEffect, useRef } from "react";
+import { useCallback, useEffect, useRef, useState } from "react";
 
 const DRAG_CLICK_THRESHOLD_PX = 6;
+const JUMP_PX = 320;
 
 /**
  * Free-scrolling horizontal deck: native touch scrolling (swipe/flick) plus
  * mouse-drag-to-scroll and wheel-to-horizontal for desktop. Deliberately
  * has no concept of "slides" or snap points — the deck stops wherever the
- * user releases it (product spec: card selection must never re-center or
- * snap). Only the card-selection screen uses this; card reveal keeps the
- * separate snap-based `useCardCarousel`.
+ * user releases it (product spec: browsing the deck must never re-center
+ * or snap to a card).
  */
-export function useFanDeck() {
+export function useScrollDeck() {
   const containerRef = useRef<HTMLDivElement | null>(null);
   const isPointerDownRef = useRef(false);
   const draggedRef = useRef(false);
   const startXRef = useRef(0);
   const startScrollLeftRef = useRef(0);
   const hasCenteredRef = useRef(false);
+  const [canScrollPrev, setCanScrollPrev] = useState(false);
+  const [canScrollNext, setCanScrollNext] = useState(false);
 
   // Center the deck once, right after its content is first laid out.
   // Never runs again afterward, so picking/unpicking cards can't move it.
@@ -34,6 +36,12 @@ export function useFanDeck() {
   useEffect(() => {
     const node = containerRef.current;
     if (!node) return;
+
+    const updateBounds = () => {
+      const max = node.scrollWidth - node.clientWidth;
+      setCanScrollPrev(node.scrollLeft > 4);
+      setCanScrollNext(node.scrollLeft < max - 4);
+    };
 
     const handleWheel = (event: WheelEvent) => {
       const delta = Math.abs(event.deltaX) > Math.abs(event.deltaY) ? event.deltaX : event.deltaY;
@@ -67,6 +75,11 @@ export function useFanDeck() {
     window.addEventListener("mousemove", handleMouseMove);
     window.addEventListener("mouseup", endDrag);
     node.addEventListener("mouseleave", endDrag);
+    node.addEventListener("scroll", updateBounds, { passive: true });
+
+    const resizeObserver = new ResizeObserver(updateBounds);
+    resizeObserver.observe(node);
+    updateBounds();
 
     return () => {
       node.removeEventListener("wheel", handleWheel);
@@ -74,7 +87,16 @@ export function useFanDeck() {
       window.removeEventListener("mousemove", handleMouseMove);
       window.removeEventListener("mouseup", endDrag);
       node.removeEventListener("mouseleave", endDrag);
+      node.removeEventListener("scroll", updateBounds);
+      resizeObserver.disconnect();
     };
+  }, []);
+
+  const scrollByAmount = useCallback((direction: "prev" | "next") => {
+    containerRef.current?.scrollBy({
+      left: direction === "next" ? JUMP_PX : -JUMP_PX,
+      behavior: "smooth",
+    });
   }, []);
 
   /** A card's onClick should call this first and bail out if it returns true. */
@@ -84,5 +106,5 @@ export function useFanDeck() {
     return was;
   }, []);
 
-  return { containerRef, centerOnce, consumeWasDragged };
+  return { containerRef, centerOnce, consumeWasDragged, scrollByAmount, canScrollPrev, canScrollNext };
 }

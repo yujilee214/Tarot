@@ -25,17 +25,17 @@ export const threeCardSpread: TarotSpread = {
     {
       order: 1,
       title: "현재 상황",
-      description: "현재 상황을 보여주는\n카드를 골라주세요.",
+      description: "지금 이 질문이 놓여 있는 상태를 살펴봐요.",
     },
     {
       order: 2,
       title: "현재 흐름",
-      description: "현재 흐름을 보여주는\n카드를 골라주세요.",
+      description: "지금 상황이 어떤 방향으로 움직이고 있는지 살펴봐요.",
     },
     {
       order: 3,
       title: "조언",
-      description: "지금 필요한 조언을 보여주는\n카드를 골라주세요.",
+      description: "지금 어떤 태도나 행동이 필요한지 살펴봐요.",
     },
   ],
 };
