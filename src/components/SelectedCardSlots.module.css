@@ -23,11 +23,18 @@
   align-items: center;
   justify-content: center;
   overflow: hidden;
+  padding: 0;
+  font: inherit;
 }
 
 .slotFilled {
   border-style: solid;
   border-color: var(--color-card-accent);
+  transition: opacity 0.15s ease;
+}
+
+.slotFilled:hover {
+  opacity: 0.85;
 }
 
 .slotFilled img {

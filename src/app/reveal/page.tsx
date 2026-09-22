@@ -17,7 +17,7 @@ export default function RevealPage() {
   const { isHydrated, questionCategory, question, spread, selectedCards } = useTarotFlow();
   const isValidSelection = Boolean(spread) && selectedCards.length === spread?.cardCount;
   const [revealed, setRevealed] = useState<boolean[]>([]);
-  const { emblaRef, selectedIndex, scrollPrev, scrollNext, canScrollPrev, canScrollNext } =
+  const { emblaRef, selectedIndex, scrollNext, scrollPrev, canScrollPrev, canScrollNext } =
     useCardCarousel();
 
   useEffect(() => {
@@ -60,6 +60,9 @@ export default function RevealPage() {
   const category = getCategoryById(questionCategory);
   const revealedCount = revealed.filter(Boolean).length;
   const allRevealed = revealedCount === cards.length;
+  const current = cards[selectedIndex];
+  const isCurrentRevealed = revealed[selectedIndex] ?? false;
+  const hasNext = selectedIndex < cards.length - 1;
 
   const handleReveal = (index: number) => {
     setRevealed((prev) => {
@@ -69,18 +72,21 @@ export default function RevealPage() {
     });
   };
 
+  const headerTitle = allRevealed
+    ? "카드가 모두 열렸어요."
+    : revealedCount === 0
+      ? "선택한 카드를 확인해볼까요?"
+      : (current?.selected.position.title ?? "");
+
   return (
     <main className="screen">
       <ProgressHeader
         step={4}
         totalSteps={4}
         categoryLabel={category?.label}
-        title="카드를 눌러 순서대로 확인해보세요"
-        subtitle="좌우로 넘기며 한 장씩 천천히 뒤집어보세요."
-        trailing={`${revealedCount} / ${cards.length}`}
+        title={headerTitle}
+        trailing={`${selectedIndex + 1} / ${cards.length}`}
       />
-
-      <span className={styles.roleTitle}>{cards[selectedIndex]?.selected.position.title}</span>
 
       <div className={styles.carouselRow}>
         <CarouselArrowButton direction="prev" onClick={scrollPrev} disabled={!canScrollPrev} />
@@ -111,11 +117,34 @@ export default function RevealPage() {
         ))}
       </div>
 
-      <div className={styles.spacer} />
+      <div className={styles.belowCard}>
+        {!isCurrentRevealed ? (
+          <p className={styles.hint}>카드를 눌러 확인해보세요.</p>
+        ) : !allRevealed ? (
+          <>
+            <div className={styles.revealedInfo}>
+              <span className={styles.cardNameKo}>{current?.card.koreanName}</span>
+              <span className={styles.cardNameEn}>{current?.card.name.toUpperCase()}</span>
+            </div>
+            {hasNext ? (
+              <PrimaryButton variant="outline" onClick={scrollNext}>
+                다음 카드
+              </PrimaryButton>
+            ) : null}
+          </>
+        ) : (
+          <>
+            <div className={styles.previewRow}>
+              {cards.map(({ card }) => (
+                <img key={card.id} src={card.image} alt={card.koreanName} draggable={false} />
+              ))}
+            </div>
+            <PrimaryButton onClick={() => router.push("/result")}>결과 확인하기</PrimaryButton>
+          </>
+        )}
+      </div>
 
-      <PrimaryButton onClick={() => router.push("/result")} disabled={!allRevealed}>
-        결과 보기
-      </PrimaryButton>
+      <div className={styles.spacer} />
     </main>
   );
 }

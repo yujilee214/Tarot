@@ -1,29 +1,42 @@
 "use client";
 
-import { useEffect, useRef, useState } from "react";
+import { useEffect, useRef, useState, type CSSProperties } from "react";
 import { useRouter } from "next/navigation";
 import ProgressHeader from "@/components/ProgressHeader";
 import PrimaryButton from "@/components/PrimaryButton";
-import CarouselArrowButton from "@/components/CarouselArrowButton";
 import SelectedCardSlots from "@/components/SelectedCardSlots";
 import { tarotCards, CARD_BACK_IMAGE, type TarotCard } from "@/data/cardCatalog";
 import { getCategoryById } from "@/data/categories";
 import { buildShuffledPool } from "@/lib/cardSelection";
-import { useCardCarousel } from "@/lib/useCardCarousel";
+import { useFanDeck } from "@/lib/useFanDeck";
 import { useTarotFlow } from "@/context/TarotFlowContext";
 import styles from "./page.module.css";
 
-const SELECT_ANIMATION_MS = 550;
+// A smooth, continuously-repeating wave (no seams at the cycle boundary) so
+// the fan/arc look is visible no matter where the deck is scrolled to —
+// center-of-cycle cards sit upright and raised, edge-of-cycle cards tilt
+// and dip, like a hand of cards spread on a table.
+const CYCLE = 8;
+const MAX_DEG = 14;
+const MAX_DROP = 20;
+
+function cardFanStyle(index: number): CSSProperties {
+  const phase = (index / CYCLE) * Math.PI * 2;
+  const deg = Math.sin(phase) * MAX_DEG;
+  const arcY = Math.abs(Math.sin(phase)) * MAX_DROP;
+  return { "--rot": `${deg}deg`, "--arc-y": `${arcY}px` } as CSSProperties;
+}
+
+const TOAST_MS = 1800;
 
 export default function CardsPage() {
   const router = useRouter();
   const { isHydrated, questionCategory, question, spread, selectedCards, pickCard, unpickCard } =
     useTarotFlow();
   const [shuffledPool, setShuffledPool] = useState<TarotCard[] | null>(null);
-  const [justSelectedId, setJustSelectedId] = useState<string | null>(null);
-  const isTransitioningRef = useRef(false);
-  const { emblaRef, emblaApi, selectedIndex, scrollTo, scrollPrev, scrollNext, canScrollPrev, canScrollNext } =
-    useCardCarousel();
+  const [toast, setToast] = useState<string | null>(null);
+  const toastTimerRef = useRef<number | null>(null);
+  const { containerRef, centerOnce, consumeWasDragged } = useFanDeck();
 
   useEffect(() => {
     if (isHydrated && (!questionCategory || !question || !spread)) {
@@ -39,13 +52,16 @@ export default function CardsPage() {
   }, []);
 
   useEffect(() => {
-    if (!emblaApi || !shuffledPool) return;
-    const center = Math.max(0, Math.floor((shuffledPool.length - 1) / 2));
-    emblaApi.scrollTo(center, true);
-    // Only re-center once, right after the pool is shuffled — picking/
-    // unpicking cards afterward must never jump the carousel around.
-    // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [emblaApi, shuffledPool !== null]);
+    if (!shuffledPool) return;
+    const raf = requestAnimationFrame(centerOnce);
+    return () => cancelAnimationFrame(raf);
+  }, [shuffledPool, centerOnce]);
+
+  useEffect(() => {
+    return () => {
+      if (toastTimerRef.current) window.clearTimeout(toastTimerRef.current);
+    };
+  }, []);
 
   if (!isHydrated || !questionCategory || !question || !spread || !shuffledPool) {
     return null;
@@ -55,75 +71,83 @@ export default function CardsPage() {
   const isComplete = selectedCards.length === spread.cardCount;
   const selectedIds = new Set(selectedCards.map((c) => c.cardId));
 
-  const handleCardTap = (index: number, cardId: string) => {
-    if (isTransitioningRef.current) return;
-    if (index !== selectedIndex) {
-      scrollTo(index);
-      return;
-    }
+  const showToast = (message: string) => {
+    setToast(message);
+    if (toastTimerRef.current) window.clearTimeout(toastTimerRef.current);
+    toastTimerRef.current = window.setTimeout(() => setToast(null), TOAST_MS);
+  };
+
+  const handleCardClick = (cardId: string) => {
+    if (consumeWasDragged()) return;
     if (selectedIds.has(cardId)) {
       unpickCard(cardId);
       return;
     }
-    if (isComplete) return;
-    isTransitioningRef.current = true;
-    setJustSelectedId(cardId);
-    window.setTimeout(() => {
-      pickCard(cardId);
-      setJustSelectedId(null);
-      isTransitioningRef.current = false;
-    }, SELECT_ANIMATION_MS);
+    if (isComplete) {
+      showToast("카드는 3장까지 고를 수 있어요.");
+      return;
+    }
+    pickCard(cardId);
   };
 
   return (
     <main className="screen">
-      <ProgressHeader
-        step={3}
-        totalSteps={4}
-        categoryLabel={category?.label}
-        title={`${spread.cardCount}장 리딩`}
-        trailing={`${selectedCards.length} / ${spread.cardCount} 선택됨`}
+      <div className={styles.topRow}>
+        <button
+          type="button"
+          className={styles.backButton}
+          onClick={() => router.back()}
+          aria-label="뒤로가기"
+        >
+          ←
+        </button>
+        <ProgressHeader
+          step={3}
+          totalSteps={4}
+          categoryLabel={category?.label}
+          title={`${spread.cardCount}장 리딩`}
+          trailing={`${selectedCards.length} / ${spread.cardCount}`}
+        />
+      </div>
+
+      <p className={styles.hint}>마음이 가는 카드 3장을 골라주세요.</p>
+
+      <div className={styles.deckViewport} ref={containerRef} data-testid="fan-deck">
+        <div className={styles.deckTrack}>
+          {shuffledPool.map((card, index) => {
+            const isSelected = selectedIds.has(card.id);
+            return (
+              <button
+                key={card.id}
+                type="button"
+                className={`${styles.card} ${isSelected ? styles.cardSelected : ""}`}
+                style={cardFanStyle(index)}
+                onClick={() => handleCardClick(card.id)}
+                aria-pressed={isSelected}
+                aria-label={isSelected ? "선택된 타로 카드, 다시 눌러 선택 취소" : "타로 카드"}
+              >
+                <img src={CARD_BACK_IMAGE} alt="" draggable={false} />
+              </button>
+            );
+          })}
+        </div>
+      </div>
+
+      <SelectedCardSlots
+        positions={spread.positions}
+        selectedCards={selectedCards}
+        onRemove={unpickCard}
       />
 
-      <SelectedCardSlots positions={spread.positions} filledCount={selectedCards.length} />
-
-      <p className={styles.hint}>
-        {isComplete
-          ? "마음에 드는 카드 3장을 모두 골랐어요."
-          : "마음이 가는 카드를 눌러 골라보세요. 다시 누르면 선택을 취소할 수 있어요."}
+      <p className={styles.orderHint}>
+        먼저 고른 카드부터 {spread.positions.map((p) => p.title).join(" · ")}로 읽어요.
       </p>
 
-      <div className={styles.carouselRow}>
-        <CarouselArrowButton direction="prev" onClick={scrollPrev} disabled={!canScrollPrev} />
-
-        <div className={styles.viewport} ref={emblaRef} data-testid="card-carousel">
-          <div className={styles.track}>
-            {shuffledPool.map((card, index) => {
-              const isCenter = index === selectedIndex;
-              const isJustSelected = justSelectedId === card.id;
-              const isSelected = selectedIds.has(card.id);
-              return (
-                <div className={styles.slide} key={card.id}>
-                  <button
-                    type="button"
-                    className={`${styles.card} ${isCenter ? styles.cardCenter : ""} ${
-                      isJustSelected ? styles.cardPicked : ""
-                    } ${isSelected ? styles.cardSelected : ""}`}
-                    onClick={() => handleCardTap(index, card.id)}
-                    aria-pressed={isSelected}
-                    aria-label={isSelected ? "선택된 타로 카드, 다시 눌러 선택 취소" : "타로 카드"}
-                  >
-                    <img src={CARD_BACK_IMAGE} alt="" draggable={false} />
-                    {isSelected ? <span className={styles.checkBadge}>✓</span> : null}
-                  </button>
-                </div>
-              );
-            })}
-          </div>
+      {toast ? (
+        <div className={styles.toast} role="status">
+          {toast}
         </div>
-
-        <CarouselArrowButton direction="next" onClick={scrollNext} disabled={!canScrollNext} />
-      </div>
+      ) : null}
 
       <div className={styles.spacer} />
 

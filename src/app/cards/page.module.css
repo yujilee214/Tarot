@@ -1,107 +1,122 @@
-.hint {
-  font-size: 12.5px;
-  color: var(--color-text-secondary);
-  text-align: center;
-  margin: 16px 0 4px;
+.topRow {
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
 }
 
-.carouselRow {
+.backButton {
+  flex-shrink: 0;
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  border: 1px solid var(--color-border);
+  background: var(--color-surface);
+  color: var(--color-text-primary);
+  font-size: 16px;
   display: flex;
   align-items: center;
-  gap: 8px;
+  justify-content: center;
+  margin-top: 2px;
 }
 
-.viewport {
-  overflow: hidden;
-  width: 100%;
+.topRow > :global(header) {
   flex: 1;
   min-width: 0;
 }
 
-.track {
+.hint {
+  font-size: 13.5px;
+  color: var(--color-text-secondary);
+  text-align: center;
+  margin: 0 0 14px;
+}
+
+.deckViewport {
+  flex: 1;
+  min-height: 220px;
+  overflow-x: auto;
+  overflow-y: hidden;
+  -webkit-overflow-scrolling: touch;
+  touch-action: pan-x;
+  cursor: grab;
+  scrollbar-width: none;
+  padding: 56px 20px 24px;
+  margin: 0 -20px;
+}
+
+.deckViewport::-webkit-scrollbar {
+  display: none;
+}
+
+.deckViewport:active {
+  cursor: grabbing;
+}
+
+.deckTrack {
   display: flex;
-}
-
-.slide {
-  flex: 0 0 66%;
-  min-width: 0;
-  margin-right: 16px;
-  padding: 14px 0 20px;
-}
-
-@media (min-width: 420px) {
-  .slide {
-    flex-basis: 54%;
-  }
+  align-items: flex-end;
+  width: max-content;
 }
 
 .card {
   position: relative;
-  width: 100%;
+  flex: 0 0 auto;
+  width: 108px;
+  aspect-ratio: 300 / 460;
   padding: 0;
   border: 2px solid transparent;
+  border-radius: 14px;
   background: transparent;
-  border-radius: 16px;
-  aspect-ratio: 300 / 460;
-  overflow: visible;
-  transform: scale(0.86);
-  opacity: 0.5;
-  transition: transform 0.25s ease, opacity 0.25s ease, border-color 0.2s ease;
+  transform-origin: bottom center;
+  transform: rotate(var(--rot)) translateY(var(--arc-y));
+  transition: transform 0.2s ease, border-color 0.2s ease;
+}
+
+.card:not(:first-child) {
+  margin-left: -60px;
 }
 
 .card img {
   width: 100%;
   height: 100%;
-  border-radius: 14px;
-  box-shadow: 0 10px 24px -14px rgba(0, 0, 0, 0.8);
+  border-radius: 12px;
+  box-shadow: 0 8px 18px -10px rgba(0, 0, 0, 0.75);
+  pointer-events: none;
 }
 
-.cardCenter {
-  transform: scale(1);
-  opacity: 1;
-}
-
-.cardPicked {
-  animation: pickPulse 0.55s ease forwards;
-  border-color: var(--color-card-accent);
-}
-
-@keyframes pickPulse {
-  0% {
-    transform: scale(1) translateY(0);
-  }
-  40% {
-    transform: scale(1.08) translateY(-14px);
-  }
-  100% {
-    transform: scale(1.02) translateY(-10px);
+@media (hover: hover) and (pointer: fine) {
+  .card:not(.cardSelected):hover {
+    transform: rotate(var(--rot)) translateY(calc(var(--arc-y) - 8px));
+    z-index: 5;
   }
 }
 
 .cardSelected {
+  transform: rotate(var(--rot)) translateY(calc(var(--arc-y) - 22px)) scale(1.04);
   border-color: var(--color-card-accent);
-  opacity: 1;
+  z-index: 50;
 }
 
-.cardSelected:not(.cardCenter) {
-  transform: scale(0.9);
-  opacity: 0.85;
+.orderHint {
+  font-size: 11.5px;
+  color: var(--color-text-muted);
+  text-align: center;
+  margin: 10px 0 0;
 }
 
-.checkBadge {
+.toast {
   position: absolute;
-  top: 8px;
-  right: 8px;
-  width: 24px;
-  height: 24px;
-  border-radius: 50%;
-  background: var(--color-card-accent);
-  color: #201018;
+  left: 50%;
+  bottom: 92px;
+  transform: translateX(-50%);
+  background: var(--color-surface-strong);
+  border: 1px solid var(--color-border);
+  color: var(--color-text-primary);
   font-size: 13px;
-  font-weight: 700;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  padding: 10px 16px;
+  border-radius: 999px;
+  white-space: nowrap;
+  box-shadow: 0 10px 24px -12px rgba(0, 0, 0, 0.8);
 }
 
 .spacer {
