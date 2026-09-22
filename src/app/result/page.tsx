@@ -4,7 +4,13 @@ import { useEffect, useMemo } from "react";
 import { useRouter } from "next/navigation";
 import PrimaryButton from "@/components/PrimaryButton";
 import TarotResultCard from "@/components/TarotResultCard";
+import ReadingSummary from "@/components/ReadingSummary";
+import CombinedReading from "@/components/CombinedReading";
+import DirectAnswer from "@/components/DirectAnswer";
+import ActionAdvice from "@/components/ActionAdvice";
+import ClosingMessage from "@/components/ClosingMessage";
 import { getCardById } from "@/data/cardCatalog";
+import { getCategoryById } from "@/data/categories";
 import { buildReadingContext } from "@/lib/readingContext";
 import { buildReading } from "@/lib/reading";
 import { useTarotFlow } from "@/context/TarotFlowContext";
@@ -43,6 +49,8 @@ export default function ResultPage() {
     return null;
   }
 
+  const category = getCategoryById(questionCategory ?? "");
+
   const handleRestart = () => {
     reset();
     router.push("/");
@@ -51,25 +59,28 @@ export default function ResultPage() {
   return (
     <main className="screen">
       <div className={styles.questionBlock}>
-        <span className={styles.questionLabel}>당신의 질문</span>
+        {category ? <span className={styles.categoryBadge}>{category.label}</span> : null}
+        <span className={styles.questionLabel}>내가 물어본 질문</span>
         <p className={styles.questionText}>“{question}”</p>
       </div>
 
       <div className={styles.previewRow}>
         {readingContext.cards.map((c) => (
-          <img key={c.card.id} src={c.card.image} alt={c.card.koreanName} draggable={false} />
+          <div key={c.card.id} className={styles.previewCard}>
+            <img src={c.card.image} alt={c.card.koreanName} draggable={false} />
+            <span className={styles.previewRole}>{c.roleTitle}</span>
+            <span className={styles.previewName}>{c.card.koreanName}</span>
+            <span className={styles.previewNameEn}>{c.card.name.toUpperCase()}</span>
+          </div>
         ))}
       </div>
 
       <div className={styles.reading}>
-        <div className={styles.readingSection}>
-          <h2 className={styles.readingHeading}>전체 리딩 요약</h2>
-          <p className={styles.readingBody}>{reading.summary}</p>
-        </div>
+        <ReadingSummary summary={reading.summary} />
       </div>
 
       <div className={styles.cardsList}>
-        {reading.cardSections.map((section) => (
+        {reading.cards.map((section) => (
           <TarotResultCard
             key={section.card.id}
             card={section.card}
@@ -80,14 +91,19 @@ export default function ResultPage() {
       </div>
 
       <div className={styles.reading}>
-        <div className={styles.readingSection}>
-          <h2 className={styles.readingHeading}>전체 카드 조합 해석</h2>
-          <p className={styles.readingBody}>{reading.combination}</p>
-        </div>
-        <div className={styles.readingSection}>
-          <h2 className={styles.readingHeading}>마무리 조언</h2>
-          <p className={styles.readingBody}>{reading.closingAdvice}</p>
-        </div>
+        <CombinedReading combinedReading={reading.combinedReading} />
+      </div>
+
+      <div className={styles.reading}>
+        <DirectAnswer directAnswer={reading.directAnswer} />
+      </div>
+
+      <div className={styles.reading}>
+        <ActionAdvice items={reading.actionAdvice} />
+      </div>
+
+      <div className={styles.closingWrap}>
+        <ClosingMessage message={reading.closingMessage} />
       </div>
 
       <div className={styles.spacer} />

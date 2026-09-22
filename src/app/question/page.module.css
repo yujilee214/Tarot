@@ -1,3 +1,7 @@
+.inputGap {
+  min-height: 20px;
+}
+
 .spacer {
   flex: 1;
   min-height: 24px;

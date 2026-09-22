@@ -27,6 +27,8 @@ export const majorArcana: TarotCard[] = [
       "준비 없이 뛰어들다 방향을 잃기 쉬운 시기예요. 충동적인 결정은 한 번 더 점검해보세요.",
     loveMeaning:
       "예상 못한 인연이나 설렘이 가볍게 찾아올 수 있어요. 재는 것보다 마음 가는 대로 움직여봐도 좋아요.",
+    reunionMeaning:
+      "예상 못한 순간에 다시 연락이 닿거나 새로운 시작처럼 관계가 열릴 수 있는 시기예요.",
     relationshipMeaning: "새로운 사람이나 낯선 관계 앞에서 마음이 열려 있는 시기예요.",
     careerMeaning: "새로운 시도나 낯선 분야에 도전해보고 싶은 마음이 커지는 때예요.",
     moneyMeaning: "계획보다는 직감으로 움직이고 싶어지는 시기라 지출에 주의가 필요해요.",
@@ -45,6 +47,8 @@ export const majorArcana: TarotCard[] = [
     uprightMeaning: "필요한 재료는 이미 손 안에 있어요. 지금은 생각을 실제로 움직여볼 타이밍이에요.",
     reversedMeaning: "가진 능력을 다 쓰지 못하거나 자신감이 흔들리는 시기일 수 있어요.",
     loveMeaning: "마음을 표현하고 관계를 주도적으로 이끌어갈 힘이 있는 시기예요.",
+    reunionMeaning:
+      "내가 먼저 다가가면 흐름을 다시 만들어낼 수 있는 힘이 있는 시기예요.",
     relationshipMeaning: "내가 먼저 움직이면 관계의 흐름을 바꿀 수 있는 때예요.",
     careerMeaning: "가진 기술과 자원을 적극적으로 펼쳐 보여도 좋은 시기예요.",
     moneyMeaning: "아이디어를 실질적인 결과로 만들어낼 실행력이 필요한 때예요.",
@@ -64,6 +68,8 @@ export const majorArcana: TarotCard[] = [
       "겉으로 드러난 말보다 마음 깊은 곳의 직감이 더 정확한 답을 알고 있을 수 있어요.",
     reversedMeaning: "직감을 무시하거나 중요한 정보를 놓치고 있을 수 있으니 조금 더 살펴보세요.",
     loveMeaning: "말로 표현되지 않은 상대의 마음을 직감으로 먼저 눈치챌 수 있어요.",
+    reunionMeaning:
+      "상대의 마음이 겉으로 드러나지 않아도 직감으로 먼저 눈치챌 수 있는 때예요.",
     relationshipMeaning: "겉모습보다 조용히 관찰하며 관계의 진짜 흐름을 읽어야 하는 시기예요.",
     careerMeaning: "드러나지 않은 정보나 분위기를 세심하게 파악하는 게 도움이 돼요.",
     moneyMeaning: "성급한 결정보다 신중하게 상황을 지켜보는 편이 유리해요.",
@@ -83,6 +89,8 @@ export const majorArcana: TarotCard[] = [
       "지금은 스스로를 채우고 돌보는 시간이 필요해요. 여유를 가질수록 관계와 결과도 자연스럽게 따라와요.",
     reversedMeaning: "스스로를 돌보는 걸 뒤로 미루거나 지쳐 있는 상태일 수 있어요.",
     loveMeaning: "편안하고 안정적인 돌봄과 애정이 관계를 풍요롭게 채워주는 시기예요.",
+    reunionMeaning:
+      "서두르지 않고 마음을 채워가다 보면 관계가 자연스럽게 다시 따뜻해질 수 있어요.",
     relationshipMeaning: "따뜻하게 마음을 나누는 관계가 서로를 성장시켜 주는 때예요.",
     careerMeaning: "꾸준히 쌓아온 노력이 눈에 보이는 결실로 자라나는 시기예요.",
     moneyMeaning: "무리하지 않아도 안정적으로 여유가 채워지는 흐름이에요.",
@@ -101,6 +109,8 @@ export const majorArcana: TarotCard[] = [
     uprightMeaning: "감정에 휩쓸리기보다 원칙과 기준을 세워두는 편이 지금 상황을 안정시켜 줘요.",
     reversedMeaning: "지나치게 통제하려 하거나 반대로 기준이 흔들리고 있을 수 있어요.",
     loveMeaning: "안정감을 줄 수 있는 든든한 관계를 원하는 마음이 커지는 시기예요.",
+    reunionMeaning:
+      "감정보다 원칙을 세워두는 편이 재회를 안정적으로 이끄는 데 도움이 돼요.",
     relationshipMeaning: "책임감 있는 태도가 관계에 신뢰를 더해주는 때예요.",
     careerMeaning: "체계적으로 계획을 세우고 책임을 다할수록 인정받는 시기예요.",
     moneyMeaning: "장기적인 계획과 관리가 중요한 시기이니 기준을 명확히 세워보세요.",
@@ -119,6 +129,8 @@ export const majorArcana: TarotCard[] = [
     uprightMeaning: "익숙한 방식이나 주변의 조언에서 안정적인 답을 찾을 수 있는 시기예요.",
     reversedMeaning: "정해진 틀이 답답하게 느껴지거나 스스로의 방식을 찾고 싶어지는 때예요.",
     loveMeaning: "서로의 가치관을 확인하고 맞춰가는 과정이 중요한 시기예요.",
+    reunionMeaning:
+      "익숙했던 방식으로 돌아가거나 주변의 조언을 참고하면 도움이 되는 시기예요.",
     relationshipMeaning: "믿을 수 있는 사람의 조언이 관계에 도움이 될 수 있어요.",
     careerMeaning: "기존의 방식이나 선배의 조언을 따르는 편이 안정적인 시기예요.",
     moneyMeaning: "검증된 방법을 따르는 편이 안전하게 느껴지는 때예요.",
@@ -138,6 +150,8 @@ export const majorArcana: TarotCard[] = [
       "마음이 향하는 방향은 이미 정해져 있는지도 몰라요. 중요한 건 그 선택을 스스로 인정하는 일이에요.",
     reversedMeaning: "마음과 다른 선택을 하거나 관계에서 균형이 어긋나 있을 수 있어요.",
     loveMeaning: "서로에게 끌리는 마음과 중요한 선택의 순간이 함께 찾아오는 시기예요.",
+    reunionMeaning:
+      "다시 이어지고 싶은 마음이 서로에게 확인되는 중요한 선택의 시기예요.",
     relationshipMeaning: "가치관이 맞는 사람과의 깊은 연결이 중요해지는 때예요.",
     careerMeaning: "함께 일하고 싶은 사람이나 방향성을 선택해야 하는 시기예요.",
     moneyMeaning: "가치관에 맞는 선택이 장기적으로 더 큰 만족을 줄 수 있어요.",
@@ -157,6 +171,8 @@ export const majorArcana: TarotCard[] = [
       "머뭇거리던 마음을 정리하고 한 방향으로 나아가면 생각보다 빠르게 상황이 풀릴 수 있어요.",
     reversedMeaning: "방향이 흩어져 있거나 속도 조절이 필요한 시기일 수 있어요.",
     loveMeaning: "적극적으로 다가가면 관계가 원하는 방향으로 나아갈 수 있는 때예요.",
+    reunionMeaning:
+      "머뭇거리지 않고 적극적으로 다가가면 관계가 다시 움직일 수 있는 때예요.",
     relationshipMeaning: "목표를 향해 함께 나아가는 힘이 관계를 단단하게 해줘요.",
     careerMeaning: "집중력과 추진력을 발휘하면 성과로 이어지는 시기예요.",
     moneyMeaning: "목표를 정해두면 계획대로 결과를 만들어낼 수 있는 흐름이에요.",
@@ -175,6 +191,8 @@ export const majorArcana: TarotCard[] = [
     uprightMeaning: "강하게 밀어붙이기보다 부드럽게 다독이는 태도가 지금은 더 큰 힘을 발휘해요.",
     reversedMeaning: "스스로에 대한 확신이 부족하거나 감정 조절이 어려운 시기일 수 있어요.",
     loveMeaning: "부드러운 태도와 인내심이 관계를 더 단단하게 만들어주는 시기예요.",
+    reunionMeaning:
+      "강하게 밀어붙이기보다 부드럽게 기다리는 태도가 재회에 더 큰 힘이 돼요.",
     relationshipMeaning: "강요보다 이해와 포용으로 관계를 다독여야 하는 때예요.",
     careerMeaning: "어려운 상황에서도 흔들리지 않는 인내심이 필요한 시기예요.",
     moneyMeaning: "조급함보다 꾸준함이 더 나은 결과를 만들어내는 흐름이에요.",
@@ -194,6 +212,8 @@ export const majorArcana: TarotCard[] = [
       "답을 서둘러 찾기보다 잠시 혼자 생각을 정리하는 시간이 지금은 더 필요해 보여요.",
     reversedMeaning: "혼자만의 시간이 길어져 오히려 고립감을 느끼고 있을 수 있어요.",
     loveMeaning: "지금은 관계보다 스스로를 먼저 돌아보고 싶어지는 시기예요.",
+    reunionMeaning:
+      "지금은 다가가기보다 각자 생각을 정리하는 시간이 먼저 필요한 시기예요.",
     relationshipMeaning: "잠시 거리를 두고 관계를 객관적으로 바라보는 게 도움이 돼요.",
     careerMeaning: "혼자 집중해서 답을 찾아야 하는 시기이니 조급해하지 마세요.",
     moneyMeaning: "충동적인 결정보다 혼자 충분히 고민한 뒤 움직이는 편이 좋아요.",
@@ -213,6 +233,8 @@ export const majorArcana: TarotCard[] = [
       "지금까지의 흐름이 바뀌는 변곡점에 서 있어요. 억지로 붙잡기보다 흐름에 몸을 맡겨볼 때예요.",
     reversedMeaning: "예상 밖의 변화로 흐름이 어긋나거나 타이밍이 아쉬운 시기일 수 있어요.",
     loveMeaning: "관계의 분위기가 예상치 못한 방향으로 바뀔 수 있는 시기예요.",
+    reunionMeaning:
+      "예상치 못한 타이밍에 다시 연결될 기회가 찾아올 수 있는 흐름이에요.",
     relationshipMeaning: "관계의 흐름이 자연스럽게 다음 단계로 넘어가는 때예요.",
     careerMeaning: "새로운 기회가 갑자기 찾아올 수 있으니 준비된 자세가 중요해요.",
     moneyMeaning: "상황이 좋아지거나 나빠지는 전환점이 될 수 있는 시기예요.",
@@ -232,6 +254,8 @@ export const majorArcana: TarotCard[] = [
       "그동안의 선택과 노력이 결국 정직하게 결과로 돌아오는 시기예요. 감정보다 균형을 우선해보세요.",
     reversedMeaning: "불공정하다고 느껴지거나 판단이 한쪽으로 치우쳐 있을 수 있어요.",
     loveMeaning: "서로에게 공평한 태도가 관계의 신뢰를 지켜주는 시기예요.",
+    reunionMeaning:
+      "그동안의 태도와 노력이 정직하게 관계의 결과로 돌아오는 시기예요.",
     relationshipMeaning: "주고받는 것의 균형을 다시 점검해봐야 하는 때예요.",
     careerMeaning: "그동안의 노력과 성과가 공정하게 평가받는 시기예요.",
     moneyMeaning: "정확한 계산과 정리가 필요한 시기이니 꼼꼼히 확인해보세요.",
@@ -251,6 +275,8 @@ export const majorArcana: TarotCard[] = [
       "지금 당장 움직이기보다 잠시 멈춰 다른 각도에서 바라보면 새로운 답이 보일 수 있어요.",
     reversedMeaning: "계속 미루기만 하며 정체된 느낌이 들 수 있는 시기예요.",
     loveMeaning: "지금은 애쓰기보다 자연스러운 흐름을 기다려야 하는 때일 수 있어요.",
+    reunionMeaning:
+      "지금 당장 애쓰기보다 잠시 기다리면 새로운 답이 보일 수 있어요.",
     relationshipMeaning: "관계를 다른 시선으로 바라보면 이해하지 못했던 부분이 보일 수 있어요.",
     careerMeaning: "성과가 더디게 느껴져도 지금은 기다림이 필요한 시기예요.",
     moneyMeaning: "무리한 시도보다 잠시 멈추고 상황을 지켜보는 편이 좋아요.",
@@ -270,6 +296,8 @@ export const majorArcana: TarotCard[] = [
     uprightMeaning: "무언가를 완전히 놓아야 새로운 흐름이 들어올 자리가 생겨요. 끝이 아니라 전환점에 가까워요.",
     reversedMeaning: "끝내야 할 것을 붙잡고 있어 변화가 더디게 느껴질 수 있어요.",
     loveMeaning: "관계가 새로운 국면으로 넘어가는 전환점을 지나고 있는 시기예요.",
+    reunionMeaning:
+      "예전 방식의 관계는 끝나고 새로운 형태로 다시 이어질 수 있는 전환점이에요.",
     relationshipMeaning: "익숙했던 관계의 방식이 자연스럽게 달라질 수 있는 때예요.",
     careerMeaning: "하나의 흐름이 마무리되고 새로운 단계로 넘어가는 시기예요.",
     moneyMeaning: "불필요한 것을 정리하면 다음 흐름이 더 가벼워질 수 있어요.",
@@ -289,6 +317,8 @@ export const majorArcana: TarotCard[] = [
       "극단으로 치닫기보다 양쪽을 천천히 조율해 나갈 때 관계도 상황도 더 편안해질 수 있어요.",
     reversedMeaning: "균형이 무너지거나 조급하게 서두르고 있을 수 있는 시기예요.",
     loveMeaning: "서로 다른 부분을 맞춰가는 과정 자체가 관계를 단단하게 만들어요.",
+    reunionMeaning:
+      "서두르지 않고 천천히 다시 균형을 맞춰가면 관계가 편안해질 수 있어요.",
     relationshipMeaning: "적당한 거리와 배려가 관계를 편안하게 유지해주는 때예요.",
     careerMeaning: "여러 가지를 무리 없이 조율하는 능력이 필요한 시기예요.",
     moneyMeaning: "무리한 지출이나 절약보다 균형 잡힌 관리가 중요한 때예요.",
@@ -308,6 +338,8 @@ export const majorArcana: TarotCard[] = [
     uprightMeaning: "익숙하다는 이유만으로 붙잡고 있는 것은 없는지 돌아볼 필요가 있어요.",
     reversedMeaning: "얽매여 있던 것에서 서서히 벗어나려는 움직임이 시작되는 시기예요.",
     loveMeaning: "관계 안에서 지나친 집착이나 의존은 없는지 점검해봐야 하는 때예요.",
+    reunionMeaning:
+      "익숙함 때문에 놓지 못하는 마음은 없는지 돌아봐야 하는 시기예요.",
     relationshipMeaning: "한쪽으로 기울어진 관계의 균형을 다시 살펴봐야 할 시기예요.",
     careerMeaning: "익숙함에 안주해 벗어나지 못하고 있는 부분은 없는지 돌아보세요.",
     moneyMeaning: "당장의 만족을 위한 소비가 습관이 되고 있지 않은지 점검해보세요.",
@@ -327,6 +359,8 @@ export const majorArcana: TarotCard[] = [
     uprightMeaning: "익숙했던 상황이 갑자기 흔들리며 예상 못한 변화가 찾아올 수 있는 시기예요.",
     reversedMeaning: "변화를 애써 피하고 있지만 결국 마주해야 하는 순간이 다가오고 있어요.",
     loveMeaning: "예상치 못한 사건으로 관계의 방향이 갑자기 바뀔 수 있는 때예요.",
+    reunionMeaning:
+      "갑작스러운 계기로 관계에 대한 생각이 크게 흔들리고 재정비되는 때예요.",
     relationshipMeaning: "쌓여 있던 문제가 한 번에 드러나며 관계를 재정비하게 되는 시기예요.",
     careerMeaning: "갑작스러운 변화가 오히려 새로운 구조를 만드는 계기가 될 수 있어요.",
     moneyMeaning: "예상 밖의 지출이나 변수에 대비해두는 편이 좋은 시기예요.",
@@ -345,6 +379,8 @@ export const majorArcana: TarotCard[] = [
     uprightMeaning: "지금은 힘든 시간을 지나 서서히 회복하는 단계예요. 작은 희망의 신호를 믿어도 좋아요.",
     reversedMeaning: "희망이 흐릿해지거나 방향을 잃은 듯한 느낌이 드는 시기일 수 있어요.",
     loveMeaning: "지쳤던 마음이 다시 따뜻하게 채워지기 시작하는 시기예요.",
+    reunionMeaning:
+      "지쳤던 마음이 다시 회복되며 재회에 대한 희망이 조금씩 자라나는 시기예요.",
     relationshipMeaning: "관계에 대한 믿음이 조금씩 다시 자라나는 때예요.",
     careerMeaning: "노력한 만큼의 가능성이 서서히 보이기 시작하는 시기예요.",
     moneyMeaning: "당장은 아니어도 회복과 성장의 흐름이 시작되는 때예요.",
@@ -365,6 +401,8 @@ export const majorArcana: TarotCard[] = [
       "아직 명확하지 않은 부분이 많아 불안할 수 있어요. 확신이 서기 전까지는 조금 더 지켜보는 편이 좋아요.",
     reversedMeaning: "혼란스러웠던 상황이 서서히 정리되며 조금씩 선명해지는 시기예요.",
     loveMeaning: "상대의 마음이 명확히 보이지 않아 불안해질 수 있는 시기예요.",
+    reunionMeaning:
+      "상대의 마음이 아직 명확하지 않아 조금 더 지켜봐야 하는 시기예요.",
     relationshipMeaning: "겉으로 드러나지 않은 감정이나 상황이 있을 수 있으니 서두르지 마세요.",
     careerMeaning: "정보가 부족한 상태에서 성급한 결정은 피하는 게 좋아요.",
     moneyMeaning: "불확실한 상황에서는 신중하게 확인하고 움직이는 편이 안전해요.",
@@ -384,6 +422,8 @@ export const majorArcana: TarotCard[] = [
       "밝고 긍정적인 기운이 상황을 비추고 있어요. 자신감을 가지고 표현해도 좋은 결과로 이어질 가능성이 커요.",
     reversedMeaning: "잠시 기운이 가라앉거나 결과가 기대보다 늦어질 수 있는 시기예요.",
     loveMeaning: "밝고 솔직한 마음이 관계에 좋은 에너지를 더해주는 시기예요.",
+    reunionMeaning:
+      "밝고 솔직한 마음으로 다가가면 좋은 흐름으로 이어질 가능성이 큰 시기예요.",
     relationshipMeaning: "즐겁고 편안한 분위기가 관계를 한층 가깝게 만들어줘요.",
     careerMeaning: "그동안의 노력이 좋은 결과와 인정으로 이어질 수 있는 시기예요.",
     moneyMeaning: "안정적이고 긍정적인 흐름이 이어지는 때예요.",
@@ -403,6 +443,8 @@ export const majorArcana: TarotCard[] = [
       "그동안의 상황을 되돌아보고 스스로 다시 판단을 내려야 할 시점이에요. 미루던 결정을 마주해보세요.",
     reversedMeaning: "결정을 계속 미루거나 스스로에게 지나치게 엄격해질 수 있는 시기예요.",
     loveMeaning: "관계에 대한 마음을 솔직하게 다시 확인하게 되는 시기예요.",
+    reunionMeaning:
+      "그동안의 관계를 돌아보고 재회 여부를 스스로 다시 판단해야 할 시점이에요.",
     relationshipMeaning: "그동안의 관계를 돌아보고 중요한 결정을 내리게 되는 때예요.",
     careerMeaning: "지난 노력을 되짚어보며 새로운 방향을 결정하는 시기예요.",
     moneyMeaning: "지금까지의 흐름을 정리하고 다음 단계를 계획해야 할 때예요.",
@@ -421,6 +463,8 @@ export const majorArcana: TarotCard[] = [
     uprightMeaning: "하나의 흐름이 완결되는 지점에 가까워지고 있어요. 지금까지의 과정을 인정해줘도 괜찮아요.",
     reversedMeaning: "마무리가 조금 더 남아 있거나 완결을 서두르고 있을 수 있는 시기예요.",
     loveMeaning: "관계가 하나의 완성된 단계에 도달하는 시기예요.",
+    reunionMeaning:
+      "하나의 흐름이 마무리되며 관계가 새로운 단계로 완성될 수 있는 시기예요.",
     relationshipMeaning: "긴 흐름을 지나 관계가 안정적인 결실을 맺는 때예요.",
     careerMeaning: "목표했던 성과가 완성되며 다음 단계로 넘어갈 준비가 되는 시기예요.",
     moneyMeaning: "그동안의 노력이 결실을 맺어 만족스러운 결과로 이어질 수 있어요.",

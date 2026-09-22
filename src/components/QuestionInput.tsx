@@ -32,7 +32,9 @@ export default function QuestionInput({
       />
       <div className={styles.helperRow}>
         <span className={showError ? styles.helperError : styles.helper}>
-          질문을 입력해야 다음 단계로 이동할 수 있어요.
+          {showError
+            ? "질문을 입력해야 다음 단계로 이동할 수 있어요."
+            : "상황을 자세히 적을수록 더 구체적으로 읽어드릴 수 있어요."}
         </span>
         <span className={styles.count}>
           {value.length}/{maxLength}

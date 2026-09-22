@@ -39,6 +39,7 @@ export interface TarotCard {
   uprightMeaning: string;
   reversedMeaning: string;
   loveMeaning: string;
+  reunionMeaning: string;
   relationshipMeaning: string;
   careerMeaning: string;
   moneyMeaning: string;

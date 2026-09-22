@@ -30,7 +30,7 @@ export interface ReadingContext {
 
 const CATEGORY_MEANING_FIELD: Partial<Record<string, keyof TarotCard>> = {
   love: "loveMeaning",
-  reunion: "loveMeaning",
+  reunion: "reunionMeaning",
   relationship: "relationshipMeaning",
   work: "careerMeaning",
   money: "moneyMeaning",

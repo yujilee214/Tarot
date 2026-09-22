@@ -18,7 +18,12 @@ export default function CategoryPage() {
 
   return (
     <main className="screen">
-      <ProgressHeader step={1} totalSteps={4} title="어떤 걸 물어보고 싶나요?" />
+      <ProgressHeader
+        step={1}
+        totalSteps={4}
+        title="어떤 걸 물어보고 싶나요?"
+        subtitle="지금 가장 마음에 걸리는 주제를 골라주세요."
+      />
 
       <div className={styles.categoryGrid}>
         {categories.map((category) => (

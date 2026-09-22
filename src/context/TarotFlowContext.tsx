@@ -34,6 +34,7 @@ interface TarotSessionContextValue extends TarotSessionState {
   setQuestion: (question: string) => void;
   startSpread: (spread: TarotSpread) => void;
   pickCard: (cardId: string) => void;
+  unpickCard: (cardId: string) => void;
   reset: () => void;
 }
 
@@ -96,14 +97,34 @@ export function TarotFlowProvider({ children }: { children: ReactNode }) {
   const pickCard = useCallback((cardId: string) => {
     setState((prev) => {
       if (!prev.spread) return prev;
-      if (prev.selectedCards.length >= prev.spread.cardCount) return prev;
       if (prev.selectedCards.some((c) => c.cardId === cardId)) return prev;
+      if (prev.selectedCards.length >= prev.spread.cardCount) return prev;
       const order = prev.selectedCards.length + 1;
       const position = prev.spread.positions[order - 1];
       const nextSelected: SelectedCard[] = [
         ...prev.selectedCards,
         { order, cardId, position, orientation: "upright" },
       ];
+      return {
+        ...prev,
+        selectedCards: nextSelected,
+        currentStep: Math.min(nextSelected.length + 1, prev.spread.cardCount),
+      };
+    });
+  }, []);
+
+  const unpickCard = useCallback((cardId: string) => {
+    setState((prev) => {
+      if (!prev.spread) return prev;
+      if (!prev.selectedCards.some((c) => c.cardId === cardId)) return prev;
+      // Re-number remaining picks so they still line up with spread.positions[order - 1].
+      const nextSelected: SelectedCard[] = prev.selectedCards
+        .filter((c) => c.cardId !== cardId)
+        .map((c, index) => ({
+          ...c,
+          order: index + 1,
+          position: prev.spread!.positions[index],
+        }));
       return {
         ...prev,
         selectedCards: nextSelected,
@@ -125,9 +146,19 @@ export function TarotFlowProvider({ children }: { children: ReactNode }) {
       setQuestion,
       startSpread,
       pickCard,
+      unpickCard,
       reset,
     }),
-    [state, isHydrated, setQuestionCategory, setQuestion, startSpread, pickCard, reset]
+    [
+      state,
+      isHydrated,
+      setQuestionCategory,
+      setQuestion,
+      startSpread,
+      pickCard,
+      unpickCard,
+      reset,
+    ]
   );
 
   return (

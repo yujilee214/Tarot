@@ -29,13 +29,13 @@ export const threeCardSpread: TarotSpread = {
     },
     {
       order: 2,
-      title: "지금 중요한 흐름",
-      description: "지금 중요한 흐름을 보여주는\n카드를 골라주세요.",
+      title: "현재 흐름",
+      description: "현재 흐름을 보여주는\n카드를 골라주세요.",
     },
     {
       order: 3,
-      title: "앞으로 필요한 조언",
-      description: "앞으로 필요한 조언을 보여주는\n카드를 골라주세요.",
+      title: "조언",
+      description: "지금 필요한 조언을 보여주는\n카드를 골라주세요.",
     },
   ],
 };

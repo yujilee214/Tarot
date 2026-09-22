@@ -10,9 +10,3 @@ import { shuffle } from "./shuffle";
 export function buildShuffledPool(allCards: TarotCard[]): TarotCard[] {
   return shuffle(allCards);
 }
-
-export function excludeCards(pool: TarotCard[], excludedIds: string[]): TarotCard[] {
-  if (excludedIds.length === 0) return pool;
-  const excluded = new Set(excludedIds);
-  return pool.filter((card) => !excluded.has(card.id));
-}

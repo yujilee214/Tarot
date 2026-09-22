@@ -3,6 +3,8 @@ export interface Category {
   label: string;
   englishLabel: string;
   description: string;
+  /** Question-screen title, worded specifically for this category (product spec section 5). */
+  questionTitle: string;
 }
 
 export const categories: Category[] = [
@@ -11,36 +13,42 @@ export const categories: Category[] = [
     label: "연애",
     englishLabel: "Love",
     description: "지금 만나고 있는 사람과의 감정",
+    questionTitle: "연애에서 어떤 점이 궁금한가요?",
   },
   {
     id: "reunion",
     label: "재회",
     englishLabel: "Reunion",
     description: "다시 이어지고 싶은 인연",
+    questionTitle: "다시 이어지고 싶은 관계가 있나요?",
   },
   {
     id: "relationship",
     label: "인간관계",
     englishLabel: "Relationship",
     description: "가족, 친구와의 관계 고민",
+    questionTitle: "어떤 관계가 마음에 걸리나요?",
   },
   {
     id: "work",
     label: "직장",
     englishLabel: "Work",
     description: "일과 커리어에 대한 고민",
+    questionTitle: "일에서 어떤 점이 고민인가요?",
   },
   {
     id: "money",
     label: "금전",
     englishLabel: "Money",
     description: "돈과 관련된 선택",
+    questionTitle: "금전에서 어떤 점이 궁금한가요?",
   },
   {
     id: "daily",
     label: "오늘의 운세",
     englishLabel: "Daily",
     description: "오늘 하루의 흐름",
+    questionTitle: "오늘 무엇이 가장 궁금한가요?",
   },
 ];
 
